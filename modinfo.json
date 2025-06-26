@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modId": "cothouseseals",
+  "name": "CoT House Seals",
+  "authors": ["Chiruda"],
+  "description": "A mod for wearable noble house emblems on the server Chronicles of Time",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": ""
+  }
+}
