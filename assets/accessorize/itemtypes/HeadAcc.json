@@ -10,7 +10,12 @@
       ]
     }
   ],
-  "storageFlags": 256,
+
+  "shapeByType": { 
+  "*":{ "base": "head/FloatingCrown" }
+  },
+
+  "storageFlags": 128,
   "attributes": {
     "displaycaseable": true,
     "clothescategory": "head",
@@ -23,9 +28,7 @@
       "scale": 2.09
     }
   },
-  "shapeByType": { 
-  "*":{ "base": "head/{head}" }
-  },
+
   "textures": {
     "seraph": { "base": "game:block/transparent" }
   },
