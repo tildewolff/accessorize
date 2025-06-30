@@ -23,7 +23,9 @@
       "scale": 2.09
     }
   },
-  "shape": { "base": "/{head}" },
+  "shapeByType": { 
+  "*":{ "base": "head/{head}" }
+  },
   "textures": {
     "seraph": { "base": "game:block/transparent" }
   },
@@ -54,3 +56,4 @@
     "scale": 6
   }
 }
+
