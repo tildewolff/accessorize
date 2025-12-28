@@ -12,14 +12,6 @@
   ],
 
   "storageFlags": 128,
-  "shape": {
-    "base": "{head}"
-  },
-
-  "textures": {
-    "seraph": { "base": "game:block/transparent" }
-  },
-
   "attributes": {
     "clothescategory": "head",
     "wearableAttachment": true,
@@ -29,7 +21,12 @@
       "translation": { "x": 0, "y": -1.8, "z": 0 },
       "rotation": { "x": 0, "y": 16, "z": 84 },
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
-    }
+    },
+    
+  "shape": {"base": "{head}/{head}"},
+  "textures": {"seraph": { "base": "game:block/transparent" }
+  }
+
   },
   "creativeinventory": {
     "general": ["*"],
