@@ -3,7 +3,7 @@
   "modId": "accessorize",
   "name": "Accessorize",
   "authors": ["Purplep", "Chiruda"],
-  "description": "A mod for more wearable accessorizes",
+  "description": "A mod for more wearable accessories",
   "version": "1.0.0",
   "dependencies": {
     "game": ""
