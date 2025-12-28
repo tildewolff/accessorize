@@ -8,8 +8,11 @@
       "combine": "SelectiveMultiply",
       "onVariant": "category",
       "states": ["floatingcrown"]
-    }
+    },
+
+    { "code": "Transform", "states": ["face", "headd"] }
   ],
+
 
   "storageFlags": 128,
   "attributes": {
@@ -23,7 +26,7 @@
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
     },
     
-  "shape": {"base": "{head}/{head}"},
+  "shape": {"base": "{Transform}/{head}"},
   "textures": {"seraph": { "base": "game:block/transparent" }
   }
 
