@@ -1,0 +1,62 @@
+{
+  "code": "clothes",
+  "class": "ItemWearable",
+  "variantgroups": [
+    { "code": "category", "states": ["face"] },
+    {
+      "code": "face",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": ["swordearring"]
+    }
+  ],
+
+  "storageFlags": 128,
+  "shape": {
+    "base": "{face}"
+  },
+
+  "textures": {
+    "seraph": { "base": "game:block/transparent" }
+  },
+
+  "attributes": {
+    "clothescategory": "face",
+    "wearableAttachment": true,
+    "wearableTexturePrefixCode": null,
+    "displaycaseable": true,
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": -1.8, "z": 0 },
+      "rotation": { "x": 0, "y": 16, "z": 84 },
+      "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
+    }
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "clothing": ["*"]
+  },
+  "renderAlphaTest": 0.25,
+  "fpHandTransform": {
+    "translation": { "x": 0.1, "y": -1.6, "z": 0.4 },
+    "rotation": { "x": 180, "y": -108, "z": -180 },
+    "origin": { "x": 0.5, "y": -0.3, "z": 0.5 },
+    "scale": 2.15
+  },
+  "tpHandTransform": {
+    "rotation": { "x": 1, "y": -10, "z": 5 },
+    "origin": { "x": 0.55, "y": -0.14, "z": 0.61 },
+    "scale": 0.56
+  },
+  "guiTransform": {
+    "rotation": { "x": 177, "y": -69, "z": 15 },
+    "origin": { "x": 0.19, "y": 1.94, "z": 0.4 },
+    "scale": 3.18
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -73, "y": -108, "z": -87 },
+    "origin": { "x": 0.52, "y": 1.7, "z": 0.1299 },
+    "scale": 3.51
+  }
+}
