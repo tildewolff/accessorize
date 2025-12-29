@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "F:/Games/VSDEV/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"backDropShape": "game:entity/humanoid/seraph-hairless",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
