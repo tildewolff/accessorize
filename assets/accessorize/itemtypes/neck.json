@@ -2,9 +2,9 @@
   "code": "clothes",
   "class": "ItemWearable",
   "variantgroups": [
-    { "code": "category", "states": ["face"] },
+    { "code": "category", "states": ["neck"] },
     {
-      "code": "face",
+      "code": "neck",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
       "states": ["swordearring"]
@@ -13,7 +13,7 @@
 
   "storageFlags": 128,
   "shape": {
-    "base": "{face}"
+    "base": "neck/{neck}"
   },
 
   "textures": {
@@ -21,7 +21,7 @@
   },
 
   "attributes": {
-    "clothescategory": "face",
+    "clothescategory": "neck",
     "wearableAttachment": true,
     "wearableTexturePrefixCode": null,
     "displaycaseable": true,
