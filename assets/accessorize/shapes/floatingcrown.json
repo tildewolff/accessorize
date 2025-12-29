@@ -1,5 +1,6 @@
 {
 	"editor": {
+		"backDropShape": "C:/Users/Admin/AppData/Roaming/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -13,20 +14,19 @@
 		"vintage.png": [64,64]
 	},
 	"textures": {
-		"vintage.png": "block/glass/vintage",
-		"gold.png": "block/metal/ingot/gold",
-		"malachite.png": "item/resource/nugget/malachite"
+		"vintage.png": "game:block/glass/vintage",
+		"gold.png": "game:block/metal/ingot/gold",
+		"malachite.png": "game:item/resource/nugget/malachite"
 	},
 	"elements": [
 		{
 			"name": "Origin",
 			"stepParentName": "Head",
-			"from": [ 7.99, 28.23, 8.0 ],
-			"to": [ 7.99, 28.23, 8.0 ],
+			"from": [ -0.5, 3.5, -13.5 ],
+			"to": [ -0.5, 3.5, -13.5 ],
 			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 7.9881, 28.2315, 8.0 ],
+			"rotationOrigin": [ 7.4881, 31.7315, -5.5 ],
 			"rotationX": 180.0,
-			"rotationY": 0.0,
 			"rotationZ": -155.0,
 			"faces": {
 				"north": { "texture": "#gold.png", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
@@ -44,7 +44,6 @@
 					"uv": [ 999.0, 999.0 ],
 					"rotationOrigin": [ -0.1241, -0.528, 0.0 ],
 					"rotationX": 180.0,
-					"rotationY": 0.0,
 					"rotationZ": -180.0,
 					"faces": {
 					},
