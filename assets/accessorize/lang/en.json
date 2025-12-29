@@ -1,18 +1,12 @@
 {
-  "item-clothes-emblem-dayne-ceremonial": "House Seal (Dayne - Ceremonial)",
-  "item-clothes-emblem-dayne-armoured": "House Seal (Dayne - Armoured)",
-  "item-clothes-emblem-ayrin-ceremonial": "House Seal (Ayrin - Ceremonial)",
-  "item-clothes-emblem-ayrin-armoured": "House Seal (Ayrin - Armoured)",
-  "item-clothes-emblem-farring-ceremonial": "House Seal (Farring - Ceremonial)",
-  "item-clothes-emblem-farring-armoured": "House Seal (Farring - Armoured)",
-  "item-clothes-emblem-merrick-ceremonial": "House Seal (Merrick - Ceremonial)",
-  "item-clothes-emblem-merrick-armoured": "House Seal (Merrick - Armoured)",
-  "item-clothes-emblem-locke-ceremonial": "House Seal (Locke - Ceremonial)",
-  "item-clothes-emblem-locke-armoured": "House Seal (Locke - Armoured)",
-  "item-clothes-emblem-stout-ceremonial": "House Seal (Stout - Ceremonial)",
-  "item-clothes-emblem-stout-armoured": "House Seal (Stout - Armoured)",
-  "item-clothes-emblem-rivertal-ceremonial": "House Seal (Rivertal - Ceremonial)",
-  "item-clothes-emblem-rivertal-armoured": "House Seal (Rivertal - Armoured)",
-  "item-clothes-emblem-wildhart-ceremonial": "House Seal (Wildhart - Ceremonial)",
-  "item-clothes-emblem-wildhart-armoured": "House Seal (Wildhart - Armoured)"
+  "item-clothes-face-eyepatchboth": "Double eyepatch",
+  "itemdesc-clothes-face-eyepatchboth": "Eyepatches covering both eyes.",
+  "item-clothes-face-eyepatchr": "Right eyepatch",
+  "itemdesc-clothes-face-eyepatchr": "Eyepatch covering the Right eye.",
+  "item-clothes-face-eyepatchl": "Left eyepatch",
+  "itemdesc-clothes-face-eyepatchl": "Eyepatch covering the left eye.",
+  "item-clothes-face-glassesround": "Round glasses",
+  "itemdesc-clothes-face-glassesround": "Perfectly round glasses",
+  "item-clothes-head-floatingcrown": "Cool crown ig",
+  "itemdesc-clothes-face-floatingcrown": "very cool crown"
 }
