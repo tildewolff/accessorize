@@ -31,8 +31,8 @@
       "rotation": { "x": 0, "y": 16, "z": 84 },
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
     },
-  "attributeByType":{
-        "robotarmr": { "disableElements": ["UpperArmR", "LowerArmR"] }
+  "attributesByType":{
+        "*-robotarmr": { "disableElements": ["UpperArmR", "LowerArmR"] }
   }
   
   },
