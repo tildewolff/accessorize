@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/disableElements/4",
+    "value": "UpperArmR",
+    "file": "game:entities/humanoid/player.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/disableElements/5",
+    "value": "UpperArmL",
+    "file": "game:entities/humanoid/player.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/disableElements/6",
+    "value": "LowerArmR",
+    "file": "game:entities/humanoid/player.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/disableElements/7",
+    "value": "LowerArmL",
+    "file": "game:entities/humanoid/player.json",
+    "side": "Server"
+  }
+]
