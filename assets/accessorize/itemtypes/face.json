@@ -7,7 +7,7 @@
       "code": "face",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
-      "states": [""]
+      "states": ["glassesround","eyepatchl","eyepatchr","eyepatchboth"]
     }
   ],
 
