@@ -1,836 +1,559 @@
 {
 	"editor": {
-		"allAngles": true,
-		"entityTextureMode": true
+		"allAngles": false,
+		"entityTextureMode": false
 	},
-	"textureWidth": 64,
-	"textureHeight": 68,
+	"textureWidth": 16,
+	"textureHeight": 16,
 	"textureSizes": {
-		"cupronickel.png": [16,16],
-		"temporalgear.png": [16,16],
-		"steel.png": [16,16]
-
 	},
 	"textures": {
-		"cupronickel.png": "entity/humanoid/seraphclothes/neck/metal/cupronickel",
-		"temporalgear.png": "item/resource/plate/steel",
-		"steel.png": "item/recources/temporalgear"
+		"seraph-naked-hairless": "game:textures/entity/humanoid/seraph-naked-hairless",
+		"normal": "game:block/cloth/leather/normal",
+		"brass": "game:block/metal/ingot/brass",
+		"copper1": "game:block/metal/sheet-plain/copper1",
+		"aged": "game:block/wood/debarked/aged"
 	},
 	"elements": [
 		{
-			"name": "UpperArmRHelper",
+			"name": "Origin",
 			"stepParentName": "UpperArmR",
-			"from": [ 0.0, 0.0, 0.0 ],
-			"to": [ 0.0, 0.0, 0.0 ],
-			"uv": [ 999.0, 999.0 ],
-			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
-			"rotationX": 14.494,
-			"rotationY": 0.198,
-			"rotationZ": 3.244,
+			"from": [ 1.0, -16.5, 4.0 ],
+			"to": [ 1.0, -16.5, 4.0 ],
+			"rotationOrigin": [ 1.0, -16.5, 4.0 ],
 			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
 			},
 			"children": [
 				{
-					"name": "UpperArmR",
-					"from": [ 0.0, 0.0, 0.0 ],
-					"to": [ 0.0, 0.0, 0.0 ],
-					"uv": [ 999.0, 999.0 ],
+					"name": "UpperArmRHelper",
+					"from": [ -1.0, 20.0, -4.0 ],
+					"to": [ -1.0, 20.0, -4.0 ],
+					"rotationOrigin": [ -0.0308, 24.051, -2.236 ],
+					"rotationX": 1.0,
+					"rotationY": 0.32,
 					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
 					},
 					"children": [
 						{
-							"name": "ArmProstheticMount",
-							"from": [ 0.4, -4.0, -1.0 ],
-							"to": [ 0.4, -4.0, -1.0 ],
-							"uv": [ 999.0, 999.0 ],
-							"rotationOrigin": [ 0.4, -4.0, -1.0 ],
+							"name": "UpperArmR",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 3.0, 3.5, 2.0 ],
+							"rotationOrigin": [ 1.0, 3.5, 2.0 ],
 							"faces": {
+								"north": { "texture": "#seraph-naked-hairless", "uv": [ 3.75, 6.4211, 5.65, 5.42 ], "autoUv": false },
+								"east": { "texture": "#seraph-naked-hairless", "uv": [ 7.0, 4.3158, 9.0, 7.7895 ] },
+								"south": { "texture": "#seraph-naked-hairless", "uv": [ 6.75, 6.4211, 9.75, 9.8947 ] },
+								"west": { "texture": "#seraph-naked-hairless", "uv": [ 9.25, 3.5789, 11.25, 7.0526 ] },
+								"up": { "texture": "#seraph-naked-hairless", "uv": [ 7.75, 6.4211, 9.75, 9.3684 ], "rotation": 90 },
+								"down": { "texture": "#seraph-naked-hairless", "uv": [ 4.5, 5.6842, 6.5, 8.6316 ], "rotation": 90 }
 							},
 							"children": [
 								{
-									"name": "ArmBuckle",
-									"from": [ 0.0, 1.0, -1.4 ],
-									"to": [ 0.0, 1.0, -1.4 ],
-									"uv": [ 999.0, 999.0 ],
-									"rotationOrigin": [ 0.0, 1.0, -1.4 ],
+									"name": "ArmProstheticMount",
+									"from": [ -0.1, -0.5, -0.1 ],
+									"to": [ 3.1, 1.5, 2.1 ],
+									"rotationOrigin": [ 1.4, -0.5, 1.0 ],
 									"faces": {
+										"north": { "texture": "#normal", "uv": [ 0.5, 7.5, 3.5, 9.5 ] },
+										"east": { "texture": "#normal", "uv": [ 3.5, 7.5, 5.5, 9.5 ] },
+										"south": { "texture": "#normal", "uv": [ 5.5, 7.5, 8.5, 9.5 ] },
+										"west": { "texture": "#normal", "uv": [ 8.5, 7.5, 10.5, 9.5 ] }
 									},
 									"children": [
 										{
-											"name": "ArmBuckleStrip",
-											"from": [ -0.9419, 0.1213, 2.1022 ],
-											"to": [ 1.0581, 0.4213, 2.3022 ],
-											"shade": false,
-											"uv": [ 4.0, 0.0 ],
-											"rotationOrigin": [ 0.0581, 0.2713, 2.1022 ],
-											"rotationX": 0.323,
-											"rotationY": -0.224,
-											"rotationZ": -44.469,
+											"name": "ArmBuckle",
+											"from": [ 1.0, 0.5, -0.3 ],
+											"to": [ 2.0, 1.5, 0.2 ],
+											"rotationOrigin": [ 1.5, 1.0, -0.3 ],
 											"faces": {
-												"north": { "texture": "#cupronickel.png", "uv": [ 4.0, 0.5, 6.0, 1.0 ], "autoUv": false, "snapUv": false },
-												"east": { "texture": "#cupronickel.png", "uv": [ 6.0, 0.5, 6.5, 1.0 ], "autoUv": false, "snapUv": false },
-												"west": { "texture": "#cupronickel.png", "uv": [ 11.5, 7.5, 12.0, 8.0 ], "autoUv": false, "snapUv": false },
-												"up": { "texture": "#cupronickel.png", "uv": [ 4.0, 0.0, 6.0, 0.5 ], "autoUv": false, "snapUv": false },
-												"down": { "texture": "#cupronickel.png", "uv": [ 6.0, 0.0, 8.0, 0.5 ], "autoUv": false, "snapUv": false }
-											}
-										},
-										{
-											"name": "ArmBuckle_geo",
-											"from": [ -0.4419, -0.2287, 2.0022 ],
-											"to": [ 0.5581, 0.7713, 2.5022 ],
-											"shade": false,
-											"uv": [ 8.5, 11.5 ],
-											"rotationOrigin": [ -0.4419, -0.2287, 2.0022 ],
-											"rotationX": 0.281,
-											"rotationY": -0.165,
-											"rotationZ": -0.013,
-											"faces": {
-												"north": { "texture": "#cupronickel.png", "uv": [ 8.5, 12.0, 9.5, 13.0 ], "autoUv": false, "snapUv": false },
-												"east": { "texture": "#cupronickel.png", "uv": [ 9.5, 12.0, 10.0, 13.0 ], "autoUv": false, "snapUv": false },
-												"west": { "texture": "#cupronickel.png", "uv": [ 10.0, 12.0, 10.5, 13.0 ], "autoUv": false, "snapUv": false },
-												"up": { "texture": "#cupronickel.png", "uv": [ 8.5, 11.5, 9.5, 12.0 ], "autoUv": false, "snapUv": false },
-												"down": { "texture": "#cupronickel.png", "uv": [ 9.5, 11.5, 10.5, 12.0 ], "autoUv": false, "snapUv": false }
-											}
-										}
-									]
-								},
-								{
-									"name": "ArmBand1",
-									"from": [ -1.5419, 2.2713, 0.8022 ],
-									"to": [ 1.8581, 2.4713, 3.2022 ],
-									"shade": false,
-									"uv": [ 5.0, 3.0 ],
-									"rotationOrigin": [ 0.0581, 2.2713, 1.9022 ],
-									"rotationX": 0.437,
-									"rotationY": -0.284,
-									"rotationZ": 0.136,
-									"faces": {
-										"north": { "texture": "#cupronickel.png", "uv": [ 5.0, 5.0, 8.0, 5.5 ], "autoUv": false, "snapUv": false },
-										"east": { "texture": "#cupronickel.png", "uv": [ 8.0, 5.0, 10.0, 5.5 ], "autoUv": false, "snapUv": false },
-										"south": { "texture": "#cupronickel.png", "uv": [ 10.0, 5.0, 13.0, 5.5 ], "autoUv": false, "snapUv": false },
-										"west": { "texture": "#cupronickel.png", "uv": [ 13.0, 5.0, 15.0, 5.5 ], "autoUv": false, "snapUv": false },
-										"up": { "texture": "#cupronickel.png", "uv": [ 5.0, 3.0, 8.0, 5.0 ], "autoUv": false, "snapUv": false },
-										"down": { "texture": "#cupronickel.png", "uv": [ 8.0, 3.0, 11.0, 5.0 ], "autoUv": false, "snapUv": false }
-									}
-								},
-								{
-									"name": "ArmBand2",
-									"from": [ -1.5419, 0.2713, 0.8022 ],
-									"to": [ 1.8581, 0.4713, 3.2022 ],
-									"shade": false,
-									"uv": [ 4.5, 2.5 ],
-									"rotationOrigin": [ 0.0581, 0.2713, 1.9022 ],
-									"rotationX": 0.29,
-									"rotationY": -0.108,
-									"rotationZ": 0.03,
-									"faces": {
-										"north": { "texture": "#cupronickel.png", "uv": [ 4.5, 4.5, 7.5, 5.0 ], "autoUv": false, "snapUv": false },
-										"east": { "texture": "#cupronickel.png", "uv": [ 7.5, 4.5, 9.5, 5.0 ], "autoUv": false, "snapUv": false },
-										"south": { "texture": "#cupronickel.png", "uv": [ 9.5, 4.5, 12.5, 5.0 ], "autoUv": false, "snapUv": false },
-										"west": { "texture": "#cupronickel.png", "uv": [ 12.5, 4.5, 14.5, 5.0 ], "autoUv": false, "snapUv": false },
-										"up": { "texture": "#cupronickel.png", "uv": [ 4.5, 2.5, 7.5, 4.5 ], "autoUv": false, "snapUv": false },
-										"down": { "texture": "#cupronickel.png", "uv": [ 7.5, 2.5, 10.5, 4.5 ], "autoUv": false, "snapUv": false }
-									}
-								},
-								{
-									"name": "UpperArmR-P",
-									"from": [ 0.1, -0.6, 0.0 ],
-									"to": [ 0.1, -0.6, 0.0 ],
-									"uv": [ 999.0, 999.0 ],
-									"rotationOrigin": [ 0.1, -0.6, 0.0 ],
-									"faces": {
-									},
-									"children": [
-										{
-											"name": "GearUR1",
-											"from": [ -0.1, -0.4, 0.0 ],
-											"to": [ -0.1, -0.4, 0.0 ],
-											"uv": [ 999.0, 999.0 ],
-											"rotationOrigin": [ -0.1, -0.4, 0.0 ],
-											"faces": {
+												"north": { "texture": "#brass", "uv": [ 8.5, 12.0, 9.5, 13.0 ] },
+												"east": { "texture": "#brass", "uv": [ 9.5, 12.0, 10.0, 13.0 ] },
+												"west": { "texture": "#brass", "uv": [ 10.0, 12.0, 10.5, 13.0 ] },
+												"up": { "texture": "#brass", "uv": [ 8.5, 11.5, 9.5, 12.0 ] },
+												"down": { "texture": "#brass", "uv": [ 9.5, 11.5, 10.5, 12.0 ] }
 											},
 											"children": [
 												{
-													"name": "GearUR2",
-													"from": [ -0.9419, -0.1787, 0.9022 ],
-													"to": [ 1.2581, 0.2213, 3.1022 ],
-													"shade": false,
-													"uv": [ 3.5, 2.0 ],
-													"rotationOrigin": [ 0.0581, 0.2713, 2.0022 ],
-													"rotationX": 0.224,
-													"rotationY": 44.927,
-													"rotationZ": 0.027,
+													"name": "ArmBuckleStrip",
+													"from": [ -0.5, 0.35, 0.1 ],
+													"to": [ 1.5, 0.65, 0.3 ],
+													"rotationOrigin": [ 0.5, 0.5, 0.1 ],
+													"rotationZ": -45.0,
 													"faces": {
-														"north": { "texture": "#cupronickel.png", "uv": [ 3.5, 4.0, 5.5, 4.5 ], "autoUv": false, "snapUv": false },
-														"east": { "texture": "#cupronickel.png", "uv": [ 5.5, 4.0, 7.5, 4.5 ], "autoUv": false, "snapUv": false },
-														"south": { "texture": "#cupronickel.png", "uv": [ 7.5, 4.0, 9.5, 4.5 ], "autoUv": false, "snapUv": false },
-														"west": { "texture": "#cupronickel.png", "uv": [ 9.5, 4.0, 11.5, 4.5 ], "autoUv": false, "snapUv": false },
-														"up": { "texture": "#cupronickel.png", "uv": [ 3.5, 2.0, 5.5, 4.0 ], "autoUv": false, "snapUv": false },
-														"down": { "texture": "#cupronickel.png", "uv": [ 5.5, 2.0, 7.5, 4.0 ], "autoUv": false, "snapUv": false }
+														"north": { "texture": "#brass", "uv": [ 4.0, 0.5, 6.0, 1.0 ] },
+														"east": { "texture": "#brass", "uv": [ 6.0, 0.5, 6.5, 1.0 ] },
+														"west": { "texture": "#brass", "uv": [ 11.5, 7.5, 12.0, 8.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+														"up": { "texture": "#brass", "uv": [ 4.0, 0.0, 6.0, 0.5 ] },
+														"down": { "texture": "#brass", "uv": [ 6.0, 0.0, 8.0, 0.5 ] }
 													}
-												},
+												}
+											]
+										},
+										{
+											"name": "ArmBand1",
+											"from": [ -0.1, 2.0, -0.1 ],
+											"to": [ 3.3, 2.2, 2.3 ],
+											"rotationOrigin": [ 1.5, 2.0, 1.0 ],
+											"faces": {
+												"north": { "texture": "#brass", "uv": [ 5.0, 5.0, 8.0, 5.5 ] },
+												"east": { "texture": "#brass", "uv": [ 8.0, 5.0, 10.0, 5.5 ] },
+												"south": { "texture": "#brass", "uv": [ 10.0, 5.0, 13.0, 5.5 ] },
+												"west": { "texture": "#brass", "uv": [ 13.0, 5.0, 15.0, 5.5 ] },
+												"up": { "texture": "#brass", "uv": [ 5.0, 3.0, 8.0, 5.0 ] },
+												"down": { "texture": "#brass", "uv": [ 8.0, 3.0, 11.0, 5.0 ] }
+											}
+										},
+										{
+											"name": "ArmBand2",
+											"from": [ -0.1, 0.0, -0.1 ],
+											"to": [ 3.3, 0.2, 2.3 ],
+											"rotationOrigin": [ 1.5, 0.0, 1.0 ],
+											"faces": {
+												"north": { "texture": "#brass", "uv": [ 4.5, 4.5, 7.5, 5.0 ] },
+												"east": { "texture": "#brass", "uv": [ 7.5, 4.5, 9.5, 5.0 ] },
+												"south": { "texture": "#brass", "uv": [ 9.5, 4.5, 12.5, 5.0 ] },
+												"west": { "texture": "#brass", "uv": [ 12.5, 4.5, 14.5, 5.0 ] },
+												"up": { "texture": "#brass", "uv": [ 4.5, 2.5, 7.5, 4.5 ] },
+												"down": { "texture": "#brass", "uv": [ 7.5, 2.5, 10.5, 4.5 ] }
+											}
+										},
+										{
+											"name": "UpperArmR-P",
+											"from": [ 0.6, -1.0, 0.1 ],
+											"to": [ 2.6, 0.5, 2.1 ],
+											"rotationOrigin": [ 1.6, -0.6, 1.1 ],
+											"faces": {
+												"north": { "texture": "#aged", "uv": [ 6.0, 3.0, 7.5, 5.0 ], "rotation": 90 },
+												"east": { "texture": "#aged", "uv": [ 10.0, 11.0, 11.5, 13.0 ], "rotation": 90 },
+												"south": { "texture": "#aged", "uv": [ 7.5, 11.5, 9.0, 13.5 ], "rotation": 90 },
+												"west": { "texture": "#aged", "uv": [ 5.0, 10.5, 6.5, 12.5 ], "rotation": 90 },
+												"down": { "texture": "#aged", "uv": [ 1.5, 10.5, 3.5, 12.5 ] }
+											},
+											"children": [
 												{
-													"name": "SocketUR1",
-													"from": [ -0.8419, -1.2287, 1.0022 ],
-													"to": [ 1.1581, -0.2287, 1.5022 ],
-													"shade": false,
-													"uv": [ 1.5, 0.0 ],
-													"rotationOrigin": [ -0.8419, -0.2287, 1.0022 ],
-													"rotationX": 0.201,
-													"rotationY": -0.091,
-													"rotationZ": 0.004,
+													"name": "GearUR1",
+													"from": [ -0.1, -0.5, -0.1 ],
+													"to": [ 2.1, 0.0, 2.1 ],
+													"rotationOrigin": [ 0.9, 0.0, 1.0 ],
 													"faces": {
-														"north": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.5, 3.5, 1.5 ], "autoUv": false, "snapUv": false },
-														"east": { "texture": "#cupronickel.png", "uv": [ 3.5, 0.5, 4.0, 1.5 ], "autoUv": false, "snapUv": false },
-														"south": { "texture": "#cupronickel.png", "uv": [ 4.0, 0.5, 6.0, 1.5 ], "autoUv": false, "snapUv": false },
-														"west": { "texture": "#cupronickel.png", "uv": [ 6.0, 0.5, 6.5, 1.5 ], "autoUv": false, "snapUv": false },
-														"down": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.0, 3.5, 0.5 ], "autoUv": false, "snapUv": false }
-													}
-												},
-												{
-													"name": "SocketUR2",
-													"from": [ -0.8419, -1.2287, 2.5022 ],
-													"to": [ 1.1581, -0.2287, 3.0022 ],
-													"shade": false,
-													"uv": [ 2.5, 2.5 ],
-													"rotationOrigin": [ -0.8419, -0.2287, 3.0022 ],
-													"rotationX": 0.206,
-													"rotationY": -0.081,
-													"rotationZ": 0.033,
-													"faces": {
-														"north": { "texture": "#cupronickel.png", "uv": [ 2.5, 3.0, 4.5, 4.0 ], "autoUv": false, "snapUv": false },
-														"east": { "texture": "#cupronickel.png", "uv": [ 4.5, 3.0, 5.0, 4.0 ], "autoUv": false, "snapUv": false },
-														"south": { "texture": "#cupronickel.png", "uv": [ 5.0, 3.0, 7.0, 4.0 ], "autoUv": false, "snapUv": false },
-														"west": { "texture": "#cupronickel.png", "uv": [ 7.0, 3.0, 7.5, 4.0 ], "autoUv": false, "snapUv": false },
-														"down": { "texture": "#cupronickel.png", "uv": [ 2.5, 2.5, 4.5, 3.0 ], "autoUv": false, "snapUv": false }
-													}
-												},
-												{
-													"name": "LowerArmRHelper",
-													"stepParentName": "LowerArmR",
-													"from": [ 0.05, -1.0, -0.05 ],
-													"to": [ 0.05, -1.0, -0.05 ],
-													"uv": [ 999.0, 999.0 ],
-													"rotationOrigin": [ 0.05, -1.0, -0.05 ],
-													"rotationX": -13.0,
-													"rotationZ": -6.0,
-													"faces": {
+														"north": { "texture": "#brass", "uv": [ 7.0, 9.5, 9.0, 10.0 ] },
+														"east": { "texture": "#brass", "uv": [ 9.0, 9.5, 11.0, 10.0 ] },
+														"south": { "texture": "#brass", "uv": [ 11.0, 9.5, 13.0, 10.0 ] },
+														"west": { "texture": "#brass", "uv": [ 13.0, 9.5, 15.0, 10.0 ] },
+														"up": { "texture": "#brass", "uv": [ 7.0, 7.5, 9.0, 9.5 ] },
+														"down": { "texture": "#brass", "uv": [ 9.0, 7.5, 11.0, 9.5 ] }
 													},
 													"children": [
 														{
-															"name": "LowerArmR",
-															"from": [ 0.0, 0.0, 0.0 ],
-															"to": [ 0.0, 0.0, 0.0 ],
-															"uv": [ 999.0, 999.0 ],
+															"name": "GearUR2",
+															"from": [ 0.0, 0.05, 0.0 ],
+															"to": [ 2.2, 0.45, 2.2 ],
+															"rotationOrigin": [ 1.0, 0.5, 1.1 ],
+															"rotationY": 45.0,
+															"faces": {
+																"north": { "texture": "#brass", "uv": [ 3.5, 4.0, 5.5, 4.5 ] },
+																"east": { "texture": "#brass", "uv": [ 5.5, 4.0, 7.5, 4.5 ] },
+																"south": { "texture": "#brass", "uv": [ 7.5, 4.0, 9.5, 4.5 ] },
+																"west": { "texture": "#brass", "uv": [ 9.5, 4.0, 11.5, 4.5 ] },
+																"up": { "texture": "#brass", "uv": [ 3.5, 2.0, 5.5, 4.0 ] },
+																"down": { "texture": "#brass", "uv": [ 5.5, 2.0, 7.5, 4.0 ] }
+															}
+														},
+														{
+															"name": "SocketUR1",
+															"from": [ 0.1, -1.0, 0.1 ],
+															"to": [ 2.1, 0.0, 0.6 ],
+															"rotationOrigin": [ 0.1, 0.0, 0.1 ],
+															"faces": {
+																"north": { "texture": "#brass", "uv": [ 1.5, 0.5, 3.5, 1.5 ] },
+																"east": { "texture": "#brass", "uv": [ 3.5, 0.5, 4.0, 1.5 ] },
+																"south": { "texture": "#brass", "uv": [ 4.0, 0.5, 6.0, 1.5 ] },
+																"west": { "texture": "#brass", "uv": [ 6.0, 0.5, 6.5, 1.5 ] },
+																"down": { "texture": "#brass", "uv": [ 1.5, 0.0, 3.5, 0.5 ] }
+															}
+														},
+														{
+															"name": "SocketUR2",
+															"from": [ 0.1, -1.0, 1.6 ],
+															"to": [ 2.1, 0.0, 2.1 ],
+															"rotationOrigin": [ 0.1, 0.0, 2.1 ],
+															"faces": {
+																"north": { "texture": "#brass", "uv": [ 2.5, 3.0, 4.5, 4.0 ] },
+																"east": { "texture": "#brass", "uv": [ 4.5, 3.0, 5.0, 4.0 ] },
+																"south": { "texture": "#brass", "uv": [ 5.0, 3.0, 7.0, 4.0 ] },
+																"west": { "texture": "#brass", "uv": [ 7.0, 3.0, 7.5, 4.0 ] },
+																"down": { "texture": "#brass", "uv": [ 2.5, 2.5, 4.5, 3.0 ] }
+															}
+														},
+														{
+															"name": "LowerArmRHelper",
+															"from": [ 0.35, -5.0, 0.35 ],
+															"to": [ 0.35, -5.0, 0.35 ],
+															"rotationOrigin": [ 1.05, -0.5, 1.05 ],
+															"rotationX": -13.0,
+															"rotationZ": -6.0,
 															"faces": {
 															},
 															"children": [
 																{
-																	"name": "Wire3",
-																	"from": [ 0.2773, -4.6789, 1.212 ],
-																	"to": [ 0.3773, -0.0789, 2.912 ],
-																	"shade": false,
-																	"uv": [ 9.0, 1.5 ],
-																	"rotationOrigin": [ 0.2773, -4.6789, 1.312 ],
-																	"rotationX": 0.172,
-																	"rotationY": -0.013,
-																	"rotationZ": 0.021,
+																	"name": "LowerArmR",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 1.5, 4.5, 1.5 ],
+																	"rotationOrigin": [ 0.7, 4.5, 0.7 ],
 																	"faces": {
-																		"north": { "texture": "#temporalgear.png", "uv": [ 9.0, 3.0, 9.5, 7.5 ], "autoUv": false, "snapUv": false },
-																		"east": { "texture": "#temporalgear.png", "uv": [ 9.5, 3.0, 11.0, 7.5 ], "autoUv": false, "snapUv": false },
-																		"south": { "texture": "#temporalgear.png", "uv": [ 11.0, 3.0, 11.5, 7.5 ], "autoUv": false, "snapUv": false },
-																		"west": { "texture": "#temporalgear.png", "uv": [ 11.5, 3.0, 13.0, 7.5 ], "autoUv": false, "snapUv": false },
-																		"up": { "texture": "#temporalgear.png", "uv": [ 9.0, 1.5, 9.5, 3.0 ], "autoUv": false, "snapUv": false }
-																	}
-																},
-																{
-																	"name": "Wire4",
-																	"from": [ -0.1227, -4.6789, 1.212 ],
-																	"to": [ -0.0227, -0.0789, 2.912 ],
-																	"shade": false,
-																	"uv": [ 9.0, 1.5 ],
-																	"rotationOrigin": [ 0.0773, -4.6789, 1.312 ],
-																	"rotationX": 0.171,
-																	"rotationY": -0.017,
-																	"rotationZ": 0.02,
-																	"faces": {
-																		"north": { "texture": "#temporalgear.png", "uv": [ 9.0, 1.5, 9.5, 6.0 ], "autoUv": false, "snapUv": false },
-																		"east": { "texture": "#temporalgear.png", "uv": [ 9.5, 1.5, 11.0, 6.0 ], "autoUv": false, "snapUv": false },
-																		"south": { "texture": "#temporalgear.png", "uv": [ 11.0, 1.5, 11.5, 6.0 ], "autoUv": false, "snapUv": false },
-																		"west": { "texture": "#temporalgear.png", "uv": [ 11.5, 1.5, 13.0, 6.0 ], "autoUv": false, "snapUv": false },
-																		"up": { "texture": "#temporalgear.png", "uv": [ 1.0, 0.0, 1.5, 1.5 ], "autoUv": false, "snapUv": false }
-																	}
-																},
-																{
-																	"name": "GearHandR1",
-																	"from": [ 0.05, -4.75, 0.05 ],
-																	"to": [ 0.05, -4.75, 0.05 ],
-																	"uv": [ 999.0, 999.0 ],
-																	"rotationOrigin": [ 0.05, -4.75, 0.05 ],
-																	"faces": {
+																		"north": { "texture": "#aged", "uv": [ 10.5, 4.0, 15.0, 5.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+																		"east": { "texture": "#aged", "uv": [ 8.5, 11.5, 13.0, 13.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+																		"south": { "texture": "#aged", "uv": [ 9.5, 7.0, 14.0, 8.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+																		"west": { "texture": "#aged", "uv": [ 5.5, 1.0, 10.0, 2.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+																		"up": { "texture": "#aged", "uv": [ 10.5, 0.0, 12.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 																	},
 																	"children": [
 																		{
-																			"name": "GearHandR2",
-																			"from": [ -0.8727, -0.3789, 1.062 ],
-																			"to": [ 1.1273, 0.0211, 3.062 ],
-																			"shade": false,
-																			"uv": [ 0.5, 2.0 ],
-																			"rotationOrigin": [ 0.1273, -0.3289, 2.062 ],
-																			"rotationX": 0.148,
-																			"rotationY": 39.987,
-																			"rotationZ": 0.027,
+																			"name": "Wire3",
+																			"from": [ 0.9, 0.0, -0.1 ],
+																			"to": [ 1.0, 4.6, 1.6 ],
+																			"rotationOrigin": [ 0.9, 0.0, 0.0 ],
 																			"faces": {
-																				"north": { "texture": "#cupronickel.png", "uv": [ 0.5, 4.0, 2.5, 4.5 ], "autoUv": false, "snapUv": false },
-																				"east": { "texture": "#cupronickel.png", "uv": [ 2.5, 4.0, 4.5, 4.5 ], "autoUv": false, "snapUv": false },
-																				"south": { "texture": "#cupronickel.png", "uv": [ 4.5, 4.0, 6.5, 4.5 ], "autoUv": false, "snapUv": false },
-																				"west": { "texture": "#cupronickel.png", "uv": [ 6.5, 4.0, 8.5, 4.5 ], "autoUv": false, "snapUv": false },
-																				"up": { "texture": "#cupronickel.png", "uv": [ 0.5, 2.0, 2.5, 4.0 ], "autoUv": false, "snapUv": false },
-																				"down": { "texture": "#cupronickel.png", "uv": [ 2.5, 2.0, 4.5, 4.0 ], "autoUv": false, "snapUv": false }
+																				"north": { "texture": "#copper1", "uv": [ 9.0, 3.0, 9.5, 7.5 ] },
+																				"east": { "texture": "#copper1", "uv": [ 9.5, 3.0, 11.0, 7.5 ] },
+																				"south": { "texture": "#copper1", "uv": [ 11.0, 3.0, 11.5, 7.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+																				"west": { "texture": "#copper1", "uv": [ 11.5, 3.0, 13.0, 7.5 ] },
+																				"up": { "texture": "#copper1", "uv": [ 9.0, 1.5, 9.5, 3.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 																			}
 																		},
 																		{
-																			"name": "Wrist",
-																			"from": [ 0.0, -0.25, 0.0 ],
-																			"to": [ 0.0, -0.25, 0.0 ],
-																			"uv": [ 999.0, 999.0 ],
-																			"rotationOrigin": [ 0.0, -0.25, 0.0 ],
+																			"name": "Wire4",
+																			"from": [ 0.5, 0.0, -0.1 ],
+																			"to": [ 0.6, 4.6, 1.6 ],
+																			"rotationOrigin": [ 0.7, 0.0, 0.0 ],
 																			"faces": {
+																				"north": { "texture": "#copper1", "uv": [ 9.0, 1.5, 9.5, 6.0 ] },
+																				"east": { "texture": "#copper1", "uv": [ 9.5, 1.5, 11.0, 6.0 ] },
+																				"south": { "texture": "#copper1", "uv": [ 11.0, 1.5, 11.5, 6.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+																				"west": { "texture": "#copper1", "uv": [ 11.5, 1.5, 13.0, 6.0 ] },
+																				"up": { "texture": "#copper1", "uv": [ 1.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+																			}
+																		},
+																		{
+																			"name": "GearHandR1",
+																			"from": [ -0.2, -0.5, -0.2 ],
+																			"to": [ 1.8, 0.0, 1.8 ],
+																			"rotationOrigin": [ 0.75, -0.25, 0.75 ],
+																			"faces": {
+																				"north": { "texture": "#brass", "uv": [ 7.5, 13.5, 9.5, 14.0 ] },
+																				"east": { "texture": "#brass", "uv": [ 9.5, 13.5, 11.5, 14.0 ] },
+																				"south": { "texture": "#brass", "uv": [ 11.5, 13.5, 13.5, 14.0 ] },
+																				"west": { "texture": "#brass", "uv": [ 13.5, 13.5, 15.5, 14.0 ] },
+																				"up": { "texture": "#brass", "uv": [ 7.5, 11.5, 9.5, 13.5 ] },
+																				"down": { "texture": "#brass", "uv": [ 9.5, 11.5, 11.5, 13.5 ] }
 																			},
 																			"children": [
 																				{
-																					"name": "WristShaft",
-																					"from": [ 0.0, -0.8, 0.0 ],
-																					"to": [ 0.0, -0.8, 0.0 ],
-																					"uv": [ 999.0, 999.0 ],
-																					"rotationOrigin": [ 0.0, -0.8, 0.0 ],
-																					"rotationZ": 8.0,
+																					"name": "GearHandR2",
+																					"from": [ 0.0, 0.05, 0.0 ],
+																					"to": [ 2.0, 0.45, 2.0 ],
+																					"rotationOrigin": [ 1.0, 0.1, 1.0 ],
+																					"rotationY": 40.0,
 																					"faces": {
+																						"north": { "texture": "#brass", "uv": [ 0.5, 4.0, 2.5, 4.5 ] },
+																						"east": { "texture": "#brass", "uv": [ 2.5, 4.0, 4.5, 4.5 ] },
+																						"south": { "texture": "#brass", "uv": [ 4.5, 4.0, 6.5, 4.5 ] },
+																						"west": { "texture": "#brass", "uv": [ 6.5, 4.0, 8.5, 4.5 ] },
+																						"up": { "texture": "#brass", "uv": [ 0.5, 2.0, 2.5, 4.0 ] },
+																						"down": { "texture": "#brass", "uv": [ 2.5, 2.0, 4.5, 4.0 ] }
+																					}
+																				},
+																				{
+																					"name": "Wrist",
+																					"from": [ 0.45, -1.5, 0.45 ],
+																					"to": [ 1.45, 0.0, 1.45 ],
+																					"rotationOrigin": [ 0.95, 0.0, 0.95 ],
+																					"faces": {
+																						"north": { "texture": "#aged", "uv": [ 0.0, 1.0, 1.0, 2.5 ] },
+																						"east": { "texture": "#aged", "uv": [ 1.0, 1.0, 2.0, 2.5 ] },
+																						"south": { "texture": "#aged", "uv": [ 2.0, 1.0, 3.0, 2.5 ] },
+																						"west": { "texture": "#aged", "uv": [ 3.0, 1.0, 4.0, 2.5 ] },
+																						"down": { "texture": "#aged", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
 																					},
 																					"children": [
 																						{
-																							"name": "ClampL1",
-																							"from": [ 0.0, 0.0, 0.5 ],
-																							"to": [ 0.0, 0.0, 0.5 ],
-																							"uv": [ 999.0, 999.0 ],
-																							"rotationOrigin": [ 0.0, 0.0, 0.5 ],
-																							"rotationX": 6.0,
-																							"rotationZ": -15.0,
+																							"name": "WristShaft",
+																							"from": [ 0.4, 0.6, -0.6 ],
+																							"to": [ 0.6, 0.8, 1.6 ],
+																							"rotationOrigin": [ 0.5, 0.7, 0.5 ],
+																							"rotationZ": 8.0,
 																							"faces": {
+																								"north": { "texture": "#brass", "uv": [ 0.0, 2.0, 0.5, 2.5 ] },
+																								"east": { "texture": "#brass", "uv": [ 0.5, 2.0, 2.5, 2.5 ] },
+																								"south": { "texture": "#brass", "uv": [ 2.5, 2.0, 3.0, 2.5 ] },
+																								"west": { "texture": "#brass", "uv": [ 3.0, 2.0, 5.0, 2.5 ] },
+																								"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+																								"down": { "texture": "#brass", "uv": [ 0.5, 0.0, 1.0, 2.0 ] }
 																							},
 																							"children": [
 																								{
-																									"name": "ClampL2",
-																									"from": [ 0.2938, -2.164, 2.0206 ],
-																									"to": [ 1.2938, -1.664, 2.5206 ],
-																									"shade": false,
-																									"uv": [ 0.0, 0.0 ],
-																									"rotationOrigin": [ 0.2938, -2.164, 2.0206 ],
-																									"rotationX": 0.114,
-																									"rotationY": 0.01,
-																									"rotationZ": 0.036,
+																									"name": "ClampL1",
+																									"from": [ -0.15, -2.1, 1.6 ],
+																									"to": [ 0.35, 0.4, 2.1 ],
+																									"rotationOrigin": [ 0.1, 0.1, 1.6 ],
+																									"rotationX": 6.0,
+																									"rotationZ": -15.0,
 																									"faces": {
-																										"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.5, 1.0, 1.0 ], "autoUv": false, "snapUv": false },
-																										"east": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false, "snapUv": false },
-																										"south": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.5, 2.5, 1.0 ], "autoUv": false, "snapUv": false },
-																										"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "autoUv": false, "snapUv": false },
-																										"down": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.0, 2.0, 0.5 ], "autoUv": false, "snapUv": false }
-																									}
-																								},
-																								{
-																									"name": "ClampR1",
-																									"from": [ 0.0271, -0.101, -0.9945 ],
-																									"to": [ 0.0271, -0.101, -0.9945 ],
-																									"uv": [ 999.0, 999.0 ],
-																									"rotationOrigin": [ 0.0271, -0.101, -0.9945 ],
-																									"rotationX": -11.602,
-																									"rotationY": -3.085,
-																									"rotationZ": -0.313,
-																									"faces": {
+																										"north": { "texture": "#brass", "uv": [ 0.0, 0.5, 0.5, 3.0 ] },
+																										"east": { "texture": "#brass", "uv": [ 0.5, 0.5, 1.0, 3.0 ] },
+																										"south": { "texture": "#brass", "uv": [ 1.0, 0.5, 1.5, 3.0 ] },
+																										"west": { "texture": "#brass", "uv": [ 1.5, 0.5, 2.0, 3.0 ] },
+																										"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																										"down": { "texture": "#brass", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
 																									},
 																									"children": [
 																										{
-																											"name": "ClampR2",
-																											"from": [ 0.4027, -2.5703, 1.4813 ],
-																											"to": [ 1.4027, -2.0703, 1.9813 ],
-																											"shade": false,
-																											"uv": [ 0.0, 0.0 ],
-																											"rotationOrigin": [ 0.4027, -2.5703, 1.4813 ],
-																											"rotationX": 0.146,
-																											"rotationY": 0.003,
-																											"rotationZ": 0.031,
+																											"name": "ClampL2",
+																											"from": [ 0.5, 0.0, 0.0 ],
+																											"to": [ 1.5, 0.5, 0.5 ],
+																											"rotationOrigin": [ 0.5, 0.0, 0.0 ],
 																											"faces": {
-																												"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.5, 1.0, 1.0 ], "autoUv": false, "snapUv": false },
-																												"east": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false, "snapUv": false },
-																												"south": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.5, 2.5, 1.0 ], "autoUv": false, "snapUv": false },
-																												"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "autoUv": false, "snapUv": false },
-																												"down": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.0, 2.0, 0.5 ], "autoUv": false, "snapUv": false }
+																												"north": { "texture": "#brass", "uv": [ 0.0, 0.5, 1.0, 1.0 ] },
+																												"east": { "texture": "#brass", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+																												"south": { "texture": "#brass", "uv": [ 1.5, 0.5, 2.5, 1.0 ] },
+																												"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+																												"down": { "texture": "#brass", "uv": [ 1.0, 0.0, 2.0, 0.5 ] }
 																											}
 																										},
 																										{
-																											"name": "ClampR1_geo",
-																											"from": [ -0.0974, -2.5703, 1.4813 ],
-																											"to": [ 0.4027, -0.0703, 1.9813 ],
-																											"shade": false,
-																											"uv": [ 0.0, 0.0 ],
-																											"rotationOrigin": [ -0.0974, -2.5703, 1.4813 ],
-																											"rotationX": 0.146,
-																											"rotationY": -0.002,
-																											"rotationZ": 0.03,
+																											"name": "ClampR1",
+																											"from": [ 0.0271, -0.101, -1.4945 ],
+																											"to": [ 0.5271, 2.399, -0.9945 ],
+																											"rotationOrigin": [ 0.2771, 2.099, -0.9945 ],
+																											"rotationX": -11.602,
+																											"rotationY": -3.085,
+																											"rotationZ": -0.313,
 																											"faces": {
-																												"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.5, 0.5, 3.0 ], "autoUv": false, "snapUv": false },
-																												"east": { "texture": "#cupronickel.png", "uv": [ 0.5, 0.5, 1.0, 3.0 ], "autoUv": false, "snapUv": false },
-																												"south": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.5, 1.5, 3.0 ], "autoUv": false, "snapUv": false },
-																												"west": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.5, 2.0, 3.0 ], "autoUv": false, "snapUv": false },
-																												"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "snapUv": false },
-																												"down": { "texture": "#cupronickel.png", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "autoUv": false, "snapUv": false }
-																											}
+																												"north": { "texture": "#brass", "uv": [ 0.0, 0.5, 0.5, 3.0 ] },
+																												"east": { "texture": "#brass", "uv": [ 0.5, 0.5, 1.0, 3.0 ] },
+																												"south": { "texture": "#brass", "uv": [ 1.0, 0.5, 1.5, 3.0 ] },
+																												"west": { "texture": "#brass", "uv": [ 1.5, 0.5, 2.0, 3.0 ] },
+																												"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																												"down": { "texture": "#brass", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																											},
+																											"children": [
+																												{
+																													"name": "ClampR2",
+																													"from": [ 0.5, 0.0, 0.0 ],
+																													"to": [ 1.5, 0.5, 0.5 ],
+																													"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+																													"faces": {
+																														"north": { "texture": "#brass", "uv": [ 0.0, 0.5, 1.0, 1.0 ] },
+																														"east": { "texture": "#brass", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+																														"south": { "texture": "#brass", "uv": [ 1.5, 0.5, 2.5, 1.0 ] },
+																														"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+																														"down": { "texture": "#brass", "uv": [ 1.0, 0.0, 2.0, 0.5 ] }
+																													}
+																												}
+																											]
 																										}
 																									]
-																								},
+																								}
+																							]
+																						},
+																						{
+																							"name": "ClampB1",
+																							"from": [ 0.9571, -0.8016, 0.25 ],
+																							"to": [ 1.4571, 1.1984, 0.75 ],
+																							"rotationOrigin": [ 1.2071, 0.9, 0.5 ],
+																							"rotationZ": 15.0,
+																							"faces": {
+																								"north": { "texture": "#brass", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																								"east": { "texture": "#brass", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																								"south": { "texture": "#brass", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																								"west": { "texture": "#brass", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																								"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+																							},
+																							"children": [
 																								{
-																									"name": "ClampL1_geo",
-																									"from": [ -0.2062, -2.164, 2.0206 ],
-																									"to": [ 0.2938, 0.336, 2.5206 ],
-																									"shade": false,
-																									"uv": [ 0.0, 0.0 ],
-																									"rotationOrigin": [ -0.2062, -2.164, 2.0206 ],
-																									"rotationX": 0.115,
-																									"rotationY": 0.006,
-																									"rotationZ": 0.037,
+																									"name": "ClampB2",
+																									"from": [ -1.5, -0.5, 0.0 ],
+																									"to": [ 0.5, 0.0, 0.5 ],
+																									"rotationOrigin": [ 0.25, 0.0, 0.25 ],
 																									"faces": {
-																										"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.5, 0.5, 3.0 ], "autoUv": false, "snapUv": false },
-																										"east": { "texture": "#cupronickel.png", "uv": [ 0.5, 0.5, 1.0, 3.0 ], "autoUv": false, "snapUv": false },
-																										"south": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.5, 1.5, 3.0 ], "autoUv": false, "snapUv": false },
-																										"west": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.5, 2.0, 3.0 ], "autoUv": false, "snapUv": false },
-																										"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "snapUv": false },
-																										"down": { "texture": "#cupronickel.png", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "autoUv": false, "snapUv": false }
+																										"north": { "texture": "#brass", "uv": [ 0.0, 0.5, 2.0, 1.0 ] },
+																										"east": { "texture": "#brass", "uv": [ 2.0, 0.5, 2.5, 1.0 ] },
+																										"south": { "texture": "#brass", "uv": [ 2.5, 0.5, 4.5, 1.0 ] },
+																										"west": { "texture": "#brass", "uv": [ 4.5, 0.5, 5.0, 1.0 ] },
+																										"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+																										"down": { "texture": "#brass", "uv": [ 2.0, 0.0, 4.0, 0.5 ] }
 																									}
 																								}
 																							]
 																						},
 																						{
-																							"name": "WristShaft_geo",
-																							"from": [ -0.0484, -0.2879, 0.912 ],
-																							"to": [ 0.1516, -0.0879, 3.112 ],
-																							"shade": false,
-																							"uv": [ 0.0, 0.0 ],
-																							"rotationOrigin": [ -0.0484, -0.2879, 0.912 ],
-																							"rotationX": 0.149,
-																							"rotationY": -0.032,
-																							"rotationZ": -0.008,
+																							"name": "ThumbMount",
+																							"from": [ 1.0, 0.8, 0.2 ],
+																							"to": [ 1.3, 1.0, 0.8 ],
+																							"rotationOrigin": [ 1.0, 0.8, 0.2 ],
 																							"faces": {
-																								"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 2.0, 0.5, 2.5 ], "autoUv": false, "snapUv": false },
-																								"east": { "texture": "#cupronickel.png", "uv": [ 0.5, 2.0, 2.5, 2.5 ], "autoUv": false, "snapUv": false },
-																								"south": { "texture": "#cupronickel.png", "uv": [ 2.5, 2.0, 3.0, 2.5 ], "autoUv": false, "snapUv": false },
-																								"west": { "texture": "#cupronickel.png", "uv": [ 3.0, 2.0, 5.0, 2.5 ], "autoUv": false, "snapUv": false },
-																								"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false, "snapUv": false },
-																								"down": { "texture": "#cupronickel.png", "uv": [ 0.5, 0.0, 1.0, 2.0 ], "autoUv": false, "snapUv": false }
-																							}
-																						}
-																					]
-																				},
-																				{
-																					"name": "ClampB1",
-																					"from": [ 0.7071, -0.6, 0.0 ],
-																					"to": [ 0.7071, -0.6, 0.0 ],
-																					"uv": [ 999.0, 999.0 ],
-																					"rotationOrigin": [ 0.7071, -0.6, 0.0 ],
-																					"rotationZ": 15.0,
-																					"faces": {
-																					},
-																					"children": [
-																						{
-																							"name": "ClampB2",
-																							"from": [ -1.7217, -2.3944, 1.762 ],
-																							"to": [ 0.2783, -1.8944, 2.262 ],
-																							"shade": false,
-																							"uv": [ 0.0, 0.0 ],
-																							"rotationOrigin": [ 0.0283, -1.8944, 2.012 ],
-																							"rotationX": 0.134,
-																							"rotationY": -0.032,
-																							"rotationZ": -0.024,
-																							"faces": {
-																								"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.5, 2.0, 1.0 ], "autoUv": false, "snapUv": false },
-																								"east": { "texture": "#cupronickel.png", "uv": [ 2.0, 0.5, 2.5, 1.0 ], "autoUv": false, "snapUv": false },
-																								"south": { "texture": "#cupronickel.png", "uv": [ 2.5, 0.5, 4.5, 1.0 ], "autoUv": false, "snapUv": false },
-																								"west": { "texture": "#cupronickel.png", "uv": [ 4.5, 0.5, 5.0, 1.0 ], "autoUv": false, "snapUv": false },
-																								"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "autoUv": false, "snapUv": false },
-																								"down": { "texture": "#cupronickel.png", "uv": [ 2.0, 0.0, 4.0, 0.5 ], "autoUv": false, "snapUv": false }
+																								"north": { "texture": "#brass", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+																								"south": { "texture": "#brass", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+																								"west": { "texture": "#brass", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+																								"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																								"down": { "texture": "#brass", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
 																							}
 																						},
 																						{
-																							"name": "ClampB1_geo",
-																							"from": [ -0.2217, -1.8944, 1.762 ],
-																							"to": [ 0.2783, 0.1056, 2.262 ],
-																							"shade": false,
-																							"uv": [ 0.0, 0.0 ],
-																							"rotationOrigin": [ -0.2217, -1.8944, 1.762 ],
-																							"rotationX": 0.133,
-																							"rotationY": -0.034,
-																							"rotationZ": -0.024,
+																							"name": "Wire8",
+																							"from": [ -0.1, 0.5, 0.45 ],
+																							"to": [ 1.1, 1.5, 0.55 ],
+																							"rotationOrigin": [ 0.0, 1.0, 0.5 ],
 																							"faces": {
-																								"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.5, 0.5, 2.5 ], "autoUv": false, "snapUv": false },
-																								"east": { "texture": "#cupronickel.png", "uv": [ 0.5, 0.5, 1.0, 2.5 ], "autoUv": false, "snapUv": false },
-																								"south": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.5, 1.5, 2.5 ], "autoUv": false, "snapUv": false },
-																								"west": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.5, 2.0, 2.5 ], "autoUv": false, "snapUv": false },
-																								"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "snapUv": false }
+																								"north": { "texture": "#copper1", "uv": [ 0.0, 0.5, 1.0, 1.5 ] },
+																								"east": { "texture": "#copper1", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																								"south": { "texture": "#copper1", "uv": [ 1.5, 0.5, 2.5, 1.5 ] },
+																								"west": { "texture": "#copper1", "uv": [ 2.5, 0.5, 3.0, 1.5 ] },
+																								"down": { "texture": "#copper1", "uv": [ 1.0, 0.0, 2.0, 0.5 ] }
 																							}
-																						}
-																					]
-																				},
-																				{
-																					"name": "ThumbMount",
-																					"from": [ 0.5773, -0.8789, 1.712 ],
-																					"to": [ 0.8773, -0.6789, 2.312 ],
-																					"shade": false,
-																					"uv": [ 0.0, 0.0 ],
-																					"rotationOrigin": [ 0.5773, -0.8789, 1.712 ],
-																					"rotationX": 0.155,
-																					"rotationY": -0.006,
-																					"rotationZ": 0.019,
-																					"faces": {
-																						"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "autoUv": false, "snapUv": false },
-																						"south": { "texture": "#cupronickel.png", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false, "snapUv": false },
-																						"west": { "texture": "#cupronickel.png", "uv": [ 1.5, 0.5, 2.0, 1.0 ], "autoUv": false, "snapUv": false },
-																						"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "snapUv": false },
-																						"down": { "texture": "#cupronickel.png", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "autoUv": false, "snapUv": false }
-																					}
-																				},
-																				{
-																					"name": "Wire8",
-																					"from": [ -0.5227, -1.1789, 1.962 ],
-																					"to": [ 0.6773, -0.1789, 2.062 ],
-																					"shade": false,
-																					"uv": [ 0.0, 0.0 ],
-																					"rotationOrigin": [ -0.4227, -0.6789, 2.012 ],
-																					"rotationX": 0.156,
-																					"rotationY": -0.019,
-																					"rotationZ": 0.02,
-																					"faces": {
-																						"north": { "texture": "#temporalgear.png", "uv": [ 0.0, 0.5, 1.0, 1.5 ], "autoUv": false, "snapUv": false },
-																						"east": { "texture": "#temporalgear.png", "uv": [ 1.0, 0.5, 1.5, 1.5 ], "autoUv": false, "snapUv": false },
-																						"south": { "texture": "#temporalgear.png", "uv": [ 1.5, 0.5, 2.5, 1.5 ], "autoUv": false, "snapUv": false },
-																						"west": { "texture": "#temporalgear.png", "uv": [ 2.5, 0.5, 3.0, 1.5 ], "autoUv": false, "snapUv": false },
-																						"down": { "texture": "#temporalgear.png", "uv": [ 1.0, 0.0, 2.0, 0.5 ], "autoUv": false, "snapUv": false }
-																					}
-																				},
-																				{
-																					"name": "HandR",
-																					"from": [ 0.5, -2.0, 0.0 ],
-																					"to": [ 0.5, -2.0, 0.0 ],
-																					"uv": [ 999.0, 999.0 ],
-																					"rotationOrigin": [ 0.5, -2.0, 0.0 ],
-																					"rotationX": 180.0,
-																					"rotationZ": -180.0,
-																					"faces": {
-																					},
-																					"attachmentpoints": [
+																						},
 																						{
-																							"code": "RightHand",
-																							"posX": "-0.07726000000000077","posY": "-0.17892999999999937","posZ": "-2.01195",
-																							"rotationX": "-0.14","rotationY": "-0.004","rotationZ": "-0.018"
+																							"name": "HandR",
+																							"from": [ 1.0, -0.5, 0.5 ],
+																							"to": [ 1.0, -0.5, 0.5 ],
+																							"rotationOrigin": [ 1.0, -0.5, 0.5 ],
+																							"rotationX": 180.0,
+																							"rotationZ": -180.0,
+																							"faces": {
+																							},
+																							"attachmentpoints": [
+																								{
+																									"code": "RightHand",
+																									"posX": "0.0","posY": "0.0","posZ": "0.0",
+																									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+																								}
+																							]
 																						}
 																					]
-																				},
-																				{
-																					"name": "Wrist_geo",
-																					"from": [ -0.4227, -1.6789, 1.5119 ],
-																					"to": [ 0.5773, -0.1789, 2.512 ],
-																					"shade": false,
-																					"uv": [ 0.0, 0.0 ],
-																					"rotationOrigin": [ -0.4227, -1.6789, 1.5119 ],
-																					"rotationX": 0.144,
-																					"rotationY": -0.017,
-																					"rotationZ": 0.017,
-																					"faces": {
-																						"north": { "texture": "#steel.png", "uv": [ 0.0, 1.0, 1.0, 2.5 ], "autoUv": false, "snapUv": false },
-																						"east": { "texture": "#steel.png", "uv": [ 1.0, 1.0, 2.0, 2.5 ], "autoUv": false, "snapUv": false },
-																						"south": { "texture": "#steel.png", "uv": [ 2.0, 1.0, 3.0, 2.5 ], "autoUv": false, "snapUv": false },
-																						"west": { "texture": "#steel.png", "uv": [ 3.0, 1.0, 4.0, 2.5 ], "autoUv": false, "snapUv": false },
-																						"down": { "texture": "#steel.png", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "snapUv": false }
-																					}
 																				}
 																			]
 																		},
 																		{
-																			"name": "GearHandR1_geo",
-																			"from": [ -0.8727, -0.4289, 1.062 ],
-																			"to": [ 1.1273, 0.0711, 3.062 ],
-																			"shade": false,
-																			"uv": [ 7.5, 11.5 ],
-																			"rotationOrigin": [ -0.8727, -0.4289, 1.062 ],
-																			"rotationX": 0.16,
-																			"rotationY": -0.028,
-																			"rotationZ": 0.018,
+																			"name": "GearLR1",
+																			"from": [ -0.3, 3.5, 0.5 ],
+																			"to": [ 1.7, 5.5, 1.0 ],
+																			"rotationOrigin": [ 0.7, 4.5, 0.75 ],
 																			"faces": {
-																				"north": { "texture": "#cupronickel.png", "uv": [ 7.5, 13.5, 9.5, 14.0 ], "autoUv": false, "snapUv": false },
-																				"east": { "texture": "#cupronickel.png", "uv": [ 9.5, 13.5, 11.5, 14.0 ], "autoUv": false, "snapUv": false },
-																				"south": { "texture": "#cupronickel.png", "uv": [ 11.5, 13.5, 13.5, 14.0 ], "autoUv": false, "snapUv": false },
-																				"west": { "texture": "#cupronickel.png", "uv": [ 13.5, 13.5, 15.5, 14.0 ], "autoUv": false, "snapUv": false },
-																				"up": { "texture": "#cupronickel.png", "uv": [ 7.5, 11.5, 9.5, 13.5 ], "autoUv": false, "snapUv": false },
-																				"down": { "texture": "#cupronickel.png", "uv": [ 9.5, 11.5, 11.5, 13.5 ], "autoUv": false, "snapUv": false }
-																			}
+																				"north": { "texture": "#brass", "uv": [ 0.0, 7.5, 2.0, 9.5 ] },
+																				"east": { "texture": "#brass", "uv": [ 2.0, 7.5, 2.5, 9.5 ] },
+																				"south": { "texture": "#brass", "uv": [ 2.5, 7.5, 4.5, 9.5 ] },
+																				"west": { "texture": "#brass", "uv": [ 4.5, 7.5, 5.0, 9.5 ] },
+																				"up": { "texture": "#brass", "uv": [ 0.0, 7.0, 2.0, 7.5 ] },
+																				"down": { "texture": "#brass", "uv": [ 2.0, 7.0, 4.0, 7.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Shaft1",
+																					"from": [ 1.0, 1.0, -0.8 ],
+																					"to": [ 1.2, 1.2, 1.3 ],
+																					"rotationOrigin": [ 1.1, 1.1, 0.3 ],
+																					"faces": {
+																						"north": { "texture": "#brass", "uv": [ 5.5, 2.0, 6.0, 2.5 ] },
+																						"east": { "texture": "#brass", "uv": [ 6.0, 2.0, 8.0, 2.5 ] },
+																						"south": { "texture": "#brass", "uv": [ 8.0, 2.0, 8.5, 2.5 ] },
+																						"west": { "texture": "#brass", "uv": [ 8.5, 2.0, 10.5, 2.5 ] },
+																						"up": { "texture": "#brass", "uv": [ 5.5, 0.0, 6.0, 2.0 ] },
+																						"down": { "texture": "#brass", "uv": [ 6.0, 0.0, 6.5, 2.0 ] }
+																					}
+																				},
+																				{
+																					"name": "GearLR2",
+																					"from": [ 0.0, 0.0, -0.1 ],
+																					"to": [ 2.0, 2.0, 0.6 ],
+																					"rotationOrigin": [ 1.0, 1.0, 0.25 ],
+																					"rotationZ": 45.0,
+																					"faces": {
+																						"north": { "texture": "#brass", "uv": [ 5.5, 13.5, 7.5, 15.5 ] },
+																						"east": { "texture": "#brass", "uv": [ 7.5, 13.5, 8.0, 15.5 ] },
+																						"south": { "texture": "#brass", "uv": [ 8.0, 13.5, 10.0, 15.5 ] },
+																						"west": { "texture": "#brass", "uv": [ 10.0, 13.5, 10.5, 15.5 ] },
+																						"up": { "texture": "#brass", "uv": [ 5.5, 13.0, 7.5, 13.5 ] },
+																						"down": { "texture": "#brass", "uv": [ 7.5, 13.0, 9.5, 13.5 ] }
+																					}
+																				}
+																			]
 																		}
 																	]
-																},
-																{
-																	"name": "GearLR1",
-																	"from": [ 0.0, 0.0, 0.05 ],
-																	"to": [ 0.0, 0.0, 0.05 ],
-																	"uv": [ 999.0, 999.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.05 ],
-																	"faces": {
-																	},
-																	"children": [
-																		{
-																			"name": "Shaft1",
-																			"from": [ 0.0773, -0.1789, 0.962 ],
-																			"to": [ 0.2773, 0.0211, 3.062 ],
-																			"shade": false,
-																			"uv": [ 5.5, 0.0 ],
-																			"rotationOrigin": [ 0.1773, -0.0789, 2.062 ],
-																			"rotationX": 0.297,
-																			"rotationY": -0.041,
-																			"rotationZ": 0.036,
-																			"faces": {
-																				"north": { "texture": "#cupronickel.png", "uv": [ 5.5, 2.0, 6.0, 2.5 ], "autoUv": false, "snapUv": false },
-																				"east": { "texture": "#cupronickel.png", "uv": [ 6.0, 2.0, 8.0, 2.5 ], "autoUv": false, "snapUv": false },
-																				"south": { "texture": "#cupronickel.png", "uv": [ 8.0, 2.0, 8.5, 2.5 ], "autoUv": false, "snapUv": false },
-																				"west": { "texture": "#cupronickel.png", "uv": [ 8.5, 2.0, 10.5, 2.5 ], "autoUv": false, "snapUv": false },
-																				"up": { "texture": "#cupronickel.png", "uv": [ 5.5, 0.0, 6.0, 2.0 ], "autoUv": false, "snapUv": false },
-																				"down": { "texture": "#cupronickel.png", "uv": [ 6.0, 0.0, 6.5, 2.0 ], "autoUv": false, "snapUv": false }
-																			}
-																		},
-																		{
-																			"name": "GearLR2",
-																			"from": [ -0.9227, -1.1789, 1.662 ],
-																			"to": [ 1.0773, 0.8211, 2.362 ],
-																			"shade": false,
-																			"uv": [ 5.5, 13.0 ],
-																			"rotationOrigin": [ 0.0773, -0.1789, 2.012 ],
-																			"rotationX": 0.288,
-																			"rotationY": -0.063,
-																			"rotationZ": 45.33,
-																			"faces": {
-																				"north": { "texture": "#cupronickel.png", "uv": [ 5.5, 13.5, 7.5, 15.5 ], "autoUv": false, "snapUv": false },
-																				"east": { "texture": "#cupronickel.png", "uv": [ 7.5, 13.5, 8.0, 15.5 ], "autoUv": false, "snapUv": false },
-																				"south": { "texture": "#cupronickel.png", "uv": [ 8.0, 13.5, 10.0, 15.5 ], "autoUv": false, "snapUv": false },
-																				"west": { "texture": "#cupronickel.png", "uv": [ 10.0, 13.5, 10.5, 15.5 ], "autoUv": false, "snapUv": false },
-																				"up": { "texture": "#cupronickel.png", "uv": [ 5.5, 13.0, 7.5, 13.5 ], "autoUv": false, "snapUv": false },
-																				"down": { "texture": "#cupronickel.png", "uv": [ 7.5, 13.0, 9.5, 13.5 ], "autoUv": false, "snapUv": false }
-																			}
-																		},
-																		{
-																			"name": "GearLR1_geo",
-																			"from": [ -0.9227, -1.1789, 1.762 ],
-																			"to": [ 1.0773, 0.8211, 2.262 ],
-																			"shade": false,
-																			"uv": [ 0.0, 7.0 ],
-																			"rotationOrigin": [ -0.9227, -1.1789, 1.762 ],
-																			"rotationX": 0.239,
-																			"rotationY": -0.065,
-																			"rotationZ": 0.027,
-																			"faces": {
-																				"north": { "texture": "#cupronickel.png", "uv": [ 0.0, 7.5, 2.0, 9.5 ], "autoUv": false, "snapUv": false },
-																				"east": { "texture": "#cupronickel.png", "uv": [ 2.0, 7.5, 2.5, 9.5 ], "autoUv": false, "snapUv": false },
-																				"south": { "texture": "#cupronickel.png", "uv": [ 2.5, 7.5, 4.5, 9.5 ], "autoUv": false, "snapUv": false },
-																				"west": { "texture": "#cupronickel.png", "uv": [ 4.5, 7.5, 5.0, 9.5 ], "autoUv": false, "snapUv": false },
-																				"up": { "texture": "#cupronickel.png", "uv": [ 0.0, 7.0, 2.0, 7.5 ], "autoUv": false, "snapUv": false },
-																				"down": { "texture": "#cupronickel.png", "uv": [ 2.0, 7.0, 4.0, 7.5 ], "autoUv": false, "snapUv": false }
-																			}
-																		}
-																	]
-																},
-																{
-																	"name": "LowerArmR_geo",
-																	"from": [ -0.6227, -4.6789, 1.312 ],
-																	"to": [ 0.8773, -0.1789, 2.812 ],
-																	"shade": false,
-																	"uv": [ 5.5, 0.0 ],
-																	"rotationOrigin": [ -0.6227, -4.6789, 1.312 ],
-																	"rotationX": 0.169,
-																	"rotationY": -0.027,
-																	"rotationZ": 0.019,
-																	"faces": {
-																		"north": { "texture": "#steel.png", "uv": [ 10.5, 4.0, 15.0, 5.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-																		"east": { "texture": "#steel.png", "uv": [ 8.5, 11.5, 13.0, 13.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
-																		"south": { "texture": "#steel.png", "uv": [ 9.5, 7.0, 14.0, 8.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-																		"west": { "texture": "#steel.png", "uv": [ 5.5, 1.0, 10.0, 2.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-																		"up": { "texture": "#steel.png", "uv": [ 10.5, 0.0, 12.0, 1.5 ], "autoUv": false, "snapUv": false }
-																	}
 																}
 															]
 														}
 													]
 												},
 												{
-													"name": "GearUR1_geo",
-													"from": [ -0.9419, -0.2287, 0.9022 ],
-													"to": [ 1.2581, 0.2713, 3.1022 ],
-													"shade": false,
-													"uv": [ 7.0, 7.5 ],
-													"rotationOrigin": [ -0.9419, -0.2287, 0.9022 ],
-													"rotationX": 0.199,
-													"rotationY": -0.093,
-													"rotationZ": 0.002,
+													"name": "Wire1",
+													"from": [ 1.1, 0.0, -0.1 ],
+													"to": [ 1.2, 1.0, 2.1 ],
+													"rotationOrigin": [ 1.0, 1.0, -0.1 ],
 													"faces": {
-														"north": { "texture": "#cupronickel.png", "uv": [ 7.0, 9.5, 9.0, 10.0 ], "autoUv": false, "snapUv": false },
-														"east": { "texture": "#cupronickel.png", "uv": [ 9.0, 9.5, 11.0, 10.0 ], "autoUv": false, "snapUv": false },
-														"south": { "texture": "#cupronickel.png", "uv": [ 11.0, 9.5, 13.0, 10.0 ], "autoUv": false, "snapUv": false },
-														"west": { "texture": "#cupronickel.png", "uv": [ 13.0, 9.5, 15.0, 10.0 ], "autoUv": false, "snapUv": false },
-														"up": { "texture": "#cupronickel.png", "uv": [ 7.0, 7.5, 9.0, 9.5 ], "autoUv": false, "snapUv": false },
-														"down": { "texture": "#cupronickel.png", "uv": [ 9.0, 7.5, 11.0, 9.5 ], "autoUv": false, "snapUv": false }
+														"north": { "texture": "#copper1", "uv": [ 9.5, 0.5, 10.0, 1.5 ] },
+														"east": { "texture": "#copper1", "uv": [ 10.0, 0.5, 12.0, 1.5 ] },
+														"south": { "texture": "#copper1", "uv": [ 12.0, 0.5, 12.5, 1.5 ] },
+														"west": { "texture": "#copper1", "uv": [ 12.5, 0.5, 14.5, 1.5 ] }
+													}
+												},
+												{
+													"name": "Wire2",
+													"from": [ 0.8, 0.0, -0.1 ],
+													"to": [ 0.9, 1.0, 2.1 ],
+													"rotationOrigin": [ 1.0, 1.0, -0.1 ],
+													"faces": {
+														"north": { "texture": "#copper1", "uv": [ 9.5, 0.5, 10.0, 1.5 ] },
+														"east": { "texture": "#copper1", "uv": [ 10.0, 0.5, 12.0, 1.5 ] },
+														"south": { "texture": "#copper1", "uv": [ 12.0, 0.5, 12.5, 1.5 ] },
+														"west": { "texture": "#copper1", "uv": [ 12.5, 0.5, 14.5, 1.5 ] }
 													}
 												}
 											]
 										},
 										{
-											"name": "Wire1",
-											"from": [ 0.1581, -0.1287, 0.9022 ],
-											"to": [ 0.2581, 0.8713, 3.1022 ],
-											"shade": false,
-											"uv": [ 9.5, 0.5 ],
-											"rotationOrigin": [ 0.0581, 0.8713, 0.9022 ],
-											"rotationX": 0.292,
-											"rotationY": -0.108,
-											"rotationZ": 0.003,
+											"name": "Wire5",
+											"from": [ 0.0, 2.0, 0.5 ],
+											"to": [ 3.2, 3.5, 0.6 ],
+											"rotationOrigin": [ 0.0, 2.0, 0.5 ],
 											"faces": {
-												"north": { "texture": "#temporalgear.png", "uv": [ 9.5, 0.5, 10.0, 1.5 ], "autoUv": false, "snapUv": false },
-												"east": { "texture": "#temporalgear.png", "uv": [ 10.0, 0.5, 12.0, 1.5 ], "autoUv": false, "snapUv": false },
-												"south": { "texture": "#temporalgear.png", "uv": [ 12.0, 0.5, 12.5, 1.5 ], "autoUv": false, "snapUv": false },
-												"west": { "texture": "#temporalgear.png", "uv": [ 12.5, 0.5, 14.5, 1.5 ], "autoUv": false, "snapUv": false }
+												"north": { "texture": "#copper1", "uv": [ 0.5, 14.0, 3.5, 15.5 ] },
+												"east": { "texture": "#copper1", "uv": [ 0.5, 0.0, 1.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+												"south": { "texture": "#copper1", "uv": [ 3.5, 14.0, 6.5, 15.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+												"west": { "texture": "#copper1", "uv": [ 6.5, 14.0, 7.0, 15.5 ] },
+												"up": { "texture": "#copper1", "uv": [ 0.5, 13.5, 3.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 											}
 										},
 										{
-											"name": "Wire2",
-											"from": [ -0.1419, -0.1287, 0.9022 ],
-											"to": [ -0.0419, 0.8713, 3.1022 ],
-											"shade": false,
-											"uv": [ 9.5, 0.5 ],
-											"rotationOrigin": [ 0.0581, 0.8713, 0.9022 ],
-											"rotationX": 0.292,
-											"rotationY": -0.108,
-											"rotationZ": 0.003,
+											"name": "Wire6",
+											"from": [ 0.0, 2.0, 0.7 ],
+											"to": [ 3.2, 3.5, 0.8 ],
+											"rotationOrigin": [ 0.0, 2.0, 0.7 ],
 											"faces": {
-												"north": { "texture": "#temporalgear.png", "uv": [ 9.5, 0.5, 10.0, 1.5 ], "autoUv": false, "snapUv": false },
-												"east": { "texture": "#temporalgear.png", "uv": [ 10.0, 0.5, 12.0, 1.5 ], "autoUv": false, "snapUv": false },
-												"south": { "texture": "#temporalgear.png", "uv": [ 12.0, 0.5, 12.5, 1.5 ], "autoUv": false, "snapUv": false },
-												"west": { "texture": "#temporalgear.png", "uv": [ 12.5, 0.5, 14.5, 1.5 ], "autoUv": false, "snapUv": false }
+												"north": { "texture": "#copper1", "uv": [ 6.0, 0.5, 9.0, 2.0 ] },
+												"east": { "texture": "#copper1", "uv": [ 0.5, 0.0, 1.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+												"south": { "texture": "#copper1", "uv": [ 9.0, 0.5, 12.0, 2.0 ] },
+												"west": { "texture": "#copper1", "uv": [ 12.0, 0.5, 12.5, 2.0 ] },
+												"up": { "texture": "#copper1", "uv": [ 6.0, 0.0, 9.0, 0.5 ] }
 											}
 										},
 										{
-											"name": "UpperArmR-P_geo",
-											"from": [ -0.9419, -0.1287, 1.0022 ],
-											"to": [ 1.0581, 1.3713, 3.0022 ],
-											"shade": false,
-											"uv": [ 1.5, 3.0 ],
-											"rotationOrigin": [ -0.9419, -0.1287, 1.0022 ],
-											"rotationX": 0.214,
-											"rotationY": -0.106,
-											"rotationZ": 0.004,
+											"name": "Wire7",
+											"from": [ 0.0, 2.0, 0.9 ],
+											"to": [ 3.2, 3.5, 1.0 ],
+											"rotationOrigin": [ 0.0, 2.0, 0.9 ],
 											"faces": {
-												"north": { "texture": "#steel.png", "uv": [ 6.0, 3.0, 7.5, 5.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
-												"east": { "texture": "#steel.png", "uv": [ 10.0, 11.0, 11.5, 13.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
-												"south": { "texture": "#steel.png", "uv": [ 7.5, 11.5, 9.0, 13.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-												"west": { "texture": "#steel.png", "uv": [ 5.0, 10.5, 6.5, 12.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-												"down": { "texture": "#steel.png", "uv": [ 1.5, 10.5, 3.5, 12.5 ], "autoUv": false, "snapUv": false }
+												"north": { "texture": "#copper1", "uv": [ 6.0, 6.5, 9.0, 8.0 ] },
+												"east": { "texture": "#copper1", "uv": [ 0.5, 0.0, 1.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+												"south": { "texture": "#copper1", "uv": [ 9.0, 6.5, 12.0, 8.0 ] },
+												"west": { "texture": "#copper1", "uv": [ 12.0, 6.5, 12.5, 8.0 ] },
+												"up": { "texture": "#copper1", "uv": [ 6.0, 6.0, 9.0, 6.5 ] }
 											}
 										}
 									]
-								},
-								{
-									"name": "Wire5",
-									"from": [ -1.4419, 2.2713, 1.4022 ],
-									"to": [ 1.7581, 3.7713, 1.5022 ],
-									"shade": false,
-									"uv": [ 0.5, 13.5 ],
-									"rotationOrigin": [ -1.4419, 2.2713, 1.4022 ],
-									"rotationX": 0.264,
-									"rotationY": -0.26,
-									"rotationZ": 0.743,
-									"faces": {
-										"north": { "texture": "#temporalgear.png", "uv": [ 0.5, 14.0, 3.5, 15.5 ], "autoUv": false, "snapUv": false },
-										"east": { "texture": "#temporalgear.png", "uv": [ 0.5, 0.0, 1.0, 1.5 ], "autoUv": false, "snapUv": false },
-										"south": { "texture": "#temporalgear.png", "uv": [ 3.5, 14.0, 6.5, 15.5 ], "autoUv": false, "snapUv": false },
-										"west": { "texture": "#temporalgear.png", "uv": [ 6.5, 14.0, 7.0, 15.5 ], "autoUv": false, "snapUv": false },
-										"up": { "texture": "#temporalgear.png", "uv": [ 0.5, 13.5, 3.5, 14.0 ], "autoUv": false, "snapUv": false }
-									}
-								},
-								{
-									"name": "Wire6",
-									"from": [ -1.4419, 2.2713, 1.6022 ],
-									"to": [ 1.7581, 3.7713, 1.7022 ],
-									"shade": false,
-									"uv": [ 6.0, 0.0 ],
-									"rotationOrigin": [ -1.4419, 2.2713, 1.6022 ],
-									"rotationX": 0.295,
-									"rotationY": -0.24,
-									"rotationZ": 0.721,
-									"faces": {
-										"north": { "texture": "#temporalgear.png", "uv": [ 6.0, 0.5, 9.0, 2.0 ], "autoUv": false, "snapUv": false },
-										"east": { "texture": "#temporalgear.png", "uv": [ 0.5, 0.0, 1.0, 1.5 ], "autoUv": false, "snapUv": false },
-										"south": { "texture": "#temporalgear.png", "uv": [ 9.0, 0.5, 12.0, 2.0 ], "autoUv": false, "snapUv": false },
-										"west": { "texture": "#temporalgear.png", "uv": [ 12.0, 0.5, 12.5, 2.0 ], "autoUv": false, "snapUv": false },
-										"up": { "texture": "#temporalgear.png", "uv": [ 6.0, 0.0, 9.0, 0.5 ], "autoUv": false, "snapUv": false }
-									}
-								},
-								{
-									"name": "Wire7",
-									"from": [ -1.4419, 2.2713, 1.8022 ],
-									"to": [ 1.7581, 3.7713, 1.9022 ],
-									"shade": false,
-									"uv": [ 6.0, 6.0 ],
-									"rotationOrigin": [ -1.4419, 2.2713, 1.8022 ],
-									"rotationX": 0.322,
-									"rotationY": -0.221,
-									"rotationZ": 0.695,
-									"faces": {
-										"north": { "texture": "#temporalgear.png", "uv": [ 6.0, 6.5, 9.0, 8.0 ], "autoUv": false, "snapUv": false },
-										"east": { "texture": "#temporalgear.png", "uv": [ 0.5, 0.0, 1.0, 1.5 ], "autoUv": false, "snapUv": false },
-										"south": { "texture": "#temporalgear.png", "uv": [ 9.0, 6.5, 12.0, 8.0 ], "autoUv": false, "snapUv": false },
-										"west": { "texture": "#temporalgear.png", "uv": [ 12.0, 6.5, 12.5, 8.0 ], "autoUv": false, "snapUv": false },
-										"up": { "texture": "#temporalgear.png", "uv": [ 6.0, 6.0, 9.0, 6.5 ], "autoUv": false, "snapUv": false }
-									}
-								},
-								{
-									"name": "ArmProstheticMount_geo",
-									"from": [ -1.4419, 0.2713, 0.9022 ],
-									"to": [ 1.7581, 2.2713, 3.1022 ],
-									"shade": false,
-									"uv": [ 0.5, 7.5 ],
-									"rotationOrigin": [ -1.4419, 0.2713, 0.9022 ],
-									"rotationX": 0.209,
-									"rotationY": -0.161,
-									"rotationZ": 0.001,
-									"faces": {
-										"north": { "texture": "#steel.png", "uv": [ 0.5, 7.5, 3.5, 9.5 ], "autoUv": false, "snapUv": false },
-										"east": { "texture": "#steel.png", "uv": [ 3.5, 7.5, 5.5, 9.5 ], "autoUv": false, "snapUv": false },
-										"south": { "texture": "#steel.png", "uv": [ 5.5, 7.5, 8.5, 9.5 ], "autoUv": false, "snapUv": false },
-										"west": { "texture": "#steel.png", "uv": [ 8.5, 7.5, 10.5, 9.5 ], "autoUv": false, "snapUv": false },
-										"up": { "texture": "#steel.png", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "snapUv": false },
-										"down": { "texture": "#steel.png", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "snapUv": false }
-									}
 								}
 							]
-						},
-						{
-							"name": "UpperArmR_geo",
-							"from": [ -0.9419, -3.2287, 0.0022 ],
-							"to": [ 2.0581, 0.2713, 2.0022 ],
-							"uv": [ 31.0, 38.5 ],
-							"rotationOrigin": [ -0.9419, -3.2287, 0.0022 ],
-							"rotationX": 0.221,
-							"rotationY": -0.187,
-							"rotationZ": 0.006,
-							"faces": {
-								"north": { "texture": "#seraph-naked-hairless.png", "uv": [ 20.5, 45.5, 23.5, 49.0 ], "autoUv": false, "snapUv": false },
-								"east": { "texture": "#seraph-naked-hairless.png", "uv": [ 18.5, 45.5, 20.5, 49.0 ], "autoUv": false, "snapUv": false },
-								"south": { "texture": "#seraph-naked-hairless.png", "uv": [ 25.5, 45.5, 28.5, 49.0 ], "autoUv": false, "snapUv": false },
-								"west": { "texture": "#seraph-naked-hairless.png", "uv": [ 23.5, 45.5, 25.5, 49.0 ], "autoUv": false, "snapUv": false },
-								"up": { "texture": "#seraph-naked-hairless.png", "uv": [ 23.5, 42.5, 25.5, 45.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-								"down": { "texture": "#seraph-naked-hairless.png", "uv": [ 23.5, 49.0, 25.5, 52.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
-							}
 						}
 					]
 				}
