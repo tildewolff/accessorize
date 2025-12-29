@@ -1,5 +1,6 @@
 {
 	"editor": {
+		"backDropShape": "C:/Users/Admin/AppData/Roaming/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
 		"allAngles": true,
 		"entityTextureMode": false
 	},
@@ -7,18 +8,16 @@
 	"textureHeight": 76,
 	"textureSizes": {
 		"fibers.png": [32,32],
-		"black.png": [32,32],
-		"seraph-naked-hairless.png": [32,76],
-		"silverchalice.png": [48,48]
+		"black.png": [32,32]
 	},
 	"textures": {
-		"black.png": "block/black",
-		"fibers.png": "item/resource/fibers"
+		"black.png": "game:block/black",
+		"fibers.png": "game:item/resource/fibers"
 	},
 	"elements": [
 		{
 			"name": "Origin",
-			"stepParentName": "eyesroot",
+			"stepParentName": "Head",
 			"from": [ 0.0, 2.2, 2.5 ],
 			"to": [ 0.0, 2.2, 2.5 ],
 			"rotationOrigin": [ 0.0, 2.2, 2.5 ],

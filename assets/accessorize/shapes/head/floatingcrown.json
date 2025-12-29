@@ -8,9 +8,7 @@
 	"textureHeight": 64,
 	"textureSizes": {
 		"gold.png": [64,64],
-		"seraph-naked-hairless.png": [64,64],
 		"malachite.png": [16,16],
-		"silverchalice.png": [48,48],
 		"vintage.png": [64,64]
 	},
 	"textures": {

@@ -8,9 +8,7 @@
 	"textureHeight": 76,
 	"textureSizes": {
 		"fibers.png": [32,32],
-		"black.png": [32,32],
-		"seraph-naked-hairless.png": [32,76],
-		"silverchalice.png": [48,48]
+		"black.png": [32,32]
 	},
 	"textures": {
 		"black.png": "game:block/black",
@@ -19,7 +17,7 @@
 	"elements": [
 		{
 			"name": "Eyepatch",
-			"stepParentName": "L eye2",
+			"stepParentName": "Head",
 			"from": [ -0.1, 0.5, 0.7 ],
 			"to": [ -0.1, 0.5, 0.7 ],
 			"rotationOrigin": [ -0.1, 0.5, 0.7 ],
