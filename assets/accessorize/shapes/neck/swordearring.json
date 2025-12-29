@@ -22,13 +22,12 @@
 	"elements": [
 		{
 			"name": "PairOrigin",
-			"stepParentName": "Neck",
-			"from": [ 1.35, 4.83, 1.1 ],
-			"to": [ 1.35, 4.83, 1.1 ],
+			"stepParentName": "Head",
+			"from": [ 2.95, 2.43, 2.25 ],
+			"to": [ 2.95, 2.43, 2.25 ],
 			"uv": [ 999.0, 999.0 ],
-			"rotationOrigin": [ 1.35, 4.825, 1.15 ],
+			"rotationOrigin": [ 2.95, 2.425, 2.25 ],
 			"rotationY": 180.0,
-			"rotationZ": 10.0,
 			"faces": {
 			},
 			"children": [
