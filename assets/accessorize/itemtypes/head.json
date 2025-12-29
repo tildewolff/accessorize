@@ -7,7 +7,7 @@
       "code": "head",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
-      "states": ["spikedcrown"]
+      "states": ["floatingcrown"]
     }
   ],
 
