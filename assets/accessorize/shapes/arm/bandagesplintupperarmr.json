@@ -1,67 +1,56 @@
 {
 	"editor": {
-		"backDropShape": "entity/humanoid/trader",
-		"collapsedPaths": "",
 		"allAngles": false,
-		"entityTextureMode": false,
-		"singleTexture": true,
-		"vsFormatConverted": false
+		"entityTextureMode": false
 	},
 	"textureWidth": 24,
 	"textureHeight": 24,
 	"textureSizes": {
-		"seraph-naked-hairless.png": [32, 76],
-		"silverchalice.png": [48, 48],
-		"bandages.png": [24, 24]
+		"seraph-naked-hairless.png": [32,76],
+		"silverchalice.png": [48,48],
+		"bandages.png": [24,24]
 	},
 	"textures": {
-		"seraph-naked-hairless.png": "entity/humanoid/seraph-naked",
-		"silverchalice.png": "entity/humanoid/seraphskinparts/hair/lightgray",
 		"bandages.png": "entity/humanoid/traderaccessories/bandages"
 	},
 	"elements": [
 		{
 			"name": "BandageShinL",
-			"from": [2.43284, 20.25343, -4.54534],
-			"to": [2.43284, 20.25343, -4.54534],
-			"rotationOrigin": [2.43284, 20.25343, -4.54534],
-			"rotationX": 11.51911,
-			"rotationY": -0.4894,
-			"rotationZ": 4.47336,
+			"stepParentName": "UpperArmR",
+			"from": [ 1.43, 3.05, 0.75 ],
+			"to": [ 1.43, 3.05, 0.75 ],
+			"rotationOrigin": [ 1.4328, 3.0534, 0.7547 ],
+			"faces": {
+			},
 			"children": [
 				{
 					"name": "Splint",
-					"from": [-0.36383, -1.31967, -1.06683],
-					"to": [0.37617, 2.38033, -0.62283],
-					"rotationOrigin": [-0.36383, -1.31967, -0.62283],
-					"uv": [22, 18.5],
+					"from": [ -0.3638, -1.3197, -1.0668 ],
+					"to": [ 0.3762, 2.3803, -0.6228 ],
+					"rotationOrigin": [ -0.3638, -1.3197, -0.6228 ],
 					"faces": {
-						"north": {"texture": "#bandages.png", "uv": [23.5, 19, 22.5, 24], "autoUv": false, "snapUv": false},
-						"east": {"texture": "#bandages.png", "uv": [22.5, 19, 22, 24], "autoUv": false, "snapUv": false},
-						"south": {"texture": "#bandages.png", "uv": [1, 0, 0, 5], "autoUv": false, "snapUv": false},
-						"west": {"texture": "#bandages.png", "uv": [24, 19, 23.5, 24], "autoUv": false, "snapUv": false},
-						"up": {"texture": "#bandages.png", "uv": [22, 19, 23, 18.5], "autoUv": false, "snapUv": false},
-						"down": {"texture": "#bandages.png", "uv": [23, 19, 24, 18.5], "autoUv": false, "snapUv": false}
+						"north": { "texture": "#bandages.png", "uv": [ 23.5, 19.0, 22.5, 24.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bandages.png", "uv": [ 22.5, 19.0, 22.0, 24.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bandages.png", "uv": [ 1.0, 0.0, 0.0, 5.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bandages.png", "uv": [ 24.0, 19.0, 23.5, 24.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bandages.png", "uv": [ 22.0, 19.0, 23.0, 18.5 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bandages.png", "uv": [ 23.0, 19.0, 24.0, 18.5 ], "autoUv": false, "snapUv": false }
 					}
 				},
 				{
 					"name": "BandageShinL_geo",
-					"from": [-1.52383, -0.80167, -0.80883],
-					"to": [1.62867, 2.15833, 1.34717],
-					"rotationOrigin": [-1.47383, -0.80167, 1.59717],
-					"uv": [8, 15],
+					"from": [ -1.5238, -0.8017, -0.8088 ],
+					"to": [ 1.6287, 2.1583, 1.3472 ],
+					"rotationOrigin": [ -1.4738, -0.8017, 1.5972 ],
 					"faces": {
-						"north": {"texture": "#bandages.png", "uv": [18.5, 18, 15, 22], "autoUv": false, "snapUv": false},
-						"east": {"texture": "#bandages.png", "uv": [15, 18, 12, 22], "autoUv": false, "snapUv": false},
-						"south": {"texture": "#bandages.png", "uv": [11.5, 18, 8, 22], "autoUv": false, "snapUv": false},
-						"west": {"texture": "#bandages.png", "uv": [22, 18, 19, 22], "autoUv": false, "snapUv": false},
-						"up": {"texture": "#bandages.png", "uv": [6, 18, 10, 15], "autoUv": false, "snapUv": false},
-						"down": {"texture": "#bandages.png", "uv": [6, 18, 9.5, 15], "autoUv": false, "snapUv": false}
+						"north": { "texture": "#bandages.png", "uv": [ 18.5, 18.0, 15.0, 22.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bandages.png", "uv": [ 15.0, 18.0, 12.0, 22.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bandages.png", "uv": [ 11.5, 18.0, 8.0, 22.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bandages.png", "uv": [ 22.0, 18.0, 19.0, 22.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bandages.png", "uv": [ 6.0, 18.0, 10.0, 15.0 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bandages.png", "uv": [ 6.0, 18.0, 9.5, 15.0 ], "autoUv": false, "snapUv": false }
 					}
 				}
-			],
-			"stepParentName": "LowerFootL"
+			]
 		}
-	],
-	"animations": []
-}
+	]}
