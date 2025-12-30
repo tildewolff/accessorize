@@ -12,8 +12,8 @@
 		"silverchalice.png": [48,48]
 	},
 	"textures": {
-		"plain.png": "block/glass/plain",
-		"brass.png": "block/metal/plate/brass"
+		"plain.png": "game:block/glass/plain",
+		"brass.png": "game:block/metal/plate/brass"
 	},
 	"elements": [
 		{

@@ -12,9 +12,7 @@
 		"bandages.png": [24, 24]
 	},
 	"textures": {
-		"seraph-naked-hairless.png": "entity/humanoid/seraph-naked",
-		"silverchalice.png": "entity/humanoid/seraphskinparts/hair/lightgray",
-		"bandages.png": "entity/humanoid/traderaccessories/bandages"
+		"bandages.png": "game:entity/humanoid/traderaccessories/bandages"
 	},
 	"elements": [
 		{
