@@ -1,4 +1,9 @@
 {
+  "item-clothes-arm-bandagesplintupperarml": "Bandage and splint (left arm)",
+  "itemdesc-clothes-arm-bandagesplintupperarml": "A bandage and splint wrapped around the left arm",
+  "item-clothes-arm-bandagesplintupperarmr": "Bandage and splint (right arm)",
+  "itemdesc-clothes-arm-bandagesplintupperarmr": "A bandage and splint wrapped around the right arm",
+
   "item-clothes-face-eyepatchboth": "Double eyepatch",
   "itemdesc-clothes-face-eyepatchboth": "Eyepatches covering both eyes.",
   "item-clothes-face-eyepatchr": "Right eyepatch",
@@ -7,6 +12,20 @@
   "itemdesc-clothes-face-eyepatchl": "Eyepatch covering the left eye.",
   "item-clothes-face-glassesround": "Round glasses",
   "itemdesc-clothes-face-glassesround": "Perfectly round glasses",
-  "item-clothes-head-floatingcrown": "Cool crown ig",
-  "itemdesc-clothes-face-floatingcrown": "very cool crown"
+  "item-clothes-face-monocleround": "Round monocle",
+  "itemdesc-clothes-face-monocleround": "A monocle with a round lens and frame",
+  "item-clothes-face-monoclesquare": "Square monocle",
+  "itemdesc-clothes-face-monoclesquare": "A monocle with a square lens and frame",
+
+  "item-clothes-foot-bandagesplintlegl": "Bandage and splint (Left Leg)",
+  "itemdesc-clothes-foot-bandagesplintlegl": "A bandage and splint wrapped around the left leg",
+  "item-clothes-foot-bandagesplintlegr": "Bandage and splint (Right Leg)",
+  "itemdesc-clothes-foot-bandagesplintlegr": "A bandage and splint wrapped around the right leg",
+  
+  "item-clothes-head-floatingcrown": "Floating crown",
+  "itemdesc-clothes-face-floatingcrown": "A crown that looks like its floating",
+
+  "item-clothes-neck-swordearring": "Sword Earrings",
+  "itemdesc-clothes-neck-swordearring": "Earrings shaped like small swords"
+
 }

@@ -2,18 +2,18 @@
   "code": "clothes",
   "class": "ItemWearable",
   "variantgroups": [
-    { "code": "category", "states": ["face"] },
+    { "code": "category", "states": ["foot"] },
     {
-      "code": "face",
+      "code": "foot",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
-      "states": ["glassesround", "eyepatchl", "eyepatchr", "eyepatchboth", "monocleround", "monoclesquare"]
+      "states": ["bandagesplintlegl", "bandagesplintlegr"]
     }
   ],
 
   "storageFlags": 128,
   "shape": {
-    "base": "face/{face}"
+    "base": "foot/{foot}"
   },
 
   "textures": {
@@ -21,7 +21,7 @@
   },
 
   "attributes": {
-    "clothescategory": "face",
+    "clothescategory": "foot",
     "wearableAttachment": true,
     "wearableTexturePrefixCode": null,
     "displaycaseable": true,

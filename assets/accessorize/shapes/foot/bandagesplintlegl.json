@@ -1,0 +1,76 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"singleTexture": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+		"seraph-naked-hairless.png": [32, 76],
+		"silverchalice.png": [48, 48],
+		"bandages.png": [24, 24]
+	},
+	"textures": {
+		"seraph-naked-hairless.png": "entity/humanoid/seraph-naked",
+		"silverchalice.png": "entity/humanoid/seraphskinparts/hair/lightgray",
+		"bandages.png": "entity/humanoid/traderaccessories/bandages"
+	},
+	"elements": [
+		{
+			"name": "BandageShinL",
+			"from": [1.94167, 2.13333, 2.10833],
+			"to": [1.94167, 2.13333, 2.10833],
+			"rotationOrigin": [1.94167, 2.13333, 2.10833],
+			"children": [
+				{
+					"name": "BandageFoot",
+					"from": [-0.99167, -2.18333, -2.15833],
+					"to": [1.00833, -1.08333, 1.04167],
+					"rotationOrigin": [-0.99167, -2.18333, -2.15833],
+					"uv": [14, 9],
+					"faces": {
+						"north": {"texture": "#bandages.png", "uv": [17.5, 11, 19.5, 12], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#bandages.png", "uv": [19.5, 11, 22.5, 12], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#bandages.png", "uv": [17.5, 10, 19.5, 11], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#bandages.png", "uv": [21, 13, 24, 14], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#bandages.png", "uv": [15.5, 10, 17.5, 13], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#bandages.png", "uv": [15.5, 10, 17.5, 13], "autoUv": false, "snapUv": false}
+					}
+				},
+				{
+					"name": "Splint",
+					"from": [-0.49167, -1.78333, 0.84167],
+					"to": [0.50833, 3.21667, 1.44167],
+					"rotationOrigin": [-0.49167, -1.78333, 0.84167],
+					"uv": [22, 18.5],
+					"faces": {
+						"north": {"texture": "#bandages.png", "uv": [0, 0, 1, 5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#bandages.png", "uv": [22, 19, 22.5, 24], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#bandages.png", "uv": [22.5, 19, 23.5, 24], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#bandages.png", "uv": [23.5, 19, 24, 24], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#bandages.png", "uv": [22, 18.5, 23, 19], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#bandages.png", "uv": [23, 18.5, 24, 19], "autoUv": false, "snapUv": false}
+					}
+				},
+				{
+					"name": "BandageShinL_geo",
+					"from": [-1.99167, -1.08333, -2.15833],
+					"to": [2.13333, 2.91667, 0.99167],
+					"rotationOrigin": [-1.99167, -1.08333, -2.15833],
+					"uv": [8, 15],
+					"faces": {
+						"north": {"texture": "#bandages.png", "uv": [8, 18, 11.5, 22], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#bandages.png", "uv": [12, 18, 15, 22], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#bandages.png", "uv": [15, 18, 18.5, 22], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#bandages.png", "uv": [19, 18, 22, 22], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#bandages.png", "uv": [6, 15, 10, 18], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#bandages.png", "uv": [6, 15, 9.5, 18], "autoUv": false, "snapUv": false}
+					}
+				}
+			],
+			"stepParentName": "LowerFootL"
+		}
+	],
+	"animations": []
+}
