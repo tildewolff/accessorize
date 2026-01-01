@@ -29,8 +29,30 @@
       "translation": { "x": 0, "y": -1.8, "z": 0 },
       "rotation": { "x": 0, "y": 16, "z": 84 },
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
-    }
+    },
+  "attributesByType": {
+    "neck/swordearring": {
+    "guiTransform": {
+    "translation": { "x": -38, "y": -55, "z": 0 },
+    "rotation": { "x": 173, "y": 18, "z": -12 },
+    "origin": { "x": 0.19, "y": 1.94, "z": 0.4 },
+    "scale": 6
   },
+    "tpHandTransform": {
+    "translation": { "x": -1.1, "y": -1.5, "z": -1.2 },
+    "rotation": { "x": -5, "y": -48, "z": 5 },
+    "origin": { "x": 0.55, "y": -0.14, "z": 0.61 },
+    "scale": 0.55
+    },
+      "onDisplayTransform": {
+      "translation": { "x": -0.2, "y": -2, "z": 0.4 },
+      "rotation": { "x": -2, "y": 16, "z": 82 },
+      "origin": { "x": -0.35, "y": 0.95, "z": -5.45 },
+      "scale": 0.95
+    }
+  }
+  }
+},
   "creativeinventory": {
     "general": ["*"],
     "items": ["*"],
@@ -60,3 +82,4 @@
     "scale": 3.51
   }
 }
+
