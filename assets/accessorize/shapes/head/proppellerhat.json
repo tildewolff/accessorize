@@ -10,7 +10,7 @@
 		"main texture propeller.png": [16,16]
 	},
 	"textures": {
-		"main_texture_propeller.png": "textures/main_texture_propeller"
+		"main_texture_propeller.png": "textures/main_texture_propeller.png"
 	},
 	"elements": [
 		{
