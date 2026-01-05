@@ -1,0 +1,41 @@
+[
+  {
+    "ingredientPattern": "B,Q,HGC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:metalbit-gold",
+        "quantity": 5
+      },
+      "G": {
+        "type": "item",
+        "code": "game:hoop-gold",
+        "quantity": 1
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:clearquartz",
+
+        "quantity": 5
+      },
+      "H": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true 
+      },
+      "C": { 
+        "type": "item", 
+        "code": "game:chisel-*", 
+        "isTool": true 
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "accessorize:head-floatingcrown",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  }
+]
