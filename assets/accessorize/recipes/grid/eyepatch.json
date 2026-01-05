@@ -33,7 +33,7 @@
     "ingredients": {
       "L": {
         "type": "item",
-        "code": "accessorize:face-eyepatchl",
+        "code": "accessorize:clothes-face-eyepatchl",
         "quantity": 5
       }
     },
@@ -41,7 +41,25 @@
     "height": 1,
     "output": {
       "type": "item",
-      "code": "accessorize:face-eyepatchr",
+      "code": "accessorize:clothes-face-eyepatchr",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": {
+        "type": "item",
+        "code": "accessorize:clothes-face-eyepatchr",
+        "quantity": 5
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-face-eyepatchl",
       "quantity": 1
     },
     "recipeGroup": 1
