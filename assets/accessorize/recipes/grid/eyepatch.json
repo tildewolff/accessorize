@@ -1,0 +1,48 @@
+[
+  {
+    "ingredientPattern": "F,BK",
+    "ingredients": {
+      "F": {
+        "type": "item",
+        "code": "game:flaxfiber",
+        "quantity": 5
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true 
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "accessorize:face-eyepatchl",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "accessorize:face-eyepatchl",
+        "quantity": 5
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "accessorize:face-eyepatchr",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  }
+]
