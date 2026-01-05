@@ -1,6 +1,6 @@
 [
   {
-    "ingredientPattern": "B,Q,HGC",
+    "ingredientPattern": "_B_,_Q_,HGC",
     "ingredients": {
       "B": {
         "type": "item",
@@ -21,19 +21,21 @@
       "H": { 
         "type": "item", 
         "code": "game:hammer-*", 
-        "isTool": true 
+        "isTool": true,
+        "toolDurabilityCost": 5
       },
       "C": { 
         "type": "item", 
         "code": "game:chisel-*", 
-        "isTool": true 
+        "isTool": true,
+        "toolDurabilityCost": 5
       }
     },
-    "width": 1,
-    "height": 1,
+    "width": 3,
+    "height": 3,
     "output": {
       "type": "item",
-      "code": "accessorize:head-floatingcrown",
+      "code": "accessorize:clothes-head-floatingcrown",
       "quantity": 1
     },
     "recipeGroup": 1

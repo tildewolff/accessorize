@@ -1,6 +1,6 @@
 [
   {
-    "ingredientPattern": "F,BK",
+    "ingredientPattern": "F_,BK",
     "ingredients": {
       "F": {
         "type": "item",
@@ -15,14 +15,15 @@
       "K": { 
         "type": "item", 
         "code": "game:knife-*", 
-        "isTool": true 
+        "isTool": true,
+        "toolDurabilityCost": 5
       }
     },
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "output": {
       "type": "item",
-      "code": "accessorize:face-eyepatchl",
+      "code": "accessorize:clothes-face-eyepatchl",
       "quantity": 1
     },
     "recipeGroup": 1
