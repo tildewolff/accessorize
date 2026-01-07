@@ -1,15 +1,15 @@
 {
-  "item-clothes-arm-bandagesplintupperarml": "Bandage and splint (left arm)",
+  "item-clothes-arm-bandagesplintupperarml": "[WIP]Bandage and splint (left arm)",
   "itemdesc-clothes-arm-bandagesplintupperarml": "A bandage and splint wrapped around the left arm",
-  "item-clothes-arm-bandagesplintupperarmr": "Bandage and splint (right arm)",
+  "item-clothes-arm-bandagesplintupperarmr": "[WIP]Bandage and splint (right arm)",
   "itemdesc-clothes-arm-bandagesplintupperarmr": "A bandage and splint wrapped around the right arm",
 
   "item-clothes-face-eyepatchboth": "Double eyepatch",
-  "itemdesc-clothes-face-eyepatchboth": "Eyepatches covering both eyes.",
+  "itemdesc-clothes-face-eyepatchboth": "Eyepatches covering both eyes",
   "item-clothes-face-eyepatchr": "Right eyepatch",
-  "itemdesc-clothes-face-eyepatchr": "Eyepatch covering the Right eye.",
+  "itemdesc-clothes-face-eyepatchr": "Eyepatch covering the Right eye",
   "item-clothes-face-eyepatchl": "Left eyepatch",
-  "itemdesc-clothes-face-eyepatchl": "Eyepatch covering the left eye.",
+  "itemdesc-clothes-face-eyepatchl": "Eyepatch covering the left eye",
   "item-clothes-face-glassesround": "Round glasses",
   "itemdesc-clothes-face-glassesround": "Perfectly round glasses",
   "item-clothes-face-monocleround": "Round monocle",
@@ -17,9 +17,9 @@
   "item-clothes-face-monoclesquare": "Square monocle",
   "itemdesc-clothes-face-monoclesquare": "A monocle with a square lens and frame",
 
-  "item-clothes-foot-bandagesplintlegl": "Bandage and splint (Left Leg)",
+  "item-clothes-foot-bandagesplintlegl": "[WIP]Bandage and splint (Left Leg)",
   "itemdesc-clothes-foot-bandagesplintlegl": "A bandage and splint wrapped around the left leg",
-  "item-clothes-foot-bandagesplintlegr": "Bandage and splint (Right Leg)",
+  "item-clothes-foot-bandagesplintlegr": "[WIP]Bandage and splint (Right Leg)",
   "itemdesc-clothes-foot-bandagesplintlegr": "A bandage and splint wrapped around the right leg",
   
   "item-clothes-head-floatingcrown": "Floating crown",

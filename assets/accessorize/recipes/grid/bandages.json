@@ -1,0 +1,219 @@
+[
+  {
+    "ingredientPattern": "_S,KL",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 1
+      },
+      "L": { 
+        "type": "block", 
+        "code": "game:linen-*-down", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-foot-bandagesplintlegr",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "S_,LK",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 1
+      },
+      "L": { 
+        "type": "block", 
+        "code": "game:linen-*-down", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-foot-bandagesplintlegl",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "_L,KS",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 1
+      },
+      "L": { 
+        "type": "block", 
+        "code": "game:linen-*-down", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-arm-bandagesplintupperarmr",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "L_,SK",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 1
+      },
+      "L": { 
+        "type": "block", 
+        "code": "game:linen-*-down", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-arm-bandagesplintupperarml",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "KB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "accessorize:clothes-foot-bandagesplintlegr",
+        "quantity": 1
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "gameflaxtwine",
+      "quantity": 2
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "KB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "accessorize:clothes-foot-bandagesplintlegl",
+        "quantity": 1
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "gameflaxtwine",
+      "quantity": 2
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "KB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "accessorize:clothes-arm-bandagesplintupperarmr",
+        "quantity": 1
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "gameflaxtwine",
+      "quantity": 2
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "KB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "accessorize:clothes-arm-bandagesplintupperarml",
+        "quantity": 1
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "gameflaxtwine",
+      "quantity": 2
+    },
+    "recipeGroup": 1
+  }
+
+]

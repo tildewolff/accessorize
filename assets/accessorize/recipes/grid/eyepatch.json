@@ -1,11 +1,11 @@
 [
   {
-    "ingredientPattern": "F_,BK",
+    "ingredientPattern": "_F,KB",
     "ingredients": {
       "F": {
         "type": "item",
-        "code": "game:flaxfiber",
-        "quantity": 5
+        "code": "game:flaxfibers",
+        "quantity": 2
       },
       "B": {
         "type": "item",
@@ -18,12 +18,43 @@
         "isTool": true,
         "toolDurabilityCost": 5
       }
+      
     },
     "width": 2,
     "height": 2,
     "output": {
       "type": "item",
       "code": "accessorize:clothes-face-eyepatchl",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+    {
+    "ingredientPattern": "F_,BK",
+    "ingredients": {
+      "F": {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+      
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-face-eyepatchr",
       "quantity": 1
     },
     "recipeGroup": 1
@@ -60,6 +91,54 @@
     "output": {
       "type": "item",
       "code": "accessorize:clothes-face-eyepatchl",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "KR",
+    "ingredients": {
+      "R": {
+        "type": "item",
+        "code": "accessorize:clothes-face-eyepatchr",
+        "quantity": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxfibers",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "KL",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "accessorize:clothes-face-eyepatchl",
+        "quantity": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxfibers",
       "quantity": 1
     },
     "recipeGroup": 1
