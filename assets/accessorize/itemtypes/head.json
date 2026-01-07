@@ -17,7 +17,6 @@
   },
 
   "textures": {
-    "base": { "base": "textures/clothes/head/{head}.png"},
     "seraph": { "base": "game:block/transparent" }
   },
 

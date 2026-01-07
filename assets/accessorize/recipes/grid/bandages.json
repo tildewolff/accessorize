@@ -210,7 +210,7 @@
     "height": 1,
     "output": {
       "type": "item",
-      "code": "gameflaxtwine",
+      "code": "game:flaxtwine",
       "quantity": 2
     },
     "recipeGroup": 1
