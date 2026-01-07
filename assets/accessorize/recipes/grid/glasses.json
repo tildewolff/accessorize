@@ -129,7 +129,7 @@
     "recipeGroup": 1
   },
   {
-    "ingredientPattern": "HS",
+    "ingredientPattern": "HR",
     "ingredients": {
       "R": {
         "type": "item",

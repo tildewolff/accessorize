@@ -65,7 +65,7 @@
       "L": {
         "type": "item",
         "code": "accessorize:clothes-face-eyepatchl",
-        "quantity": 5
+        "quantity": 1
       }
     },
     "width": 1,
@@ -83,7 +83,7 @@
       "R": {
         "type": "item",
         "code": "accessorize:clothes-face-eyepatchr",
-        "quantity": 5
+        "quantity": 1
       }
     },
     "width": 1,
@@ -101,7 +101,7 @@
       "R": {
         "type": "item",
         "code": "accessorize:clothes-face-eyepatchr",
-        "quantity": 5
+        "quantity": 1
       },
       "K": { 
         "type": "item", 
@@ -125,7 +125,7 @@
       "L": {
         "type": "item",
         "code": "accessorize:clothes-face-eyepatchl",
-        "quantity": 5
+        "quantity": 1
       },
       "K": { 
         "type": "item", 

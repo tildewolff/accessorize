@@ -9,7 +9,7 @@
       },
       "R": {
         "type": "item",
-        "code": "game:cinnabar",
+        "code": "game:ore-cinnabar",
         "quantity": 1
       },
       "H": { 
@@ -34,6 +34,6 @@
     },
     "recipeGroup": 1
   }
-  
+
 
 ]
