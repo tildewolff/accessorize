@@ -1,0 +1,39 @@
+[
+  {
+    "op": "add",
+    "path": "/allowedVariants/10",
+    "value": "*-brass",
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/reinforcementStrengthByType/*-brass",
+    "value": 200,
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/metalnailsandstrips-brass",
+    "value": {
+      "meltingPoint": 920,
+      "meltingDuration": 30,
+      "smeltedRatio": 4,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-brass",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/materialDensityByType/*-brass",
+    "value": 6570,
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "side": "Server"
+  }
+]

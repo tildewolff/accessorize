@@ -1,0 +1,8 @@
+[
+  {
+    "op": "add",
+    "path": "/item-metalnailsandstrips-brass",
+    "value": "Nails and strips (Brass)",
+    "file": "game:lang/en.json"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/9",
+    "value": "brass",
+    "file": "game:recipes/smithing/nails.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/9",
+    "value": "brass",
+    "file": "game:recipes/smithing/nails.json",
+    "side": "Server"
+  }
+]
