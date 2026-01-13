@@ -10,7 +10,7 @@
 		"gold.png": [128,128]
 	},
 	"textures": {
-		"gold.png": "block/metal/armor-generic/gold"
+		"gold.png": "game:block/metal/armor-generic/gold"
 	},
 	"elements": [
 		{
