@@ -7,7 +7,7 @@
       "code": "neck",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
-      "states": ["swordearring"]
+      "states": ["swordearring", "chokerringtest"]
     }
   ],
 
