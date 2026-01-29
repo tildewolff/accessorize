@@ -8,1235 +8,1422 @@
 	"textureWidth": 128,
 	"textureHeight": 128,
 	"textureSizes": {
-		"roguetricorne": [48,48],
-		"tricorne": [128,128]
+		"tricorne.png": [128, 128]
 	},
 	"textures": {
-		"tricorne": "tricorne"
+		"tricorne.png": "tricorne"
 	},
 	"elements": [
 		{
 			"name": "Root - Centered",
-			"stepParentName": "Head",
-			"from": [ 0.0, 4.5, 0.0 ],
-			"to": [ 5.5, 5.5, 5.0 ],
-			"uv": [ 26.5, 29.0 ],
-			"rotationOrigin": [ 2.75, 5.0, 2.5 ],
-			"rotationZ": -5.0,
-			"faces": {
-				"north": { "texture": "#tricorne", "uv": [ 27.0, 34.0, 32.0, 35.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-				"east": { "texture": "#tricorne", "uv": [ 32.0, 34.0, 37.0, 35.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-				"south": { "texture": "#tricorne", "uv": [ 37.0, 34.0, 42.0, 35.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-				"west": { "texture": "#tricorne", "uv": [ 42.0, 34.0, 47.0, 35.0 ] },
-				"up": { "texture": "#tricorne", "uv": [ 27.0, 29.0, 32.0, 34.0 ] },
-				"down": { "texture": "#tricorne", "uv": [ 32.0, 29.0, 37.0, 34.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-			},
+			"from": [2.75, 5, 2.5],
+			"to": [2.75, 5, 2.5],
+			"rotationOrigin": [2.75, 5, 2.5],
+			"rotationZ": -5,
 			"children": [
 				{
 					"name": "Tricorne Inner Brim",
-					"from": [ -0.55, 0.0, -0.6 ],
-					"to": [ 6.2, 1.6, 5.6 ],
-					"autoUnwrap": false,
-					"uv": [ 0.0, 28.0 ],
-					"rotationOrigin": [ 2.75, 1.5, 2.5 ],
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 0.0, 39.0, 12.0, 42.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 12.0, 39.0, 25.0, 42.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 25.0, 39.0, 37.0, 42.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 37.0, 39.0, 50.0, 42.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 0.0, 28.0, 12.0, 39.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 12.0, 28.0, 24.0, 39.0 ], "autoUv": false }
-					},
+					"from": [0, 1, 0],
+					"to": [0, 1, 0],
+					"rotationOrigin": [0, 1, 0],
 					"children": [
 						{
 							"name": "Tricorne Bowl Bottom",
-							"from": [ 0.65, 1.25, 0.6 ],
-							"to": [ 6.15, 2.25, 5.6 ],
-							"autoUnwrap": false,
-							"uv": [ 0.0, 42.5 ],
-							"rotationOrigin": [ 3.5, 1.0, 3.0 ],
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 0.0, 52.0, 10.0, 54.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 10.0, 52.0, 18.0, 54.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 18.0, 52.0, 28.0, 54.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 28.0, 52.0, 36.0, 54.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 0.0, 42.0, 11.0, 52.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 11.0, 42.0, 22.0, 52.0 ], "autoUv": false }
-							},
+							"from": [0.2, -0.5, -0.1],
+							"to": [0.2, -0.5, -0.1],
+							"rotationOrigin": [0.2, -0.5, -0.1],
 							"children": [
 								{
 									"name": "Tricorne Bowl Middle",
-									"from": [ 0.5, 0.4, 0.5 ],
-									"to": [ 5.0, 1.4, 4.5 ],
-									"autoUnwrap": false,
-									"uv": [ 1.0, 56.5 ],
-									"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 0.0, 62.0, 8.0, 64.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 8.0, 62.0, 14.0, 64.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 14.0, 62.0, 22.0, 64.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 22.0, 62.0, 28.0, 64.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 0.0, 54.0, 8.0, 62.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 8.0, 54.0, 16.0, 62.0 ], "autoUv": false }
-									},
+									"from": [-0.1, 1.25, 0.1],
+									"to": [-0.1, 1.25, 0.1],
+									"rotationOrigin": [-0.1, 1.25, 0.1],
 									"children": [
 										{
 											"name": "Tricorne Bowl Top",
-											"from": [ 0.75, 0.3, 0.75 ],
-											"to": [ 3.75, 1.3, 3.25 ],
-											"autoUnwrap": false,
-											"uv": [ 0.0, 64.5 ],
-											"rotationOrigin": [ 2.25, 1.0, 2.0 ],
+											"from": [-1.5, -0.3, -1.25],
+											"to": [1.5, 0.7, 1.25],
+											"rotationOrigin": [0, 0.4, 0],
+											"uv": [0, 64.5],
 											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 0.0, 69.0, 6.0, 71.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 6.0, 69.0, 12.0, 71.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 12.0, 69.0, 18.0, 71.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 18.0, 69.0, 24.0, 71.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 0.0, 64.0, 6.0, 69.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 6.0, 64.0, 12.0, 69.0 ], "autoUv": false }
+												"north": {"texture": "#tricorne.png", "uv": [0, 69, 6, 71], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [6, 69, 12, 71], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [12, 69, 18, 71], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [18, 69, 24, 71], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [0, 64, 6, 69], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [6, 64, 12, 69], "autoUv": false, "snapUv": false}
+											}
+										},
+										{
+											"name": "Tricorne Bowl Middle_geo",
+											"from": [-2.25, -0.6, -2],
+											"to": [2.25, 0.4, 2],
+											"rotationOrigin": [-2.25, -0.6, -2],
+											"uv": [1, 56.5],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [0, 62, 8, 64], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [8, 62, 14, 64], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [14, 62, 22, 64], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [22, 62, 28, 64], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [0, 54, 8, 62], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [8, 54, 16, 62], "autoUv": false, "snapUv": false}
 											}
 										}
 									]
+								},
+								{
+									"name": "Tricorne Bowl Bottom_geo",
+									"from": [-2.85, 0.25, -2.4],
+									"to": [2.65, 1.25, 2.6],
+									"rotationOrigin": [-2.85, 0.25, -2.4],
+									"uv": [0, 42.5],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [0, 52, 10, 54], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [10, 52, 18, 54], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [18, 52, 28, 54], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [28, 52, 36, 54], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [0, 42, 11, 52], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [11, 42, 22, 52], "autoUv": false, "snapUv": false}
+									}
 								}
 							]
 						},
 						{
 							"name": "Tricorne Bottom Rim",
-							"from": [ 0.1, -0.95, 0.0 ],
-							"to": [ 7.1, 0.05, 6.2 ],
-							"autoUnwrap": false,
-							"uv": [ 1.0, 19.0 ],
-							"rotationOrigin": [ 0.1, -0.95, 0.0 ],
+							"from": [-3.2, -2.45, -3.1],
+							"to": [3.8, -1.45, 3.1],
+							"rotationOrigin": [-3.2, -2.45, -3.1],
+							"uv": [1, 19],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 0.0, 26.0, 14.0, 28.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 14.0, 26.0, 26.0, 28.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 26.0, 26.0, 40.0, 28.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 40.0, 26.0, 52.0, 28.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 0.0, 15.0, 14.0, 26.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 14.0, 15.0, 28.0, 26.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [0, 26, 14, 28], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [14, 26, 26, 28], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [26, 26, 40, 28], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [40, 26, 52, 28], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [0, 15, 14, 26], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [14, 15, 28, 26], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "Tricorne Inner Brim_geo",
+							"from": [-3.3, -1.5, -3.1],
+							"to": [3.45, 0.1, 3.1],
+							"rotationOrigin": [-3.3, -1.5, -3.1],
+							"uv": [0, 28],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [0, 39, 12, 42], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [12, 39, 25, 42], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [25, 39, 37, 42], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [37, 39, 50, 42], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [0, 28, 12, 39], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [12, 28, 24, 39], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Back Right",
-					"from": [ 7.6, 0.0, -1.0 ],
-					"to": [ 8.1, 1.75, 3.1 ],
-					"autoUnwrap": false,
-					"uv": [ 25.5, 72.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": 6.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 21.0, 81.0, 22.0, 84.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 23.0, 81.0, 31.0, 84.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 31.0, 81.0, 32.0, 84.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 33.0, 81.0, 41.0, 84.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 21.0, 73.0, 22.0, 81.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 23.0, 73.0, 24.0, 81.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": 6,
 					"children": [
 						{
 							"name": "Tricorne Back Right Brim",
-							"from": [ 0.0, -0.5, 0.25 ],
-							"to": [ 0.6, 1.0, 4.05 ],
-							"autoUnwrap": false,
-							"uv": [ 18.5, 84.0 ],
-							"rotationOrigin": [ 0.0, -0.5, 0.2 ],
-							"rotationZ": 90.0,
+							"from": [4.85, -1.5, -3.25],
+							"to": [5.45, 0, 0.55],
+							"rotationOrigin": [4.85, -1.5, -3.3],
+							"uv": [18.5, 84],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 19.0, 91.0, 21.0, 94.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 21.0, 91.0, 27.0, 94.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 27.0, 91.0, 29.0, 94.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 29.0, 91.0, 35.0, 94.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 19.0, 84.0, 21.0, 91.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 21.0, 84.0, 22.0, 91.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [19, 91, 21, 94], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [21, 91, 27, 94], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [27, 91, 29, 94], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [29, 91, 35, 94], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [19, 84, 21, 91], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [21, 84, 22, 91], "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": 90
+						},
+						{
+							"name": "Tricorne Back Right_geo",
+							"from": [4.85, -1, -3.5],
+							"to": [5.35, 0.75, 0.6],
+							"rotationOrigin": [4.85, -1, -3.5],
+							"uv": [25.5, 72.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [21, 81, 22, 84], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [23, 81, 31, 84], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [31, 81, 32, 84], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [33, 81, 41, 84], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [21, 73, 22, 81], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [23, 73, 24, 81], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Back Wing Right",
-					"from": [ 8.62, -0.25, 0.5 ],
-					"to": [ 9.12, 1.25, 3.15 ],
-					"autoUnwrap": false,
-					"uv": [ 54.5, 74.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": 45.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 55.0, 79.0, 56.0, 82.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 56.0, 79.0, 61.0, 82.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 61.0, 79.0, 62.0, 82.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 62.0, 79.0, 67.0, 82.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 55.0, 74.0, 56.0, 79.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 57.0, 74.0, 58.0, 79.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": 45,
 					"children": [
 						{
 							"name": "Tricorne Back Wing Right Brim",
-							"from": [ 0.0, -0.5, 0.25 ],
-							"to": [ 0.9, 1.5, 2.6 ],
-							"autoUnwrap": false,
-							"uv": [ 54.5, 80.5 ],
-							"rotationOrigin": [ 0.0, -0.5, 2.45 ],
-							"rotationZ": 90.0,
+							"from": [5.87, -1.75, -1.75],
+							"to": [6.77, 0.25, 0.6],
+							"rotationOrigin": [5.87, -1.75, 0.45],
+							"uv": [54.5, 80.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 55.0, 86.0, 57.0, 90.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 57.0, 86.0, 61.0, 90.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 61.0, 86.0, 63.0, 90.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 63.0, 86.0, 67.0, 90.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 55.0, 82.0, 57.0, 86.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 57.0, 82.0, 59.0, 86.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [55, 86, 57, 90], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [57, 86, 61, 90], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [61, 86, 63, 90], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [63, 86, 67, 90], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [55, 82, 57, 86], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [57, 82, 59, 86], "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": 90
+						},
+						{
+							"name": "Tricorne Back Wing Right_geo",
+							"from": [5.87, -1.25, -2],
+							"to": [6.37, 0.25, 0.65],
+							"rotationOrigin": [5.87, -1.25, -2],
+							"uv": [54.5, 74.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [55, 79, 56, 82], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [56, 79, 61, 82], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [61, 79, 62, 82], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [62, 79, 67, 82], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [55, 74, 56, 79], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [57, 74, 58, 79], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Back Wing Left",
-					"from": [ 8.62, -0.25, 1.88 ],
-					"to": [ 9.12, 1.25, 4.48 ],
-					"autoUnwrap": false,
-					"uv": [ 43.0, 79.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": -45.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 42.0, 79.0, 43.0, 82.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 43.0, 79.0, 48.0, 82.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 48.0, 79.0, 49.0, 82.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 49.0, 79.0, 54.0, 82.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 42.0, 74.0, 43.0, 79.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 44.0, 74.0, 45.0, 79.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": -45,
 					"children": [
 						{
 							"name": "Tricorne Back Wing Left Brim",
-							"from": [ 0.0, -0.5, 0.0 ],
-							"to": [ 0.9, 1.5, 2.35 ],
-							"autoUnwrap": false,
-							"uv": [ 42.0, 80.5 ],
-							"rotationOrigin": [ 0.0, -0.5, 0.0 ],
-							"rotationZ": 90.0,
+							"from": [5.87, -1.75, -0.62],
+							"to": [6.77, 0.25, 1.73],
+							"rotationOrigin": [5.87, -1.75, -0.62],
+							"uv": [42, 80.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 42.0, 86.0, 44.0, 90.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 44.0, 86.0, 48.0, 90.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 48.0, 86.0, 50.0, 90.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 50.0, 86.0, 54.0, 90.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 42.0, 82.0, 44.0, 86.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 44.0, 82.0, 46.0, 86.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [42, 86, 44, 90], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [44, 86, 48, 90], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [48, 86, 50, 90], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [50, 86, 54, 90], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [42, 82, 44, 86], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [44, 82, 46, 86], "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": 90
+						},
+						{
+							"name": "Tricorne Back Wing Left_geo",
+							"from": [5.87, -1.25, -0.62],
+							"to": [6.37, 0.25, 1.98],
+							"rotationOrigin": [5.87, -1.25, -0.62],
+							"uv": [43, 79.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [42, 79, 43, 82], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [43, 79, 48, 82], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [48, 79, 49, 82], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [49, 79, 54, 82], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [42, 74, 43, 79], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [44, 74, 45, 79], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Back Wing Left 2",
-					"from": [ 3.55, -0.5, 7.8 ],
-					"to": [ 6.05, 1.0, 8.3 ],
-					"autoUnwrap": false,
-					"uv": [ 61.0, 83.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": -2.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 69.0, 75.0, 74.0, 78.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 74.0, 75.0, 76.0, 78.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 77.0, 75.0, 82.0, 78.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 82.0, 75.0, 84.0, 78.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 69.0, 73.0, 74.0, 74.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 74.0, 73.0, 79.0, 74.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": -2,
 					"children": [
 						{
 							"name": "Tricorne Back Wing Left Brim 2",
-							"from": [ 0.0, -0.5, 0.0 ],
-							"to": [ 2.5, 5.1, 0.9 ],
-							"autoUnwrap": false,
-							"uv": [ 69.0, 78.5 ],
-							"rotationOrigin": [ 0.0, -0.5, 0.0 ],
-							"rotationX": -90.0,
+							"from": [0.8, -2, 5.3],
+							"to": [3.3, 3.6, 6.2],
+							"rotationOrigin": [0.8, -2, 5.3],
+							"uv": [69, 78.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 69.0, 81.0, 73.0, 92.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 73.0, 81.0, 75.0, 92.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 75.0, 81.0, 79.0, 92.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 79.0, 81.0, 81.0, 92.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 69.0, 78.0, 73.0, 80.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 73.0, 78.0, 77.0, 80.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [69, 81, 73, 92], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [73, 81, 75, 92], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [75, 81, 79, 92], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [79, 81, 81, 92], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [69, 78, 73, 80], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [73, 78, 77, 80], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -90
+						},
+						{
+							"name": "Tricorne Back Wing Left 2_geo",
+							"from": [0.8, -1.5, 5.3],
+							"to": [3.3, 0, 5.8],
+							"rotationOrigin": [0.8, -1.5, 5.3],
+							"uv": [61, 83.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [69, 75, 74, 78], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [74, 75, 76, 78], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [77, 75, 82, 78], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [82, 75, 84, 78], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [69, 73, 74, 74], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [74, 73, 79, 74], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Back Wing Right 2",
-					"from": [ 3.55, -0.5, -3.3 ],
-					"to": [ 6.05, 1.0, -2.8 ],
-					"autoUnwrap": false,
-					"uv": [ 68.5, 90.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": 2.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 69.0, 96.0, 74.0, 99.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 74.0, 96.0, 75.0, 99.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 77.0, 96.0, 82.0, 99.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 82.0, 96.0, 84.0, 99.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 69.0, 94.0, 74.0, 95.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 74.0, 94.0, 79.0, 95.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": 2,
 					"children": [
 						{
 							"name": "Tricorne Back Wing Right Brim 2",
-							"from": [ 0.0, 0.4, 0.5 ],
-							"to": [ 2.5, 6.0, 1.4 ],
-							"autoUnwrap": false,
-							"uv": [ 68.5, 94.5 ],
-							"rotationOrigin": [ 0.0, 0.4, 0.5 ],
-							"rotationX": 90.0,
+							"from": [0.8, -1.1, -5.3],
+							"to": [3.3, 4.5, -4.4],
+							"rotationOrigin": [0.8, -1.1, -5.3],
+							"uv": [68.5, 94.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 69.0, 102.0, 73.0, 113.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 73.0, 102.0, 75.0, 113.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 75.0, 102.0, 79.0, 113.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 79.0, 102.0, 81.0, 113.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 69.0, 99.0, 73.0, 101.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 73.0, 99.0, 77.0, 101.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [69, 102, 73, 113], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [73, 102, 75, 113], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [75, 102, 79, 113], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [79, 102, 81, 113], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [69, 99, 73, 101], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [73, 99, 77, 101], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 90
+						},
+						{
+							"name": "Tricorne Back Wing Right 2_geo",
+							"from": [0.8, -1.5, -5.8],
+							"to": [3.3, 0, -5.3],
+							"rotationOrigin": [0.8, -1.5, -5.8],
+							"uv": [68.5, 90.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [69, 96, 74, 99], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [74, 96, 75, 99], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [77, 96, 82, 99], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [82, 96, 84, 99], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [69, 94, 74, 95], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [74, 94, 79, 95], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Wing Right",
-					"from": [ 1.95, -0.25, -2.62 ],
-					"to": [ 5.6, 1.75, -2.12 ],
-					"autoUnwrap": false,
-					"uv": [ 90.0, 78.0 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": 23.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 90.0, 80.0, 97.0, 84.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 97.0, 80.0, 98.0, 85.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 98.0, 80.0, 105.0, 84.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 105.0, 80.0, 106.0, 85.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 90.0, 78.0, 97.0, 79.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 97.0, 78.0, 104.0, 79.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": 23,
 					"children": [
 						{
 							"name": "Tricorne Wing Right Brim",
-							"from": [ 0.0, 0.4, 0.5 ],
-							"to": [ 3.5, 2.6, 1.4 ],
-							"autoUnwrap": false,
-							"uv": [ 90.0, 83.5 ],
-							"rotationOrigin": [ 0.0, 0.4, 0.5 ],
-							"rotationX": 90.0,
+							"from": [-0.8, -0.85, -4.62],
+							"to": [2.7, 1.35, -3.72],
+							"rotationOrigin": [-0.8, -0.85, -4.62],
+							"uv": [90, 83.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 90.0, 87.0, 96.0, 91.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 96.0, 87.0, 98.0, 91.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 98.0, 87.0, 104.0, 91.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 104.0, 87.0, 106.0, 91.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 90.0, 85.0, 96.0, 87.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 96.0, 85.0, 102.0, 87.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [90, 87, 96, 91], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [96, 87, 98, 91], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [98, 87, 104, 91], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [104, 87, 106, 91], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [90, 85, 96, 87], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [96, 85, 102, 87], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 90
+						},
+						{
+							"name": "Tricorne Wing Right_geo",
+							"from": [-0.8, -1.25, -5.12],
+							"to": [2.85, 0.75, -4.62],
+							"rotationOrigin": [-0.8, -1.25, -5.12],
+							"uv": [90, 78],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [90, 80, 97, 84], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [97, 80, 98, 85], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [98, 80, 105, 84], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [105, 80, 106, 85], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [90, 78, 97, 79], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [97, 78, 104, 79], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Wing Left",
-					"from": [ 1.95, -0.25, 7.12 ],
-					"to": [ 5.6, 1.75, 7.62 ],
-					"autoUnwrap": false,
-					"uv": [ 106.5, 78.0 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": -23.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 107.0, 80.0, 114.0, 84.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 114.0, 80.0, 115.0, 85.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 115.0, 80.0, 122.0, 84.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 122.0, 80.0, 123.0, 85.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 107.0, 78.0, 114.0, 79.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 114.0, 78.0, 121.0, 79.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": -23,
 					"children": [
 						{
 							"name": "Tricorne Wing Left Brim",
-							"from": [ 0.0, -0.5, 0.0 ],
-							"to": [ 3.5, 1.7, 0.9 ],
-							"autoUnwrap": false,
-							"uv": [ 106.5, 83.5 ],
-							"rotationOrigin": [ 0.0, -0.5, 0.0 ],
-							"rotationX": -90.0,
+							"from": [-0.8, -1.75, 4.62],
+							"to": [2.7, 0.45, 5.52],
+							"rotationOrigin": [-0.8, -1.75, 4.62],
+							"uv": [106.5, 83.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 107.0, 87.0, 113.0, 91.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 113.0, 87.0, 115.0, 91.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 115.0, 87.0, 121.0, 91.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 121.0, 87.0, 123.0, 91.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 107.0, 85.0, 114.0, 87.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 114.0, 85.0, 121.0, 87.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [107, 87, 113, 91], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [113, 87, 115, 91], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [115, 87, 121, 91], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [121, 87, 123, 91], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [107, 85, 114, 87], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [114, 85, 121, 87], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -90
+						},
+						{
+							"name": "Tricorne Wing Left_geo",
+							"from": [-0.8, -1.25, 4.62],
+							"to": [2.85, 0.75, 5.12],
+							"rotationOrigin": [-0.8, -1.25, 4.62],
+							"uv": [106.5, 78],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [107, 80, 114, 84], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [114, 80, 115, 85], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [115, 80, 122, 84], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [122, 80, 123, 85], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [107, 78, 114, 79], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [114, 78, 121, 79], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Wing Right 2",
-					"from": [ 0.35, 0.0, -2.5 ],
-					"to": [ 4.15, 1.5, -2.0 ],
-					"autoUnwrap": false,
-					"uv": [ 90.0, 90.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": 47.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 88.0, 94.0, 96.0, 97.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 96.0, 94.0, 97.0, 97.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 97.0, 94.0, 105.0, 97.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 105.0, 94.0, 106.0, 97.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 90.0, 92.0, 98.0, 93.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 98.0, 92.0, 106.0, 93.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": 47,
 					"children": [
 						{
 							"name": "Tricorne Wing Right Brim 2",
-							"from": [ 0.0, 0.0, 0.5 ],
-							"to": [ 3.5, 2.6, 1.0 ],
-							"autoUnwrap": false,
-							"uv": [ 90.0, 100.5 ],
-							"rotationOrigin": [ 0.0, 0.0, 0.5 ],
-							"rotationX": 90.0,
+							"from": [-2.4, -1, -4.5],
+							"to": [1.1, 1.6, -4],
+							"rotationOrigin": [-2.4, -1, -4.5],
+							"uv": [90, 100.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 88.0, 99.0, 95.0, 103.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 95.0, 99.0, 97.0, 103.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 97.0, 99.0, 104.0, 103.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 104.0, 99.0, 106.0, 103.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 90.0, 97.0, 96.0, 98.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 96.0, 97.0, 102.0, 98.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [88, 99, 95, 103], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [95, 99, 97, 103], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [97, 99, 104, 103], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [104, 99, 106, 103], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [90, 97, 96, 98], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [96, 97, 102, 98], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 90
+						},
+						{
+							"name": "Tricorne Wing Right 2_geo",
+							"from": [-2.4, -1, -5],
+							"to": [1.4, 0.5, -4.5],
+							"rotationOrigin": [-2.4, -1, -5],
+							"uv": [90, 90.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [88, 94, 96, 97], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [96, 94, 97, 97], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [97, 94, 105, 97], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [105, 94, 106, 97], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [90, 92, 98, 93], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [98, 92, 106, 93], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Wing Left 2",
-					"from": [ 0.35, 0.0, 7.0 ],
-					"to": [ 4.15, 1.5, 7.5 ],
-					"autoUnwrap": false,
-					"uv": [ 106.5, 90.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": -47.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 107.0, 94.0, 115.0, 97.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 115.0, 94.0, 117.0, 97.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 117.0, 94.0, 125.0, 97.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 125.0, 94.0, 127.0, 97.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 107.0, 92.0, 115.0, 93.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 115.0, 92.0, 123.0, 93.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": -47,
 					"children": [
 						{
 							"name": "Tricorne Wing Left Brim 2",
-							"from": [ 0.0, -0.5, 0.0 ],
-							"to": [ 3.5, 2.1, 0.6 ],
-							"autoUnwrap": false,
-							"uv": [ 109.5, 97.5 ],
-							"rotationOrigin": [ 0.0, -0.5, 0.0 ],
-							"rotationX": -90.0,
+							"from": [-2.4, -1.5, 4.5],
+							"to": [1.1, 1.1, 5.1],
+							"rotationOrigin": [-2.4, -1.5, 4.5],
+							"uv": [109.5, 97.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 107.0, 99.0, 114.0, 103.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"east": { "texture": "#tricorne", "uv": [ 114.0, 99.0, 116.0, 103.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 116.0, 99.0, 123.0, 103.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 123.0, 99.0, 125.0, 103.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 107.0, 97.0, 113.0, 98.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 113.0, 97.0, 119.0, 98.0 ], "rotation": 180, "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [107, 99, 114, 103], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"east": {"texture": "#tricorne.png", "uv": [114, 99, 116, 103], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [116, 99, 123, 103], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [123, 99, 125, 103], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [107, 97, 113, 98], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [113, 97, 119, 98], "rotation": 180, "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -90
+						},
+						{
+							"name": "Tricorne Wing Left 2_geo",
+							"from": [-2.4, -1, 4.5],
+							"to": [1.4, 0.5, 5],
+							"rotationOrigin": [-2.4, -1, 4.5],
+							"uv": [106.5, 90.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [107, 94, 115, 97], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [115, 94, 117, 97], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [117, 94, 125, 97], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [125, 94, 127, 97], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [107, 92, 115, 93], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [115, 92, 123, 93], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Tip Left",
-					"from": [ -3.11, 0.25, 5.15 ],
-					"to": [ -1.51, 1.25, 5.65 ],
-					"unwrapRotation": 1,
-					"autoUnwrap": false,
-					"uv": [ 39.0, 93.0 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": -17.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 36.0, 93.0, 39.0, 95.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 39.0, 93.0, 40.0, 95.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 40.0, 93.0, 43.0, 95.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 43.0, 93.0, 44.0, 95.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 36.0, 91.0, 39.0, 92.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 39.0, 91.0, 42.0, 92.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": -17,
 					"children": [
 						{
 							"name": "Tricorne Tip Left Brim",
-							"from": [ 0.1, -0.5, 0.25 ],
-							"to": [ 3.4, 1.4, 0.75 ],
-							"autoUnwrap": false,
-							"uv": [ 61.0, 98.5 ],
-							"rotationOrigin": [ 0.1, -0.5, 0.25 ],
-							"rotationX": -90.0,
+							"from": [-5.76, -1.25, 2.9],
+							"to": [-2.46, 0.65, 3.4],
+							"rotationOrigin": [-5.76, -1.25, 2.9],
+							"uv": [61, 98.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 36.0, 97.0, 42.0, 99.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 42.0, 97.0, 44.0, 99.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 44.0, 97.0, 50.0, 101.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 50.0, 97.0, 51.0, 101.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 36.0, 95.0, 42.0, 97.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 42.0, 95.0, 48.0, 96.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [36, 97, 42, 99], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [42, 97, 44, 99], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [44, 97, 50, 101], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [50, 97, 51, 101], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [36, 95, 42, 97], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [42, 95, 48, 96], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -90
+						},
+						{
+							"name": "Tricorne Tip Left_geo",
+							"from": [-5.86, -0.75, 2.65],
+							"to": [-4.26, 0.25, 3.15],
+							"rotationOrigin": [-5.86, -0.75, 2.65],
+							"uv": [39, 93],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [36, 93, 39, 95], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [39, 93, 40, 95], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [40, 93, 43, 95], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [43, 93, 44, 95], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [36, 91, 39, 92], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [39, 91, 42, 92], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Tip Right",
-					"from": [ -3.11, 0.25, -0.65 ],
-					"to": [ -1.51, 1.25, -0.15 ],
-					"autoUnwrap": false,
-					"uv": [ 36.0, 101.0 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": 17.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 36.0, 103.0, 39.0, 105.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 39.0, 103.0, 40.0, 105.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 40.0, 103.0, 43.0, 105.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 43.0, 103.0, 44.0, 105.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 36.0, 101.0, 39.0, 102.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 39.0, 101.0, 42.0, 102.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": 17,
 					"children": [
 						{
 							"name": "Tricorne Tip Right Brim",
-							"from": [ 0.1, 0.0, 0.3 ],
-							"to": [ 3.4, 1.9, 0.8 ],
-							"autoUnwrap": false,
-							"uv": [ 36.0, 104.5 ],
-							"rotationOrigin": [ 0.1, 0.0, 0.3 ],
-							"rotationX": 90.0,
+							"from": [-5.76, -0.75, -2.85],
+							"to": [-2.46, 1.15, -2.35],
+							"rotationOrigin": [-5.76, -0.75, -2.85],
+							"uv": [36, 104.5],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 36.0, 107.0, 42.0, 111.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 42.0, 107.0, 44.0, 109.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 44.0, 107.0, 50.0, 109.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 50.0, 107.0, 51.0, 111.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 36.0, 105.0, 42.0, 107.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 42.0, 105.0, 48.0, 106.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [36, 107, 42, 111], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [42, 107, 44, 109], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [44, 107, 50, 109], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [50, 107, 51, 111], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [36, 105, 42, 107], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [42, 105, 48, 106], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 90
+						},
+						{
+							"name": "Tricorne Tip Right_geo",
+							"from": [-5.86, -0.75, -3.15],
+							"to": [-4.26, 0.25, -2.65],
+							"rotationOrigin": [-5.86, -0.75, -3.15],
+							"uv": [36, 101],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [36, 103, 39, 105], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [39, 103, 40, 105], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [40, 103, 43, 105], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [43, 103, 44, 105], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [36, 101, 39, 102], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [39, 101, 42, 102], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Tricorne Back Left",
-					"from": [ 7.6, 0.0, 1.95 ],
-					"to": [ 8.1, 1.75, 6.05 ],
-					"autoUnwrap": false,
-					"uv": [ 0.0, 72.5 ],
-					"rotationOrigin": [ 2.75, 1.0, 2.5 ],
-					"rotationY": -6.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 0.0, 81.0, 1.0, 84.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 2.0, 81.0, 10.0, 84.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 10.0, 81.0, 11.0, 84.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 12.0, 81.0, 20.0, 84.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 0.0, 73.0, 1.0, 81.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 2.0, 73.0, 3.0, 81.0 ], "autoUv": false }
-					},
+					"from": [0, 0.5, 0],
+					"to": [0, 0.5, 0],
+					"rotationOrigin": [0, 0.5, 0],
+					"rotationY": -6,
 					"children": [
 						{
 							"name": "Tricorne Back Left Brim",
-							"from": [ 0.0, -0.5, 0.05 ],
-							"to": [ 0.6, 1.0, 3.96 ],
-							"autoUnwrap": false,
-							"uv": [ 0.0, 84.0 ],
-							"rotationOrigin": [ 0.0, -0.5, 0.0 ],
-							"rotationZ": 90.0,
+							"from": [4.85, -1.5, -0.5],
+							"to": [5.45, 0, 3.41],
+							"rotationOrigin": [4.85, -1.5, -0.55],
+							"uv": [0, 84],
 							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 6.0, 91.0, 8.0, 94.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 0.0, 91.0, 6.0, 94.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 14.0, 91.0, 16.0, 94.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 8.0, 91.0, 14.0, 94.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 0.0, 84.0, 2.0, 91.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 2.0, 84.0, 3.0, 91.0 ], "autoUv": false }
+								"north": {"texture": "#tricorne.png", "uv": [6, 91, 8, 94], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [0, 91, 6, 94], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [14, 91, 16, 94], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [8, 91, 14, 94], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [0, 84, 2, 91], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [2, 84, 3, 91], "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": 90
+						},
+						{
+							"name": "Tricorne Back Left_geo",
+							"from": [4.85, -1, -0.55],
+							"to": [5.35, 0.75, 3.55],
+							"rotationOrigin": [4.85, -1, -0.55],
+							"uv": [0, 72.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [0, 81, 1, 84], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [2, 81, 10, 84], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [10, 81, 11, 84], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [12, 81, 20, 84], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [0, 73, 1, 81], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [2, 73, 3, 81], "autoUv": false, "snapUv": false}
 							}
 						}
 					]
 				},
 				{
 					"name": "Hat Flat Center",
-					"from": [ -1.25, 0.09, -0.5 ],
-					"to": [ 7.75, 0.19, 5.5 ],
-					"autoUnwrap": false,
-					"uv": [ 0.0, 3.0 ],
-					"rotationOrigin": [ 2.75, 0.09, 2.5 ],
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 0.0, 12.0, 18.0, 14.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 48.0, 12.0, 60.0, 14.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 30.0, 12.0, 48.0, 14.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 18.0, 12.0, 30.0, 14.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 0.0, 0.0, 18.0, 12.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 18.0, 0.0, 36.0, 12.0 ], "autoUv": false }
-					},
+					"from": [0, -0.41, 0],
+					"to": [0, -0.41, 0],
+					"rotationOrigin": [0, -0.41, 0],
 					"children": [
 						{
 							"name": "Hat Flat Right",
-							"from": [ 1.5, 0.0, -1.4 ],
-							"to": [ 8.6, 0.1, 0.1 ],
-							"autoUnwrap": false,
-							"uv": [ 76.0, 21.0 ],
-							"rotationOrigin": [ 4.15, 1.0, 3.1 ],
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 76.0, 23.0, 90.0, 25.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 90.0, 23.0, 92.0, 25.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 92.0, 23.0, 106.0, 25.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 106.0, 23.0, 108.0, 25.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 76.0, 20.0, 92.0, 23.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 92.0, 20.0, 108.0, 23.0 ], "autoUv": false }
-							},
+							"from": [0.15, 1, 0.1],
+							"to": [0.15, 1, 0.1],
+							"rotationOrigin": [0.15, 1, 0.1],
 							"children": [
 								{
 									"name": "Hat Flat Right 2",
-									"from": [ 1.0, 0.0, -0.5 ],
-									"to": [ 6.5, 0.1, 0.0 ],
-									"autoUnwrap": false,
-									"uv": [ 76.0, 8.5 ],
-									"rotationOrigin": [ 2.45, 1.0, 3.0 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 76.0, 11.0, 86.0, 13.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 86.0, 11.0, 88.0, 13.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 88.0, 11.0, 98.0, 13.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 98.0, 11.0, 100.0, 13.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 76.0, 9.0, 86.0, 10.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 90.0, 9.0, 100.0, 10.0 ], "autoUv": false }
-									},
+									"from": [-0.2, 0, -1.5],
+									"to": [-0.2, 0, -1.5],
+									"rotationOrigin": [-0.2, 0, -1.5],
 									"children": [
 										{
 											"name": "Hat Flat Right 3",
-											"from": [ 1.2, 0.0, -0.5 ],
-											"to": [ 4.9, 0.1, 0.0 ],
-											"autoUnwrap": false,
-											"uv": [ 76.0, 25.0 ],
-											"rotationOrigin": [ 2.65, 1.0, 3.0 ],
+											"from": [-0.25, -1, -4],
+											"to": [3.45, -0.9, -3.5],
+											"rotationOrigin": [1.2, 0, -0.5],
+											"uv": [76, 25],
 											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 76.0, 27.0, 82.0, 29.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 82.0, 27.0, 84.0, 29.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 84.0, 27.0, 90.0, 29.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 90.0, 27.0, 92.0, 29.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 76.0, 26.0, 83.0, 27.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 88.0, 26.0, 100.0, 27.0 ], "autoUv": false }
+												"north": {"texture": "#tricorne.png", "uv": [76, 27, 82, 29], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [82, 27, 84, 29], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [84, 27, 90, 29], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [90, 27, 92, 29], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [76, 26, 83, 27], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [88, 26, 100, 27], "autoUv": false, "snapUv": false}
+											}
+										},
+										{
+											"name": "Hat Flat Right 2_geo",
+											"from": [-1.45, -1, -3.5],
+											"to": [4.05, -0.9, -3],
+											"rotationOrigin": [-1.45, -1, -3.5],
+											"uv": [76, 8.5],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [76, 11, 86, 13], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [86, 11, 88, 13], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [88, 11, 98, 13], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [98, 11, 100, 13], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [76, 9, 86, 10], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [90, 9, 100, 10], "autoUv": false, "snapUv": false}
 											}
 										}
 									]
 								},
 								{
 									"name": "Hat Flat Right Front",
-									"from": [ -0.9, 0.0, 0.8 ],
-									"to": [ 0.1, 0.1, 1.4 ],
-									"autoUnwrap": false,
-									"uv": [ 108.5, 4.5 ],
-									"rotationOrigin": [ -0.9, 0.0, 0.8 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 109.0, 7.0, 111.0, 9.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 111.0, 7.0, 113.0, 9.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 113.0, 7.0, 115.0, 9.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 115.0, 7.0, 117.0, 9.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 109.0, 5.0, 111.0, 7.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 111.0, 5.0, 113.0, 7.0 ], "autoUv": false }
-									},
+									"from": [-3.55, -1, -3.7],
+									"to": [-3.55, -1, -3.7],
+									"rotationOrigin": [-3.55, -1, -3.7],
 									"children": [
 										{
 											"name": "Hat Flat Right Front 2",
-											"from": [ 0.5, 0.0, -0.5 ],
-											"to": [ 1.0, 0.1, 0.0 ],
-											"autoUnwrap": false,
-											"uv": [ 108.5, 10.0 ],
-											"rotationOrigin": [ 0.5, 0.0, -0.5 ],
+											"from": [0.5, 0, -0.5],
+											"to": [1, 0.1, 0],
+											"rotationOrigin": [0.5, 0, -0.5],
+											"uv": [108.5, 10],
 											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 109.0, 12.0, 111.0, 14.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 111.0, 12.0, 113.0, 14.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 113.0, 12.0, 115.0, 14.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 115.0, 12.0, 117.0, 14.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 109.0, 10.0, 111.0, 12.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 111.0, 10.0, 113.0, 12.0 ], "autoUv": false }
+												"north": {"texture": "#tricorne.png", "uv": [109, 12, 111, 14], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [111, 12, 113, 14], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [113, 12, 115, 14], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [115, 12, 117, 14], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [109, 10, 111, 12], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [111, 10, 113, 12], "autoUv": false, "snapUv": false}
+											}
+										},
+										{
+											"name": "Hat Flat Right Front_geo",
+											"from": [0, 0, 0],
+											"to": [1, 0.1, 0.6],
+											"rotationOrigin": [0, 0, 0],
+											"uv": [108.5, 4.5],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [109, 7, 111, 9], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [111, 7, 113, 9], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [113, 7, 115, 9], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [115, 7, 117, 9], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [109, 5, 111, 7], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [111, 5, 113, 7], "autoUv": false, "snapUv": false}
 											}
 										}
 									]
+								},
+								{
+									"name": "Hat Flat Right_geo",
+									"from": [-2.65, -1, -4.5],
+									"to": [4.45, -0.9, -3],
+									"rotationOrigin": [-2.65, -1, -4.5],
+									"uv": [76, 21],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [76, 23, 90, 25], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [90, 23, 92, 25], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [92, 23, 106, 25], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [106, 23, 108, 25], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [76, 20, 92, 23], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [92, 20, 108, 23], "autoUv": false, "snapUv": false}
+									}
 								}
 							]
 						},
 						{
 							"name": "Hat Flat Left",
-							"from": [ 1.5, 0.0, 5.9 ],
-							"to": [ 8.6, 0.1, 7.4 ],
-							"autoUnwrap": false,
-							"uv": [ 76.0, 0.0 ],
-							"rotationOrigin": [ 4.15, 1.0, 3.4 ],
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 76.0, 3.0, 90.0, 5.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 90.0, 3.0, 92.0, 5.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 92.0, 3.0, 106.0, 5.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 106.0, 3.0, 108.0, 5.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 76.0, 0.0, 92.0, 3.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 92.0, 0.0, 108.0, 3.0 ], "autoUv": false }
-							},
+							"from": [0.15, 1, 0.4],
+							"to": [0.15, 1, 0.4],
+							"rotationOrigin": [0.15, 1, 0.4],
 							"children": [
 								{
 									"name": "Hat Flat Left 2",
-									"from": [ 1.0, 0.0, 1.5 ],
-									"to": [ 6.5, 0.1, 2.0 ],
-									"autoUnwrap": false,
-									"uv": [ 76.0, 4.0 ],
-									"rotationOrigin": [ 2.55, 1.0, -3.0 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 76.0, 7.0, 88.0, 9.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 88.0, 7.0, 90.0, 9.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 90.0, 7.0, 102.0, 9.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 102.0, 7.0, 104.0, 9.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 76.0, 5.0, 86.0, 6.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 90.0, 5.0, 100.0, 6.0 ], "autoUv": false }
-									},
+									"from": [-0.1, 0, -0.5],
+									"to": [-0.1, 0, -0.5],
+									"rotationOrigin": [-0.1, 0, -0.5],
 									"children": [
 										{
 											"name": "Hat Flat Left 3",
-											"from": [ 1.2, 0.0, 0.5 ],
-											"to": [ 5.1, 0.1, 1.0 ],
-											"autoUnwrap": false,
-											"uv": [ 76.0, 13.0 ],
-											"rotationOrigin": [ 2.75, 1.0, -4.0 ],
+											"from": [-0.35, -1, 5],
+											"to": [3.55, -0.9, 5.5],
+											"rotationOrigin": [1.2, 0, 0.5],
+											"uv": [76, 13],
 											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 76.0, 15.0, 86.0, 17.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 86.0, 15.0, 88.0, 17.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 88.0, 15.0, 98.0, 17.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 98.0, 15.0, 100.0, 17.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 76.0, 13.0, 83.0, 14.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 88.0, 13.0, 100.0, 14.0 ], "autoUv": false }
+												"north": {"texture": "#tricorne.png", "uv": [76, 15, 86, 17], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [86, 15, 88, 17], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [88, 15, 98, 17], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [98, 15, 100, 17], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [76, 13, 83, 14], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [88, 13, 100, 14], "autoUv": false, "snapUv": false}
+											}
+										},
+										{
+											"name": "Hat Flat Left 2_geo",
+											"from": [-1.55, -1, 4.5],
+											"to": [3.95, -0.9, 5],
+											"rotationOrigin": [-1.55, -1, 4.5],
+											"uv": [76, 4],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [76, 7, 88, 9], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [88, 7, 90, 9], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [90, 7, 102, 9], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [102, 7, 104, 9], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [76, 5, 86, 6], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [90, 5, 100, 6], "autoUv": false, "snapUv": false}
 											}
 										}
 									]
 								},
 								{
 									"name": "Hat Flat Left Front",
-									"from": [ -0.9, 0.0, 0.0 ],
-									"to": [ 0.0, 0.1, 0.7 ],
-									"autoUnwrap": false,
-									"uv": [ 108.5, 0.0 ],
-									"rotationOrigin": [ -0.9, 0.0, 0.0 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 109.0, 2.0, 111.0, 4.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 111.0, 2.0, 113.0, 4.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 113.0, 2.0, 115.0, 4.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 115.0, 2.0, 117.0, 4.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 109.0, 0.0, 111.0, 2.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 111.0, 0.0, 113.0, 2.0 ], "autoUv": false }
-									},
+									"from": [-3.55, -1, 2.5],
+									"to": [-3.55, -1, 2.5],
+									"rotationOrigin": [-3.55, -1, 2.5],
 									"children": [
 										{
 											"name": "Hat Flat Left Front 2",
-											"from": [ 0.5, 0.0, 0.5 ],
-											"to": [ 1.0, 0.1, 1.0 ],
-											"autoUnwrap": false,
-											"uv": [ 108.5, 14.5 ],
-											"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+											"from": [0.5, 0, 0.5],
+											"to": [1, 0.1, 1],
+											"rotationOrigin": [0.5, 0, 0.5],
+											"uv": [108.5, 14.5],
 											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 109.0, 17.0, 111.0, 19.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 111.0, 17.0, 113.0, 19.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 113.0, 17.0, 115.0, 19.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 115.0, 17.0, 117.0, 19.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 109.0, 15.0, 111.0, 17.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 111.0, 15.0, 113.0, 17.0 ], "autoUv": false }
+												"north": {"texture": "#tricorne.png", "uv": [109, 17, 111, 19], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [111, 17, 113, 19], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [113, 17, 115, 19], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [115, 17, 117, 19], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [109, 15, 111, 17], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [111, 15, 113, 17], "autoUv": false, "snapUv": false}
+											}
+										},
+										{
+											"name": "Hat Flat Left Front_geo",
+											"from": [0, 0, 0],
+											"to": [0.9, 0.1, 0.7],
+											"rotationOrigin": [0, 0, 0],
+											"uv": [108.5, 0],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [109, 2, 111, 4], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [111, 2, 113, 4], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [113, 2, 115, 4], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [115, 2, 117, 4], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [109, 0, 111, 2], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [111, 0, 113, 2], "autoUv": false, "snapUv": false}
 											}
 										}
 									]
+								},
+								{
+									"name": "Hat Flat Left_geo",
+									"from": [-2.65, -1, 2.5],
+									"to": [4.45, -0.9, 4],
+									"rotationOrigin": [-2.65, -1, 2.5],
+									"uv": [76, 0],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [76, 3, 90, 5], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [90, 3, 92, 5], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [92, 3, 106, 5], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [106, 3, 108, 5], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [76, 0, 92, 3], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [92, 0, 108, 3], "autoUv": false, "snapUv": false}
+									}
 								}
 							]
 						},
 						{
 							"name": "Hat Flat Front",
-							"from": [ -0.5, 0.0, 0.7 ],
-							"to": [ 0.0, 0.1, 5.3 ],
-							"autoUnwrap": false,
-							"uv": [ 54.0, 0.0 ],
-							"rotationOrigin": [ -0.5, 0.0, 0.7 ],
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 54.0, 8.0, 56.0, 10.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 56.0, 8.0, 64.0, 10.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 64.0, 8.0, 66.0, 10.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 66.0, 8.0, 74.0, 10.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 54.0, 0.0, 55.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 56.0, 0.0, 57.0, 8.0 ], "autoUv": false }
-							},
+							"from": [-4.5, 0, -2.3],
+							"to": [-4.5, 0, -2.3],
+							"rotationOrigin": [-4.5, 0, -2.3],
 							"children": [
 								{
 									"name": "Hat Flat Front 2",
-									"from": [ -0.5, 0.0, 0.5 ],
-									"to": [ 0.0, 0.1, 4.1 ],
-									"autoUnwrap": false,
-									"uv": [ 36.5, 4.0 ],
-									"rotationOrigin": [ -0.5, 0.0, 0.5 ],
+									"from": [-0.5, 0, 0.5],
+									"to": [0, 0.1, 4.1],
+									"rotationOrigin": [-0.5, 0, 0.5],
+									"uv": [36.5, 4],
 									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 37.0, 6.0, 39.0, 8.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 39.0, 6.0, 45.0, 8.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 45.0, 6.0, 47.0, 8.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 47.0, 6.0, 53.0, 8.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 37.0, 0.0, 38.0, 6.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 39.0, 0.0, 40.0, 6.0 ], "autoUv": false }
+										"north": {"texture": "#tricorne.png", "uv": [37, 6, 39, 8], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [39, 6, 45, 8], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [45, 6, 47, 8], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [47, 6, 53, 8], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [37, 0, 38, 6], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [39, 0, 40, 6], "autoUv": false, "snapUv": false}
+									}
+								},
+								{
+									"name": "Hat Flat Front_geo",
+									"from": [0, 0, 0],
+									"to": [0.5, 0.1, 4.6],
+									"rotationOrigin": [0, 0, 0],
+									"uv": [54, 0],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [54, 8, 56, 10], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [56, 8, 64, 10], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [64, 8, 66, 10], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [66, 8, 74, 10], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [54, 0, 55, 8], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [56, 0, 57, 8], "autoUv": false, "snapUv": false}
 									}
 								}
 							]
 						},
 						{
 							"name": "Tip Flat",
-							"from": [ -0.75, -0.6, 1.65 ],
-							"to": [ 1.25, 0.0, 4.3 ],
-							"autoUnwrap": false,
-							"uv": [ 58.5, 0.0 ],
-							"rotationOrigin": [ -0.75, -0.6, 1.65 ],
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 59.0, 5.0, 63.0, 6.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 63.0, 5.0, 67.0, 6.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 67.0, 5.0, 71.0, 6.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 71.0, 5.0, 75.0, 6.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 59.0, 0.0, 63.0, 5.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 63.0, 0.0, 67.0, 5.0 ], "autoUv": false }
-							},
+							"from": [-4.75, -0.6, -1.35],
+							"to": [-4.75, -0.6, -1.35],
+							"rotationOrigin": [-4.75, -0.6, -1.35],
 							"children": [
 								{
 									"name": "Tip Curve Left",
-									"from": [ -1.0, 0.0, 0.3 ],
-									"to": [ 0.0, 0.5, 1.8 ],
-									"autoUnwrap": false,
-									"uv": [ 64.0, 12.0 ],
-									"rotationOrigin": [ -1.0, 0.0, 0.3 ],
-									"rotationY": 15.0,
+									"from": [-1, 0, 0.3],
+									"to": [0, 0.5, 1.8],
+									"rotationOrigin": [-1, 0, 0.3],
+									"uv": [64, 12],
 									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 64.0, 13.0, 65.0, 14.0 ] },
-										"east": { "texture": "#tricorne", "uv": [ 65.0, 13.0, 66.0, 14.0 ] },
-										"south": { "texture": "#tricorne", "uv": [ 66.0, 13.0, 67.0, 14.0 ] },
-										"west": { "texture": "#tricorne", "uv": [ 67.0, 13.0, 68.0, 14.0 ] },
-										"up": { "texture": "#tricorne", "uv": [ 64.0, 12.0, 65.0, 13.0 ] },
-										"down": { "texture": "#tricorne", "uv": [ 65.0, 12.0, 66.0, 13.0 ] }
-									}
+										"north": {"texture": "#tricorne.png", "uv": [64, 13, 65, 14], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [65, 13, 66, 14], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [66, 13, 67, 14], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [67, 13, 68, 14], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [64, 12, 65, 13], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [65, 12, 66, 13], "autoUv": false, "snapUv": false}
+									},
+									"rotationY": 15
 								},
 								{
 									"name": "Tip Curve Right",
-									"from": [ -1.0, 0.0, 1.6 ],
-									"to": [ 0.0, 0.5, 2.8 ],
-									"uv": [ 64.0, 20.0 ],
-									"rotationOrigin": [ 0.0, 0.0, 2.6 ],
-									"rotationY": -15.0,
+									"from": [-1, 0, 1.6],
+									"to": [0, 0.5, 2.8],
+									"rotationOrigin": [0, 0, 2.6],
+									"uv": [64, 20],
 									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 64.0, 21.0, 65.0, 22.0 ] },
-										"east": { "texture": "#tricorne", "uv": [ 65.0, 21.0, 66.0, 22.0 ] },
-										"south": { "texture": "#tricorne", "uv": [ 66.0, 21.0, 67.0, 22.0 ] },
-										"west": { "texture": "#tricorne", "uv": [ 67.0, 21.0, 68.0, 22.0 ] },
-										"up": { "texture": "#tricorne", "uv": [ 64.0, 20.0, 65.0, 21.0 ] },
-										"down": { "texture": "#tricorne", "uv": [ 65.0, 20.0, 66.0, 21.0 ] }
+										"north": {"texture": "#tricorne.png", "uv": [64, 21, 65, 22], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [65, 21, 66, 22], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [66, 21, 67, 22], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [67, 21, 68, 22], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [64, 20, 65, 21], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [65, 20, 66, 21], "autoUv": false, "snapUv": false}
+									},
+									"rotationY": -15
+								},
+								{
+									"name": "Tip Flat_geo",
+									"from": [0, 0, 0],
+									"to": [2, 0.6, 2.65],
+									"rotationOrigin": [0, 0, 0],
+									"uv": [58.5, 0],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [59, 5, 63, 6], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [63, 5, 67, 6], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [67, 5, 71, 6], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [71, 5, 75, 6], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [59, 0, 63, 5], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [63, 0, 67, 5], "autoUv": false, "snapUv": false}
 									}
 								}
 							]
+						},
+						{
+							"name": "Hat Flat Center_geo",
+							"from": [-4, 0, -3],
+							"to": [5, 0.1, 3],
+							"rotationOrigin": [-4, 0, -3],
+							"uv": [0, 3],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [0, 12, 18, 14], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [48, 12, 60, 14], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [30, 12, 48, 14], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [18, 12, 30, 14], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [1, 0, 18, 12], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [18, 0, 36, 12], "autoUv": false, "snapUv": false}
+							}
 						}
 					]
 				},
 				{
 					"name": "Feather Base",
-					"from": [ 6.5, 0.0, 2.3 ],
-					"to": [ 7.5, 1.0, 3.3 ],
-					"autoUnwrap": false,
-					"uv": [ 52.5, 36.5 ],
-					"rotationOrigin": [ 7.2, 0.0, 2.6 ],
-					"rotationY": -45.0,
-					"faces": {
-						"north": { "texture": "#tricorne", "uv": [ 53.0, 39.0, 55.0, 41.0 ], "autoUv": false },
-						"east": { "texture": "#tricorne", "uv": [ 55.0, 39.0, 57.0, 41.0 ], "autoUv": false },
-						"south": { "texture": "#tricorne", "uv": [ 57.0, 39.0, 59.0, 41.0 ], "autoUv": false },
-						"west": { "texture": "#tricorne", "uv": [ 59.0, 39.0, 61.0, 41.0 ], "autoUv": false },
-						"up": { "texture": "#tricorne", "uv": [ 53.0, 37.0, 55.0, 39.0 ], "autoUv": false },
-						"down": { "texture": "#tricorne", "uv": [ 55.0, 37.0, 57.0, 39.0 ], "autoUv": false }
-					},
+					"from": [4.45, -0.5, 0.1],
+					"to": [4.45, -0.5, 0.1],
+					"rotationOrigin": [4.45, -0.5, 0.1],
+					"rotationY": -45,
 					"children": [
 						{
 							"name": "Feather Stem 1",
-							"from": [ 0.15, 0.8, 0.25 ],
-							"to": [ 0.65, 2.3, 0.75 ],
-							"autoUnwrap": false,
-							"uv": [ 52.5, 42.0 ],
-							"rotationOrigin": [ 0.2, 0.8, 0.3 ],
-							"rotationX": -10.0,
-							"rotationY": 35.0,
-							"rotationZ": 25.0,
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 53.0, 43.0, 54.0, 46.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 54.0, 43.0, 55.0, 46.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 55.0, 43.0, 56.0, 46.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 56.0, 43.0, 57.0, 46.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 53.0, 42.0, 54.0, 43.0 ], "autoUv": false },
-								"down": { "texture": "#tricorne", "uv": [ 54.0, 42.0, 55.0, 43.0 ], "autoUv": false }
-							},
+							"from": [-0.5, 0.8, 0],
+							"to": [-0.5, 0.8, 0],
+							"rotationOrigin": [-0.5, 0.8, 0],
+							"rotationX": -10,
+							"rotationY": 35,
+							"rotationZ": 25,
 							"children": [
 								{
 									"name": "Feather 1 Base",
-									"from": [ -0.05, 1.3, -0.25 ],
-									"to": [ 0.55, 1.8, 0.75 ],
-									"autoUnwrap": false,
-									"uv": [ 52.5, 46.0 ],
-									"rotationOrigin": [ -0.05, 1.3, 0.0 ],
-									"rotationX": -10.0,
-									"rotationZ": 10.0,
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 53.0, 48.0, 55.0, 49.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 55.0, 48.0, 56.0, 49.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 56.0, 48.0, 58.0, 49.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 58.0, 48.0, 59.0, 49.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 53.0, 46.0, 54.0, 48.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 54.0, 46.0, 55.0, 48.0 ], "autoUv": false }
-									},
+									"from": [-0.1, 1.3, -0.05],
+									"to": [-0.1, 1.3, -0.05],
+									"rotationOrigin": [-0.1, 1.3, -0.05],
+									"rotationX": -10,
+									"rotationZ": 10,
 									"children": [
 										{
 											"name": "Feather 1 Middle",
-											"from": [ -0.05, 0.3, -0.25 ],
-											"to": [ 0.7, 1.3, 1.25 ],
-											"autoUnwrap": false,
-											"uv": [ 52.5, 48.5 ],
-											"rotationOrigin": [ -0.05, 0.3, -0.25 ],
-											"rotationX": -10.0,
-											"rotationY": -1.0,
-											"rotationZ": -8.0,
-											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 53.0, 52.0, 55.0, 54.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 55.0, 52.0, 58.0, 54.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 58.0, 52.0, 60.0, 54.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 60.0, 52.0, 63.0, 54.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 53.0, 49.0, 55.0, 52.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 55.0, 49.0, 57.0, 52.0 ], "autoUv": false }
-											},
+											"from": [-0.05, 0.3, -0.5],
+											"to": [-0.05, 0.3, -0.5],
+											"rotationOrigin": [-0.05, 0.3, -0.5],
+											"rotationX": -10,
+											"rotationY": -1,
+											"rotationZ": -8,
 											"children": [
 												{
 													"name": "Feather 1 Top",
-													"from": [ 0.2, 1.0, 0.25 ],
-													"to": [ 0.7, 2.0, 1.25 ],
-													"autoUnwrap": false,
-													"uv": [ 52.5, 54.0 ],
-													"rotationOrigin": [ 0.2, 1.0, 0.25 ],
-													"rotationX": 8.0,
-													"rotationY": -7.0,
-													"rotationZ": -9.0,
-													"faces": {
-														"north": { "texture": "#tricorne", "uv": [ 53.0, 56.0, 55.0, 58.0 ], "autoUv": false },
-														"east": { "texture": "#tricorne", "uv": [ 55.0, 56.0, 56.0, 58.0 ], "autoUv": false },
-														"south": { "texture": "#tricorne", "uv": [ 56.0, 56.0, 58.0, 58.0 ], "autoUv": false },
-														"west": { "texture": "#tricorne", "uv": [ 58.0, 56.0, 59.0, 58.0 ], "autoUv": false },
-														"up": { "texture": "#tricorne", "uv": [ 53.0, 54.0, 54.0, 56.0 ], "autoUv": false },
-														"down": { "texture": "#tricorne", "uv": [ 54.0, 54.0, 55.0, 56.0 ], "autoUv": false }
-													},
+													"from": [0.2, 1, 0.25],
+													"to": [0.2, 1, 0.25],
+													"rotationOrigin": [0.2, 1, 0.25],
+													"rotationX": 8,
+													"rotationY": -7,
+													"rotationZ": -9,
 													"children": [
 														{
 															"name": "Feather 1 Tip",
-															"from": [ 0.125, 1.0, 0.25 ],
-															"to": [ 0.375, 2.0, 0.75 ],
-															"autoUnwrap": false,
-															"uv": [ 52.5, 58.0 ],
-															"rotationOrigin": [ 0.125, 1.0, 0.25 ],
-															"rotationX": 15.0,
+															"from": [0.125, 1, 0.25],
+															"to": [0.375, 2, 0.75],
+															"rotationOrigin": [0.125, 1, 0.25],
+															"uv": [52.5, 58],
 															"faces": {
-																"north": { "texture": "#tricorne", "uv": [ 53.0, 59.0, 54.0, 61.0 ], "autoUv": false },
-																"east": { "texture": "#tricorne", "uv": [ 54.0, 59.0, 55.0, 61.0 ], "autoUv": false },
-																"south": { "texture": "#tricorne", "uv": [ 55.0, 59.0, 56.0, 61.0 ], "autoUv": false },
-																"west": { "texture": "#tricorne", "uv": [ 56.0, 59.0, 57.0, 61.0 ], "autoUv": false },
-																"up": { "texture": "#tricorne", "uv": [ 53.0, 58.0, 54.0, 59.0 ] },
-																"down": { "texture": "#tricorne", "uv": [ 54.0, 58.0, 55.0, 59.0 ] }
+																"north": {"texture": "#tricorne.png", "uv": [53, 59, 54, 61], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [54, 59, 55, 61], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [55, 59, 56, 61], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [56, 59, 57, 61], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [53, 58, 54, 59], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [54, 58, 55, 59], "autoUv": false, "snapUv": false}
+															},
+															"rotationX": 15
+														},
+														{
+															"name": "Feather 1 Top_geo",
+															"from": [0, 0, 0],
+															"to": [0.5, 1, 1],
+															"rotationOrigin": [0, 0, 0],
+															"uv": [52.5, 54],
+															"faces": {
+																"north": {"texture": "#tricorne.png", "uv": [53, 56, 55, 58], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [55, 56, 56, 58], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [56, 56, 58, 58], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [58, 56, 59, 58], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [53, 54, 54, 56], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [54, 54, 55, 56], "autoUv": false, "snapUv": false}
 															}
 														}
 													]
+												},
+												{
+													"name": "Feather 1 Middle_geo",
+													"from": [0, 0, 0],
+													"to": [0.75, 1, 1.5],
+													"rotationOrigin": [0, 0, 0],
+													"uv": [52.5, 48.5],
+													"faces": {
+														"north": {"texture": "#tricorne.png", "uv": [53, 52, 55, 54], "autoUv": false, "snapUv": false},
+														"east": {"texture": "#tricorne.png", "uv": [55, 52, 58, 54], "autoUv": false, "snapUv": false},
+														"south": {"texture": "#tricorne.png", "uv": [58, 52, 60, 54], "autoUv": false, "snapUv": false},
+														"west": {"texture": "#tricorne.png", "uv": [60, 52, 63, 54], "autoUv": false, "snapUv": false},
+														"up": {"texture": "#tricorne.png", "uv": [53, 49, 55, 52], "autoUv": false, "snapUv": false},
+														"down": {"texture": "#tricorne.png", "uv": [55, 49, 57, 52], "autoUv": false, "snapUv": false}
+													}
 												}
 											]
+										},
+										{
+											"name": "Feather 1 Base_geo",
+											"from": [0, 0, -0.25],
+											"to": [0.6, 0.5, 0.75],
+											"rotationOrigin": [0, 0, -0.25],
+											"uv": [52.5, 46],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [53, 48, 55, 49], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [55, 48, 56, 49], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [56, 48, 58, 49], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [58, 48, 59, 49], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [53, 46, 54, 48], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [54, 46, 55, 48], "autoUv": false, "snapUv": false}
+											}
 										}
 									]
+								},
+								{
+									"name": "Feather Stem 1_geo",
+									"from": [-0.05, 0, -0.05],
+									"to": [0.45, 1.5, 0.45],
+									"rotationOrigin": [-0.05, 0, -0.05],
+									"uv": [52.5, 42],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [53, 43, 54, 46], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [54, 43, 55, 46], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [55, 43, 56, 46], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [56, 43, 57, 46], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [53, 42, 54, 43], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [54, 42, 55, 43], "autoUv": false, "snapUv": false}
+									}
 								}
 							]
 						},
 						{
 							"name": "Feather Stem 2",
-							"from": [ 0.3, 0.5, 0.35 ],
-							"to": [ 0.8, 2.0, 0.85 ],
-							"autoUnwrap": false,
-							"uv": [ 62.5, 42.0 ],
-							"rotationOrigin": [ 0.3, 0.5, 0.35 ],
-							"rotationX": -35.0,
-							"rotationY": -20.0,
-							"rotationZ": 5.0,
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 63.0, 43.0, 64.0, 46.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 64.0, 43.0, 65.0, 46.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 65.0, 43.0, 66.0, 46.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 66.0, 43.0, 67.0, 46.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 63.0, 42.0, 64.0, 43.0 ] },
-								"down": { "texture": "#tricorne", "uv": [ 64.0, 42.0, 65.0, 43.0 ] }
-							},
+							"from": [-0.4, 0.5, 0.05],
+							"to": [-0.4, 0.5, 0.05],
+							"rotationOrigin": [-0.4, 0.5, 0.05],
+							"rotationX": -35,
+							"rotationY": -20,
+							"rotationZ": 5,
 							"children": [
 								{
 									"name": "Feather 2 Base",
-									"from": [ -0.25, 1.5, 0.0 ],
-									"to": [ 0.75, 2.0, 0.5 ],
-									"autoUnwrap": false,
-									"uv": [ 62.5, 46.0 ],
-									"rotationOrigin": [ -0.2, 1.5, 0.0 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 63.0, 47.0, 65.0, 49.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 65.0, 47.0, 66.0, 49.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 66.0, 47.0, 68.0, 49.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 68.0, 47.0, 69.0, 49.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 63.0, 46.0, 65.0, 47.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 65.0, 46.0, 67.0, 47.0 ], "autoUv": false }
-									},
+									"from": [-0.2, 1.5, 0],
+									"to": [-0.2, 1.5, 0],
+									"rotationOrigin": [-0.2, 1.5, 0],
 									"children": [
 										{
 											"name": "Feather 2 Middle",
-											"from": [ -0.25, 0.3, -0.15 ],
-											"to": [ 1.25, 1.3, 0.6 ],
-											"autoUnwrap": false,
-											"uv": [ 62.5, 49.0 ],
-											"rotationOrigin": [ -0.25, 0.3, -0.15 ],
-											"rotationX": -10.0,
-											"rotationY": -5.0,
-											"rotationZ": -5.0,
-											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 63.0, 50.0, 66.0, 52.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 66.0, 50.0, 68.0, 52.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 68.0, 50.0, 71.0, 52.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 71.0, 50.0, 73.0, 52.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 63.0, 49.0, 66.0, 50.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 66.0, 49.0, 69.0, 50.0 ], "autoUv": false }
-											},
+											"from": [-0.3, 0.3, -0.15],
+											"to": [-0.3, 0.3, -0.15],
+											"rotationOrigin": [-0.3, 0.3, -0.15],
+											"rotationX": -10,
+											"rotationY": -5,
+											"rotationZ": -5,
 											"children": [
 												{
 													"name": "Feather 2 Top",
-													"from": [ 0.3, 0.8, 0.05 ],
-													"to": [ 1.3, 2.3, 0.55 ],
-													"autoUnwrap": false,
-													"uv": [ 62.5, 50.5 ],
-													"rotationOrigin": [ 0.3, 0.8, 0.05 ],
-													"rotationX": -15.0,
-													"rotationY": -10.0,
-													"faces": {
-														"north": { "texture": "#tricorne", "uv": [ 63.0, 54.0, 65.0, 57.0 ], "autoUv": false },
-														"east": { "texture": "#tricorne", "uv": [ 65.0, 54.0, 67.0, 57.0 ], "autoUv": false },
-														"south": { "texture": "#tricorne", "uv": [ 67.0, 54.0, 69.0, 57.0 ], "autoUv": false },
-														"west": { "texture": "#tricorne", "uv": [ 69.0, 54.0, 71.0, 57.0 ], "autoUv": false },
-														"up": { "texture": "#tricorne", "uv": [ 63.0, 53.0, 65.0, 54.0 ], "autoUv": false },
-														"down": { "texture": "#tricorne", "uv": [ 65.0, 53.0, 67.0, 54.0 ], "autoUv": false }
-													},
+													"from": [0.3, 0.8, 0.05],
+													"to": [0.3, 0.8, 0.05],
+													"rotationOrigin": [0.3, 0.8, 0.05],
+													"rotationX": -15,
+													"rotationY": -10,
 													"children": [
 														{
 															"name": "Feather 2 Tip",
-															"from": [ 0.35, 1.25, 0.125 ],
-															"to": [ 0.85, 2.25, 0.375 ],
-															"autoUnwrap": false,
-															"uv": [ 62.5, 54.5 ],
-															"rotationOrigin": [ 0.35, 1.25, 0.125 ],
-															"rotationX": -10.0,
-															"rotationZ": 20.0,
+															"from": [0.35, 1.25, 0.125],
+															"to": [0.85, 2.25, 0.375],
+															"rotationOrigin": [0.35, 1.25, 0.125],
+															"uv": [62.5, 54.5],
 															"faces": {
-																"north": { "texture": "#tricorne", "uv": [ 63.0, 58.0, 64.0, 60.0 ], "autoUv": false },
-																"east": { "texture": "#tricorne", "uv": [ 64.0, 58.0, 65.0, 60.0 ], "autoUv": false },
-																"south": { "texture": "#tricorne", "uv": [ 65.0, 58.0, 66.0, 60.0 ], "autoUv": false },
-																"west": { "texture": "#tricorne", "uv": [ 66.0, 58.0, 67.0, 60.0 ], "autoUv": false },
-																"up": { "texture": "#tricorne", "uv": [ 63.0, 57.0, 64.0, 58.0 ] },
-																"down": { "texture": "#tricorne", "uv": [ 64.0, 57.0, 65.0, 58.0 ] }
+																"north": {"texture": "#tricorne.png", "uv": [63, 58, 64, 60], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [64, 58, 65, 60], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [65, 58, 66, 60], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [66, 58, 67, 60], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [63, 57, 64, 58], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [64, 57, 65, 58], "autoUv": false, "snapUv": false}
+															},
+															"rotationX": -10,
+															"rotationZ": 20
+														},
+														{
+															"name": "Feather 2 Top_geo",
+															"from": [0, 0, 0],
+															"to": [1, 1.5, 0.5],
+															"rotationOrigin": [0, 0, 0],
+															"uv": [62.5, 50.5],
+															"faces": {
+																"north": {"texture": "#tricorne.png", "uv": [63, 54, 65, 57], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [65, 54, 67, 57], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [67, 54, 69, 57], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [69, 54, 71, 57], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [63, 53, 65, 54], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [65, 53, 67, 54], "autoUv": false, "snapUv": false}
 															}
 														}
 													]
+												},
+												{
+													"name": "Feather 2 Middle_geo",
+													"from": [0, 0, 0],
+													"to": [1.5, 1, 0.75],
+													"rotationOrigin": [0, 0, 0],
+													"uv": [62.5, 49],
+													"faces": {
+														"north": {"texture": "#tricorne.png", "uv": [63, 50, 66, 52], "autoUv": false, "snapUv": false},
+														"east": {"texture": "#tricorne.png", "uv": [66, 50, 68, 52], "autoUv": false, "snapUv": false},
+														"south": {"texture": "#tricorne.png", "uv": [68, 50, 71, 52], "autoUv": false, "snapUv": false},
+														"west": {"texture": "#tricorne.png", "uv": [71, 50, 73, 52], "autoUv": false, "snapUv": false},
+														"up": {"texture": "#tricorne.png", "uv": [63, 49, 66, 50], "autoUv": false, "snapUv": false},
+														"down": {"texture": "#tricorne.png", "uv": [66, 49, 69, 50], "autoUv": false, "snapUv": false}
+													}
 												}
 											]
+										},
+										{
+											"name": "Feather 2 Base_geo",
+											"from": [-0.05, 0, 0],
+											"to": [0.95, 0.5, 0.5],
+											"rotationOrigin": [-0.05, 0, 0],
+											"uv": [62.5, 46],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [63, 47, 65, 49], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [65, 47, 66, 49], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [66, 47, 68, 49], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [68, 47, 69, 49], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [63, 46, 65, 47], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [65, 46, 67, 47], "autoUv": false, "snapUv": false}
+											}
 										}
 									]
+								},
+								{
+									"name": "Feather Stem 2_geo",
+									"from": [0, 0, 0],
+									"to": [0.5, 1.5, 0.5],
+									"rotationOrigin": [0, 0, 0],
+									"uv": [62.5, 42],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [63, 43, 64, 46], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [64, 43, 65, 46], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [65, 43, 66, 46], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [66, 43, 67, 46], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [63, 42, 64, 43], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [64, 42, 65, 43], "autoUv": false, "snapUv": false}
+									}
 								}
 							]
 						},
 						{
 							"name": "Feather Stem 3",
-							"from": [ 0.25, 1.0, 0.25 ],
-							"to": [ 0.75, 2.5, 0.75 ],
-							"autoUnwrap": false,
-							"uv": [ 72.5, 42.0 ],
-							"rotationOrigin": [ 0.3, 1.0, 0.2 ],
-							"rotationX": 40.0,
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 73.0, 43.0, 74.0, 46.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 74.0, 43.0, 75.0, 46.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 75.0, 43.0, 76.0, 46.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 76.0, 43.0, 77.0, 46.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 73.0, 42.0, 74.0, 43.0 ] },
-								"down": { "texture": "#tricorne", "uv": [ 74.0, 42.0, 75.0, 43.0 ] }
-							},
+							"from": [-0.4, 1, -0.1],
+							"to": [-0.4, 1, -0.1],
+							"rotationOrigin": [-0.4, 1, -0.1],
+							"rotationX": 40,
 							"children": [
 								{
 									"name": "Feather 3 Base",
-									"from": [ -0.25, 1.5, 0.0 ],
-									"to": [ 0.75, 2.0, 0.5 ],
-									"autoUnwrap": false,
-									"uv": [ 72.5, 46.0 ],
-									"rotationOrigin": [ 0.0, 1.5, 0.0 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 73.0, 47.0, 75.0, 49.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 75.0, 47.0, 76.0, 49.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 76.0, 47.0, 78.0, 49.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 78.0, 47.0, 79.0, 49.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 73.0, 46.0, 75.0, 47.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 75.0, 46.0, 77.0, 47.0 ], "autoUv": false }
-									},
+									"from": [-0.05, 1.5, 0.05],
+									"to": [-0.05, 1.5, 0.05],
+									"rotationOrigin": [-0.05, 1.5, 0.05],
 									"children": [
 										{
 											"name": "Feather 3 Middle",
-											"from": [ -0.3, 0.5, -0.125 ],
-											"to": [ 1.2, 1.5, 0.625 ],
-											"autoUnwrap": false,
-											"uv": [ 72.5, 49.0 ],
-											"rotationOrigin": [ -0.3, 0.5, -0.125 ],
-											"rotationX": 10.0,
-											"rotationZ": -15.0,
-											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 73.0, 50.0, 76.0, 52.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 76.0, 50.0, 78.0, 52.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 78.0, 50.0, 81.0, 52.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 81.0, 50.0, 83.0, 52.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 73.0, 49.0, 77.0, 50.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 77.0, 49.0, 81.0, 50.0 ], "autoUv": false }
-											},
+											"from": [-0.55, 0.5, -0.125],
+											"to": [-0.55, 0.5, -0.125],
+											"rotationOrigin": [-0.55, 0.5, -0.125],
+											"rotationX": 10,
+											"rotationZ": -15,
 											"children": [
 												{
 													"name": "Feather 3 Top",
-													"from": [ 0.25, 1.0, 0.1 ],
-													"to": [ 1.25, 2.0, 0.6 ],
-													"autoUnwrap": false,
-													"uv": [ 72.5, 50.5 ],
-													"rotationOrigin": [ 0.25, 1.0, 0.1 ],
-													"rotationX": 20.0,
-													"rotationZ": -10.0,
-													"faces": {
-														"north": { "texture": "#tricorne", "uv": [ 73.0, 54.0, 75.0, 56.0 ], "autoUv": false },
-														"east": { "texture": "#tricorne", "uv": [ 75.0, 54.0, 76.0, 56.0 ], "autoUv": false },
-														"south": { "texture": "#tricorne", "uv": [ 76.0, 54.0, 78.0, 56.0 ], "autoUv": false },
-														"west": { "texture": "#tricorne", "uv": [ 78.0, 54.0, 79.0, 56.0 ], "autoUv": false },
-														"up": { "texture": "#tricorne", "uv": [ 73.0, 53.0, 75.0, 54.0 ], "autoUv": false },
-														"down": { "texture": "#tricorne", "uv": [ 75.0, 53.0, 77.0, 54.0 ], "autoUv": false }
-													},
+													"from": [0.25, 1, 0.1],
+													"to": [0.25, 1, 0.1],
+													"rotationOrigin": [0.25, 1, 0.1],
+													"rotationX": 20,
+													"rotationZ": -10,
 													"children": [
 														{
 															"name": "Feather 3 Tip",
-															"from": [ 0.25, 0.9, 0.2 ],
-															"to": [ 0.75, 1.9, 0.45 ],
-															"autoUnwrap": false,
-															"uv": [ 72.5, 54.0 ],
-															"rotationOrigin": [ 0.25, 0.9, 0.2 ],
-															"rotationX": -15.0,
-															"rotationY": 10.0,
+															"from": [0.25, 0.9, 0.2],
+															"to": [0.75, 1.9, 0.45],
+															"rotationOrigin": [0.25, 0.9, 0.2],
+															"uv": [72.5, 54],
 															"faces": {
-																"north": { "texture": "#tricorne", "uv": [ 73.0, 58.0, 74.0, 60.0 ], "autoUv": false },
-																"east": { "texture": "#tricorne", "uv": [ 74.0, 58.0, 75.0, 60.0 ], "autoUv": false },
-																"south": { "texture": "#tricorne", "uv": [ 75.0, 58.0, 76.0, 60.0 ], "autoUv": false },
-																"west": { "texture": "#tricorne", "uv": [ 76.0, 58.0, 77.0, 60.0 ], "autoUv": false },
-																"up": { "texture": "#tricorne", "uv": [ 73.0, 57.0, 74.0, 58.0 ] },
-																"down": { "texture": "#tricorne", "uv": [ 74.0, 57.0, 75.0, 58.0 ] }
+																"north": {"texture": "#tricorne.png", "uv": [73, 58, 74, 60], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [74, 58, 75, 60], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [75, 58, 76, 60], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [76, 58, 77, 60], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [73, 57, 74, 58], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [74, 57, 75, 58], "autoUv": false, "snapUv": false}
+															},
+															"rotationX": -15,
+															"rotationY": 10
+														},
+														{
+															"name": "Feather 3 Top_geo",
+															"from": [0, 0, 0],
+															"to": [1, 1, 0.5],
+															"rotationOrigin": [0, 0, 0],
+															"uv": [72.5, 50.5],
+															"faces": {
+																"north": {"texture": "#tricorne.png", "uv": [73, 54, 75, 56], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [75, 54, 76, 56], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [76, 54, 78, 56], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [78, 54, 79, 56], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [73, 53, 75, 54], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [75, 53, 77, 54], "autoUv": false, "snapUv": false}
 															}
 														}
 													]
+												},
+												{
+													"name": "Feather 3 Middle_geo",
+													"from": [0, 0, 0],
+													"to": [1.5, 1, 0.75],
+													"rotationOrigin": [0, 0, 0],
+													"uv": [72.5, 49],
+													"faces": {
+														"north": {"texture": "#tricorne.png", "uv": [73, 50, 76, 52], "autoUv": false, "snapUv": false},
+														"east": {"texture": "#tricorne.png", "uv": [76, 50, 78, 52], "autoUv": false, "snapUv": false},
+														"south": {"texture": "#tricorne.png", "uv": [78, 50, 81, 52], "autoUv": false, "snapUv": false},
+														"west": {"texture": "#tricorne.png", "uv": [81, 50, 83, 52], "autoUv": false, "snapUv": false},
+														"up": {"texture": "#tricorne.png", "uv": [73, 49, 77, 50], "autoUv": false, "snapUv": false},
+														"down": {"texture": "#tricorne.png", "uv": [77, 49, 81, 50], "autoUv": false, "snapUv": false}
+													}
 												}
 											]
+										},
+										{
+											"name": "Feather 3 Base_geo",
+											"from": [-0.25, 0, 0],
+											"to": [0.75, 0.5, 0.5],
+											"rotationOrigin": [-0.25, 0, 0],
+											"uv": [72.5, 46],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [73, 47, 75, 49], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [75, 47, 76, 49], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [76, 47, 78, 49], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [78, 47, 79, 49], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [73, 46, 75, 47], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [75, 46, 77, 47], "autoUv": false, "snapUv": false}
+											}
 										}
 									]
+								},
+								{
+									"name": "Feather Stem 3_geo",
+									"from": [-0.05, 0, 0.05],
+									"to": [0.45, 1.5, 0.55],
+									"rotationOrigin": [-0.05, 0, 0.05],
+									"uv": [72.5, 42],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [73, 43, 74, 46], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [74, 43, 75, 46], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [75, 43, 76, 46], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [76, 43, 77, 46], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [73, 42, 74, 43], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [74, 42, 75, 43], "autoUv": false, "snapUv": false}
+									}
 								}
 							]
 						},
 						{
 							"name": "Feather Stem 4",
-							"from": [ 0.2, 1.0, 0.3 ],
-							"to": [ 0.7, 2.5, 0.8 ],
-							"autoUnwrap": false,
-							"uv": [ 82.5, 42.0 ],
-							"rotationOrigin": [ 0.3, 1.0, 0.3 ],
-							"rotationX": 15.0,
-							"rotationY": 30.0,
-							"rotationZ": -20.0,
-							"faces": {
-								"north": { "texture": "#tricorne", "uv": [ 83.0, 43.0, 84.0, 46.0 ], "autoUv": false },
-								"east": { "texture": "#tricorne", "uv": [ 84.0, 43.0, 85.0, 46.0 ], "autoUv": false },
-								"south": { "texture": "#tricorne", "uv": [ 85.0, 43.0, 86.0, 46.0 ], "autoUv": false },
-								"west": { "texture": "#tricorne", "uv": [ 86.0, 43.0, 87.0, 46.0 ], "autoUv": false },
-								"up": { "texture": "#tricorne", "uv": [ 83.0, 42.0, 84.0, 43.0 ] },
-								"down": { "texture": "#tricorne", "uv": [ 84.0, 42.0, 85.0, 43.0 ] }
-							},
+							"from": [-0.4, 1, 0],
+							"to": [-0.4, 1, 0],
+							"rotationOrigin": [-0.4, 1, 0],
+							"rotationX": 15,
+							"rotationY": 30,
+							"rotationZ": -20,
 							"children": [
 								{
 									"name": "Feather 4 Base",
-									"from": [ 0.0, 1.5, -0.5 ],
-									"to": [ 0.5, 2.0, 1.0 ],
-									"autoUnwrap": false,
-									"uv": [ 82.5, 46.0 ],
-									"rotationOrigin": [ 0.0, 1.5, 0.0 ],
-									"faces": {
-										"north": { "texture": "#tricorne", "uv": [ 83.0, 49.0, 84.0, 50.0 ], "autoUv": false },
-										"east": { "texture": "#tricorne", "uv": [ 84.0, 49.0, 87.0, 50.0 ], "autoUv": false },
-										"south": { "texture": "#tricorne", "uv": [ 87.0, 49.0, 88.0, 50.0 ], "autoUv": false },
-										"west": { "texture": "#tricorne", "uv": [ 88.0, 49.0, 91.0, 50.0 ], "autoUv": false },
-										"up": { "texture": "#tricorne", "uv": [ 83.0, 46.0, 84.0, 49.0 ], "autoUv": false },
-										"down": { "texture": "#tricorne", "uv": [ 84.0, 46.0, 85.0, 49.0 ], "autoUv": false }
-									},
+									"from": [-0.1, 1.5, 0],
+									"to": [-0.1, 1.5, 0],
+									"rotationOrigin": [-0.1, 1.5, 0],
 									"children": [
 										{
 											"name": "Feather 4 Middle",
-											"from": [ -0.125, 0.5, -0.125 ],
-											"to": [ 0.625, 1.5, 1.625 ],
-											"autoUnwrap": false,
-											"uv": [ 82.5, 50.0 ],
-											"rotationOrigin": [ -0.125, 0.5, -0.125 ],
-											"rotationX": 5.0,
-											"rotationZ": -10.0,
-											"faces": {
-												"north": { "texture": "#tricorne", "uv": [ 83.0, 53.0, 85.0, 55.0 ], "autoUv": false },
-												"east": { "texture": "#tricorne", "uv": [ 85.0, 53.0, 88.0, 55.0 ], "autoUv": false },
-												"south": { "texture": "#tricorne", "uv": [ 88.0, 53.0, 90.0, 55.0 ], "autoUv": false },
-												"west": { "texture": "#tricorne", "uv": [ 90.0, 53.0, 93.0, 55.0 ], "autoUv": false },
-												"up": { "texture": "#tricorne", "uv": [ 83.0, 50.0, 84.0, 53.0 ], "autoUv": false },
-												"down": { "texture": "#tricorne", "uv": [ 84.0, 50.0, 85.0, 53.0 ], "autoUv": false }
-											},
+											"from": [-0.125, 0.5, -0.625],
+											"to": [-0.125, 0.5, -0.625],
+											"rotationOrigin": [-0.125, 0.5, -0.625],
+											"rotationX": 5,
+											"rotationZ": -10,
 											"children": [
 												{
 													"name": "Feather 4 Top",
-													"from": [ 0.125, 1.0, 0.25 ],
-													"to": [ 0.625, 2.0, 1.5 ],
-													"autoUnwrap": false,
-													"uv": [ 82.5, 54.5 ],
-													"rotationOrigin": [ 0.125, 1.0, 0.25 ],
-													"rotationX": 10.0,
-													"rotationY": -5.0,
-													"rotationZ": -10.0,
-													"faces": {
-														"north": { "texture": "#tricorne", "uv": [ 83.0, 57.0, 85.0, 59.0 ], "autoUv": false },
-														"east": { "texture": "#tricorne", "uv": [ 85.0, 57.0, 87.0, 59.0 ], "autoUv": false },
-														"south": { "texture": "#tricorne", "uv": [ 87.0, 57.0, 89.0, 59.0 ], "autoUv": false },
-														"west": { "texture": "#tricorne", "uv": [ 89.0, 57.0, 91.0, 59.0 ], "autoUv": false },
-														"up": { "texture": "#tricorne", "uv": [ 83.0, 55.0, 84.0, 57.0 ], "autoUv": false },
-														"down": { "texture": "#tricorne", "uv": [ 84.0, 55.0, 85.0, 57.0 ], "autoUv": false }
-													},
+													"from": [0.125, 1, 0.25],
+													"to": [0.125, 1, 0.25],
+													"rotationOrigin": [0.125, 1, 0.25],
+													"rotationX": 10,
+													"rotationY": -5,
+													"rotationZ": -10,
 													"children": [
 														{
 															"name": "Feather 4 Tip",
-															"from": [ 0.12, 0.75, 0.3 ],
-															"to": [ 0.37, 1.75, 1.05 ],
-															"autoUnwrap": false,
-															"uv": [ 82.5, 58.5 ],
-															"rotationOrigin": [ 0.125, 0.75, 0.3 ],
-															"rotationX": -12.0,
-															"rotationY": 8.0,
-															"rotationZ": 15.0,
+															"from": [0.12, 0.75, 0.3],
+															"to": [0.37, 1.75, 1.05],
+															"rotationOrigin": [0.125, 0.75, 0.3],
+															"uv": [82.5, 58.5],
 															"faces": {
-																"north": { "texture": "#tricorne", "uv": [ 83.0, 60.0, 84.0, 62.0 ], "autoUv": false },
-																"east": { "texture": "#tricorne", "uv": [ 84.0, 60.0, 86.0, 62.0 ], "autoUv": false },
-																"south": { "texture": "#tricorne", "uv": [ 86.0, 60.0, 87.0, 62.0 ], "autoUv": false },
-																"west": { "texture": "#tricorne", "uv": [ 87.0, 60.0, 89.0, 62.0 ], "autoUv": false },
-																"up": { "texture": "#tricorne", "uv": [ 83.0, 59.0, 84.0, 60.0 ] },
-																"down": { "texture": "#tricorne", "uv": [ 84.0, 59.0, 85.0, 60.0 ] }
+																"north": {"texture": "#tricorne.png", "uv": [83, 60, 84, 62], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [84, 60, 86, 62], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [86, 60, 87, 62], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [87, 60, 89, 62], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [83, 59, 84, 60], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [84, 59, 85, 60], "autoUv": false, "snapUv": false}
+															},
+															"rotationX": -12,
+															"rotationY": 8,
+															"rotationZ": 15
+														},
+														{
+															"name": "Feather 4 Top_geo",
+															"from": [0, 0, 0],
+															"to": [0.5, 1, 1.25],
+															"rotationOrigin": [0, 0, 0],
+															"uv": [82.5, 54.5],
+															"faces": {
+																"north": {"texture": "#tricorne.png", "uv": [83, 57, 85, 59], "autoUv": false, "snapUv": false},
+																"east": {"texture": "#tricorne.png", "uv": [85, 57, 87, 59], "autoUv": false, "snapUv": false},
+																"south": {"texture": "#tricorne.png", "uv": [87, 57, 89, 59], "autoUv": false, "snapUv": false},
+																"west": {"texture": "#tricorne.png", "uv": [89, 57, 91, 59], "autoUv": false, "snapUv": false},
+																"up": {"texture": "#tricorne.png", "uv": [83, 55, 84, 57], "autoUv": false, "snapUv": false},
+																"down": {"texture": "#tricorne.png", "uv": [84, 55, 85, 57], "autoUv": false, "snapUv": false}
 															}
 														}
 													]
+												},
+												{
+													"name": "Feather 4 Middle_geo",
+													"from": [0, 0, 0],
+													"to": [0.75, 1, 1.75],
+													"rotationOrigin": [0, 0, 0],
+													"uv": [82.5, 50],
+													"faces": {
+														"north": {"texture": "#tricorne.png", "uv": [83, 53, 85, 55], "autoUv": false, "snapUv": false},
+														"east": {"texture": "#tricorne.png", "uv": [85, 53, 88, 55], "autoUv": false, "snapUv": false},
+														"south": {"texture": "#tricorne.png", "uv": [88, 53, 90, 55], "autoUv": false, "snapUv": false},
+														"west": {"texture": "#tricorne.png", "uv": [90, 53, 93, 55], "autoUv": false, "snapUv": false},
+														"up": {"texture": "#tricorne.png", "uv": [83, 50, 84, 53], "autoUv": false, "snapUv": false},
+														"down": {"texture": "#tricorne.png", "uv": [84, 50, 85, 53], "autoUv": false, "snapUv": false}
+													}
 												}
 											]
+										},
+										{
+											"name": "Feather 4 Base_geo",
+											"from": [0, 0, -0.5],
+											"to": [0.5, 0.5, 1],
+											"rotationOrigin": [0, 0, -0.5],
+											"uv": [82.5, 46],
+											"faces": {
+												"north": {"texture": "#tricorne.png", "uv": [83, 49, 84, 50], "autoUv": false, "snapUv": false},
+												"east": {"texture": "#tricorne.png", "uv": [84, 49, 87, 50], "autoUv": false, "snapUv": false},
+												"south": {"texture": "#tricorne.png", "uv": [87, 49, 88, 50], "autoUv": false, "snapUv": false},
+												"west": {"texture": "#tricorne.png", "uv": [88, 49, 91, 50], "autoUv": false, "snapUv": false},
+												"up": {"texture": "#tricorne.png", "uv": [83, 46, 84, 49], "autoUv": false, "snapUv": false},
+												"down": {"texture": "#tricorne.png", "uv": [84, 46, 85, 49], "autoUv": false, "snapUv": false}
+											}
 										}
 									]
+								},
+								{
+									"name": "Feather Stem 4_geo",
+									"from": [-0.1, 0, 0],
+									"to": [0.4, 1.5, 0.5],
+									"rotationOrigin": [-0.1, 0, 0],
+									"uv": [82.5, 42],
+									"faces": {
+										"north": {"texture": "#tricorne.png", "uv": [83, 43, 84, 46], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#tricorne.png", "uv": [84, 43, 85, 46], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#tricorne.png", "uv": [85, 43, 86, 46], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#tricorne.png", "uv": [86, 43, 87, 46], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#tricorne.png", "uv": [83, 42, 84, 43], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#tricorne.png", "uv": [84, 42, 85, 43], "autoUv": false, "snapUv": false}
+									}
 								}
 							]
+						},
+						{
+							"name": "Feather Base_geo",
+							"from": [-0.7, 0, -0.3],
+							"to": [0.3, 1, 0.7],
+							"rotationOrigin": [-0.7, 0, -0.3],
+							"uv": [52.5, 36.5],
+							"faces": {
+								"north": {"texture": "#tricorne.png", "uv": [53, 39, 55, 41], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#tricorne.png", "uv": [55, 39, 57, 41], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#tricorne.png", "uv": [57, 39, 59, 41], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#tricorne.png", "uv": [59, 39, 61, 41], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#tricorne.png", "uv": [53, 37, 55, 39], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#tricorne.png", "uv": [55, 37, 57, 39], "autoUv": false, "snapUv": false}
+							}
 						}
 					]
+				},
+				{
+					"name": "Root - Centered_geo",
+					"from": [-2.75, -0.5, -2.5],
+					"to": [2.75, 0.5, 2.5],
+					"rotationOrigin": [-2.75, -0.5, -2.5],
+					"uv": [26.5, 29],
+					"faces": {
+						"north": {"texture": "#tricorne.png", "uv": [27, 34, 32, 35], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+						"east": {"texture": "#tricorne.png", "uv": [32, 34, 37, 35], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+						"south": {"texture": "#tricorne.png", "uv": [37, 34, 42, 35], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+						"west": {"texture": "#tricorne.png", "uv": [42, 34, 47, 35], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#tricorne.png", "uv": [27, 29, 32, 34], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#tricorne.png", "uv": [32, 29, 37, 34], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]}
+					}
 				}
-			]
+			],
+			"stepParentName": "Head"
 		}
-	]}
+	],
+	"animations": []
+}
