@@ -12,7 +12,7 @@
 		"tricorne": [128,128]
 	},
 	"textures": {
-		"tricorne": "tricorne.png"
+		"tricorne": "tricorne"
 	},
 	"elements": [
 		{
