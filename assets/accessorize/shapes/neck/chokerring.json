@@ -8,6 +8,7 @@
 	"textureHeight": 76,
 	"textureSizes": {
 		"black.png": [32, 76]
+
 	},
 	"textures": {
 		"black.png": "game:block/leather/black"
