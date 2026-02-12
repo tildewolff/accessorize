@@ -21,7 +21,7 @@
 
   "storageFlags": 128,
   "shape": {
-    "base": "houseearring/{houseearring}"
+    "base": "houseearrings/{houseearring}"
   },
 
   "textures": {
