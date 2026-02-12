@@ -11,7 +11,7 @@
 		"tricorne.png": [128, 128]
 	},
 	"textures": {
-		"tricorne.png": "tricorne"
+		"tricorne.png": "head/tricorne"
 	},
 	"elements": [
 		{
