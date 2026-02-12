@@ -2,21 +2,26 @@
   "code": "clothes",
   "class": "ItemWearable",
   "variantgroups": [
-    { "code": "category", "states": ["arm"] },
+    { "code": "category", "states": ["houseearring"] },
     {
-      "code": "arm",
+      "code": "houseearring",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
       "states": [
-      "bandagesplintupperarml", "bandagesplintupperarmr",
-      "bismutharmlet", "bismuthbronzearmlet", "blackbronzearmlet", "brassarmlet", "cupronickelarmlet", "electrumarmlet", "goldarmlet", "ironarmlet", "leadarmlet", "meteoricarmlet", "nickelarmlet", "silverarmlet", "steelarmlet", "tinarmlet", "urnaiumarmlet", "zincarmlet"
+      "earringayrinb", "earringayrinl", "earringayrinr",
+      "earringfarringb", "earringfarringl", "earringfarringr",
+      "earringnightlockeb", "earringnightlockel", "earringnightlocker",
+      "earringnivalisb", "earringnivalisl", "earringnivalisr",
+      "earringrivertalb", "earringrivertall", "earringrivertalr",
+      "earringsabrb", "earringsabrl", "earringsabrr",
+      "earringwildhartb", "earringwildhartl", "earringwildhartr"
       ]
     }
   ],
 
   "storageFlags": 128,
   "shape": {
-    "base": "arm/{arm}"
+    "base": "houseearring/{houseearring}"
   },
 
   "textures": {
@@ -24,7 +29,7 @@
   },
 
   "attributes": {
-    "clothescategory": "arm",
+    "clothescategory": "head",
     "wearableAttachment": true,
     "wearableTexturePrefixCode": null,
     "displaycaseable": true,
@@ -33,7 +38,7 @@
       "rotation": { "x": 0, "y": 16, "z": 84 },
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
     }
-  },
+},
   "creativeinventory": {
     "general": ["*"],
     "items": ["*"],
@@ -63,3 +68,4 @@
     "scale": 3.51
   }
 }
+
