@@ -18,7 +18,7 @@
 		"silverchalice.png": [48, 48]
 	},
 	"textures": {
-		"blue.png": "game:block/clay/brickstairs/blue",
+		"blue.png": "game:block/glass/blue",
 		"col79.png": "game:block/creative/col79",
 		"steel.png": "game:block/metal/anvil/steel",
 		"aquamarine.png": "game:block/stone/gem/aquamarine"
@@ -27,8 +27,8 @@
 		{
 			"name": "PairOrigin",
 			"stepParentName": "Head",
-			"from": [8.15286, 25.31781, 5.00068],
-			"to": [8.15286, 25.31781, 5.00068],
+			"from": [2.5, 0, -0.5],
+			"to": [2.5, 0, -0.5],
 			"rotationOrigin": [8.15286, 25.31781, 5.00068],
 			"children": [
 				{
