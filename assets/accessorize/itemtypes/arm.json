@@ -9,8 +9,7 @@
       "onVariant": "category",
       "states": [
       "bandagesplintupperarml", "bandagesplintupperarmr",
-      "bismutharmlet", "bismuthbronzearmlet", "blackbronzearmlet", "brassarmlet", "cupronickelarmlet", "electrumarmlet", "goldarmlet", "ironarmlet", "leadarmlet", "meteoricarmlet", "nickelarmlet", "silverarmlet", "steelarmlet", "tinarmlet", "urnaiumarmlet", "zincarmlet",
-      "RobotArmRight"
+      "bismutharmlet", "bismuthbronzearmlet", "blackbronzearmlet", "brassarmlet", "cupronickelarmlet", "electrumarmlet", "goldarmlet", "ironarmlet", "leadarmlet", "meteoricarmlet", "nickelarmlet", "silverarmlet", "steelarmlet", "tinarmlet", "urnaiumarmlet", "zincarmlet"
       ]
     }
   ],
@@ -34,14 +33,7 @@
       "rotation": { "x": 0, "y": 16, "z": 84 },
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
     }
-
   },
-  "attributesByType": {
-    "RobotArmRight":{ "disableElements": ["UpperArmR"]}
-  },
-
-
-
   "creativeinventory": {
     "general": ["*"],
     "items": ["*"],
