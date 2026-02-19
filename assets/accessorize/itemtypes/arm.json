@@ -9,7 +9,7 @@
       "onVariant": "category",
       "states": [
       "bandagesplintupperarml", "bandagesplintupperarmr",
-      "bismuth-armlet", "bismuthbronze-armlet", "blackbronze-armlet", "brass-armlet", "cupronickel-armlet", "electrum-armlet", "gold-armlet", "iron-armlet", "lead-armlet", "meteoriciron-armlet", "nickel-armlet", "silver-armlet", "steel-armlet", "tin-armlet", "zinc-armlet"
+      "armlet-bismuth", "armlet-bismuthbronze", "armlet-blackbronze", "armlet-brass", "armlet-cupronickel", "armlet-electrum", "armlet-gold", "armlet-iron", "armlet-lead", "armlet-meteoriciron", "armlet-nickel", "armlet-silver", "armlet-steel", "armlet-tin", "armlet-zinc"
       ]
     }
   ],

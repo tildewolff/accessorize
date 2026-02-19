@@ -22,5 +22,5 @@
 
 ],
 	"name": "Armlet",
-	"output": { "type": "item", "code": "{metal}-armlet"  }
+	"output": { "type": "item", "code": "accessorize:arm:armlet-{metal}"  }
 }
