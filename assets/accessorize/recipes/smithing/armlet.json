@@ -2,25 +2,25 @@
 	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["bismuth", "bismuthbronze", "blackbronze", "brass", "cupronickel", "electrum", "gold", "iron", "lead", "meteoriciron", "nickel", "silver", "steel", "tin", "zinc"] },
 	"pattern": [
 	[
-		"#########",
-		"#________",
-		"#_######_",
-		"#_#____#_",
-		"#_####_#_",
-		"#______#_",
-		"########_"
+		"###",
+		"#__",
+		"#_#",
+		"###"
 	],
 	[
-		"#########",
-		"#________",
-		"#_######_",
-		"#_#____#_",
-		"#_####_#_",
-		"#______#_",
-		"########_"
+		"###",
+		"#_#",
+		"__#",
+		"###"
+	],
+	[
+		"###",
+		"#__",
+		"#_#",
+		"###"
 	]
 
 ],
 	"name": "Armlet",
-	"output": { "type": "item", "code": "accessorize:arm:armlet-{metal}"  }
+	"output": { "type": "item", "code": "accessorize:clothes-arm-armlet-{metal}"  }
 }
