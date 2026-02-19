@@ -33,7 +33,50 @@
       "quantity": 1
     },
     "recipeGroup": 1
+  },
+    {
+    "ingredientPattern": "CL,HS,QP",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:ingot-silver",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:ore-lapislazuli",
+        "quantity": 2
+      },
+      "H": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "C": { 
+        "type": "item", 
+        "code": "game:chisel-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:clearquartz",
+        "quantity": 1
+      },
+      "P": {
+        "type": "item",
+        "code": "game:crushed-lapislazuli",
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-neck-swordearring",
+      "quantity": 1
+    },
+    "recipeGroup": 1
   }
-
-
 ]

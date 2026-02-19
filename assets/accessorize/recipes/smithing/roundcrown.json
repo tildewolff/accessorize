@@ -1,0 +1,24 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["gold"] },
+	"pattern": [
+	[
+		"__#####__",
+		"_#_____#_",
+		"#_______#",
+		"#_______#"
+	],
+	[
+		"__#####__",
+		"_#_____#_",
+		"_________"
+	],
+	[
+		"___###___",
+		"_________",
+		"_________"
+	]
+
+],
+	"name": "roundcrown",
+	"output": { "type": "item", "code": "accessorize:clothes-head-crownroundloops"  }
+}
