@@ -26,12 +26,12 @@
       "B": {
         "type": "item",
         "code": "game:leather-normal-blue",
-        "quantity": 1
+        "quantity": 4
       },
       "L": {
         "type": "item",
         "code": "game:leather-normal-white",
-        "quantity": 1
+        "quantity": 2
       },
       "T": {
         "type": "item",
@@ -39,8 +39,8 @@
         "quantity": 2
       }
 		},
-		"width": 2,
-		"height": 1,
+		"width": 3,
+		"height": 3,
 		"attributes": {
 			"liquidContainerProps": {
 				"requiresContent": { "type": "item", "code": "dye-pink" },
