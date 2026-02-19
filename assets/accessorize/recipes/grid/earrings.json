@@ -35,7 +35,7 @@
     "recipeGroup": 1
   },
     {
-    "ingredientPattern": "CL,HS,QP",
+    "ingredientPattern": "SL,HC,QP",
     "ingredients": {
       "S": {
         "type": "item",
@@ -70,7 +70,7 @@
         "quantity": 4
       }
     },
-    "width": 3,
+    "width": 2,
     "height": 3,
     "output": {
       "type": "item",
