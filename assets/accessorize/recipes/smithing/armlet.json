@@ -1,0 +1,26 @@
+{
+	"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["bismuth", "bismuthbronze", "blackbronze", "brass", "cupronickel", "electrum", "gold", "iron", "lead", "meteoriciron", "nickel", "silver", "steel", "tin", "zinc"] },
+	"pattern": [
+	[
+		"#########",
+		"#________",
+		"#_######_",
+		"#_#____#_",
+		"#_####_#_",
+		"#______#_",
+		"########_"
+	],
+	[
+		"#########",
+		"#________",
+		"#_######_",
+		"#_#____#_",
+		"#_####_#_",
+		"#______#_",
+		"########_"
+	]
+
+],
+	"name": "Armlet",
+	"output": { "type": "item", "code": "{metal}-armlet"  }
+}

@@ -4,5 +4,16 @@
     "path": "/item-metalnailsandstrips-brass",
     "value": "Nails and strips (Brass)",
     "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-clothes-arm-bronze-armlet",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-clothes-arm-tinbronze-armlet",
+    "value": "Bronze armlet",
+    "file": "game:lang/en.json"
   }
 ]
