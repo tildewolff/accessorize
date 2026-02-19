@@ -73,10 +73,10 @@
       "scale": 0.81
     },
     "*-chokerring": {
-      "translation": { "x": -0.2, "y": 0.28, "z": 1.85 },
+      "translation": { "x": -0.24, "y": 0.48, "z": 1.64 },
       "rotation": { "x": 0, "y": -80, "z": -89 },
       "origin": { "x": 0, "y": 0, "z": 0 },
-      "scale": 0.62
+      "scale": 0.99
     },
     "*-moonearring": {
       "translation": { "x": 0.2, "y": -1.87, "z": -0.6 },
@@ -96,8 +96,8 @@
     },
     "*-chokerring": {
       "rotate": false,
-      "translation": { "x": 2, "y": 5, "z": 150 },
-      "rotation": { "x": 176, "y": -40, "z": 22 },
+      "translation": { "x": 7, "y": 0, "z": 200 },
+      "rotation": { "x": 176, "y": -55, "z": 33 },
       "origin": { "x": 0, "y": 2, "z": 0 },
       "scale": 3.91
     },
