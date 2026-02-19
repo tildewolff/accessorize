@@ -89,10 +89,10 @@
       "scale": 0.71
     },
     "*-crownroundloops": {
-      "translation": { "x": -0.2, "y": -3.4, "z": 0.6 },
-      "rotation": { "x": 87, "y": -12, "z": -67 },
+      "translation": { "x": 3.5, "y": -10, "z": 200 },
+      "rotation": { "x": 180, "y": -41, "z": 17 },
       "origin": { "x": 0, "y": 2, "z": 0 },
-      "scale": 0.71
+      "scale": 4.87
     }
   },
 
@@ -113,10 +113,10 @@
     },
     "*-crownroundloops": {
       "rotate": false,
-      "translation": { "x": 0.5, "y": 5, "z": 109 },
-      "rotation": { "x": 180, "y": -46, "z": 17 },
+      "translation": { "x": -0.5, "y": -3.4, "z": -0.17 },
+      "rotation": { "x": -88, "y": 180, "z": 7 },
       "origin": { "x": 0, "y": 2, "z": 0 },
-      "scale": 2.271
+      "scale": 0.71
     }
    }
 }
