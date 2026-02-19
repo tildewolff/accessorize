@@ -19,6 +19,6 @@
 	]
 
 ],
-	"name": "roundcrown",
+	"name": "Round Crown",
 	"output": { "type": "item", "code": "accessorize:clothes-head-crownroundloops"  }
 }
