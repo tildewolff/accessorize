@@ -1,0 +1,64 @@
+[
+  {
+    "ingredientPattern": "SK,LF",
+    "ingredients": {
+      "S": {
+        "type": "item", 
+        "code": "game:shears-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-black",
+        "quantity": 1
+      },
+      "F": {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-neck-chokerring",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "KS,LF",
+    "ingredients": {
+      "S": {
+        "type": "item", 
+        "code": "game:shears-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-black",
+        "quantity": 1
+      },
+      "F": {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": 1
+      }
+    }
+  }
+]
