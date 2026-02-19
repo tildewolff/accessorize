@@ -1,5 +1,5 @@
 {
-	"ingredient": { "type": "item", "code": "ingot-*", "name": "metal", "allowedVariants": ["bismuth", "bismuthbronze", "blackbronze", "brass", "cupronickel", "electrum", "gold", "iron", "lead", "meteoriciron", "nickel", "silver", "steel", "tin", "zinc"] },
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["bismuth", "bismuthbronze", "blackbronze", "brass", "cupronickel", "electrum", "gold", "iron", "lead", "meteoriciron", "nickel", "silver", "steel", "tin", "zinc"] },
 	"pattern": [
 	[
 		"#########",
