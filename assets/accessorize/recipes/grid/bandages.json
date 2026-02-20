@@ -9,9 +9,7 @@
       },
       "L": { 
         "type": "block", 
-        "code": "game:linen-*-down", 
-        "isTool": true,
-        "toolDurabilityCost": 5
+        "code": "game:linen-*-down"
       },
       "K": { 
         "type": "item", 
@@ -39,9 +37,7 @@
       },
       "L": { 
         "type": "block", 
-        "code": "game:linen-*-down", 
-        "isTool": true,
-        "toolDurabilityCost": 5
+        "code": "game:linen-*-down"
       },
       "K": { 
         "type": "item", 
@@ -69,9 +65,7 @@
       },
       "L": { 
         "type": "block", 
-        "code": "game:linen-*-down", 
-        "isTool": true,
-        "toolDurabilityCost": 5
+        "code": "game:linen-*-down"
       },
       "K": { 
         "type": "item", 
@@ -99,9 +93,7 @@
       },
       "L": { 
         "type": "block", 
-        "code": "game:linen-*-down", 
-        "isTool": true,
-        "toolDurabilityCost": 5
+        "code": "game:linen-*-down" 
       },
       "K": { 
         "type": "item", 

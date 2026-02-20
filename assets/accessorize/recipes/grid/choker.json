@@ -59,6 +59,14 @@
         "code": "game:flaxfibers",
         "quantity": 1
       }
-    }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-neck-chokerring",
+      "quantity": 1
+    },
+    "recipeGroup": 1
   }
 ]

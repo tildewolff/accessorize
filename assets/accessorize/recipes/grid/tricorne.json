@@ -43,7 +43,7 @@
 		"height": 3,
 		"attributes": {
 			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "code": "dye-pink" },
+				"requiresContent": { "type": "item", "code": "game:dye-pink" },
 				"requiresLitres": 1,
 				"consumeContainer": true
 			}
