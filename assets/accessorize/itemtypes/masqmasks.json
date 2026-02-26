@@ -3,12 +3,14 @@
   "class": "ItemWearable",
   "variantgroups": [
     { "code": "category", "states": ["face"] },
-    { "code": "color", "states": ["white", "black", "red", "blue", "purple"] },
     {
       "code": "face",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
-      "states": ["crowmasq", "crowsmallmasq", "forgottenmasq"]
+      "states": ["forgottenmasq",
+      "crowmasq-white", "crowmasq-black", "crowmasq-red", "crowmasq-blue", "crowmasq-purple",
+      "crowsmallmasq-white", "crowsmallmasq-black", "crowsmallmasq-red", "crowsmallmasq-blue", "crowsmallmasq-purple"
+    ]
     }
   ],
   "skipVariants": [
@@ -21,11 +23,11 @@
 
   "storageFlags": 128,
   "shape": {
-    "base": "face/{face}"
+    "base": "face/masqmask/{face}"
   },
 
   "textures": {
-    "crow.png": { "base": "accessorize:textures/masquerade/{color}" }
+    "seraph": { "base": "game:block/transparent" }
   },
 
   "attributes": {
