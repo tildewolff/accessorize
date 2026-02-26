@@ -3,6 +3,7 @@
   "class": "ItemWearable",
   "variantgroups": [
     { "code": "category", "states": ["face"] },
+    { "code": "color", "states": ["white", "black", "red", "blue", "purple"] },
     {
       "code": "face",
       "combine": "SelectiveMultiply",
@@ -39,7 +40,7 @@
   "textures": {
     "seraph": { "base": "game:block/transparent" }
   },
-  
+
   "textureByType": {
       "crowmasq-white": "accessorize:textures/masquerade/crowWhite.png",
       "crowsmallmasq-white": "accessorize:textures/masquerade/crowWhite.png",
