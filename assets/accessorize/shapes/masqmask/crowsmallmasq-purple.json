@@ -18,6 +18,7 @@
 	"elements": [
 		{
 			"name": "origin",
+			"stepParentName": "Head",
 			"from": [-0.24997, 2.00174, 2.3],
 			"to": [-0.24997, 2.00174, 2.3],
 			"rotationOrigin": [-0.24997, 2.00174, 2.3],
@@ -150,8 +151,7 @@
 					"rotationZ": 1,
 					"shade": false
 				}
-			],
-			"stepParentName": "Head"
+			]
 		}
 	],
 	"animations": []
