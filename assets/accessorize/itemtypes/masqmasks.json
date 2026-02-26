@@ -2,9 +2,9 @@
   "code": "clothes",
   "class": "ItemWearable",
   "variantgroups": [
-    { "code": "category", "states": ["face"] },
+    { "code": "category", "states": ["masqmask"] },
     {
-      "code": "face",
+      "code": "masqmask",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
       "states": ["forgottenmasq",
@@ -13,17 +13,10 @@
     ]
     }
   ],
-  "skipVariants": [
-    "clothes-forgottenmasq-white",
-    "clothes-forgottenmasq-black",
-    "clothes-forgottenmasq-red",
-    "clothes-forgottenmasq-blue",
-    "clothes-forgottenmasq-purple"
-  ],
 
   "storageFlags": 128,
   "shape": {
-    "base": "face/masqmask/{face}"
+    "base": "/masqmask/{masqmask}"
   },
 
   "textures": {
