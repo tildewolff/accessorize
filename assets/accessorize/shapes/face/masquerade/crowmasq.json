@@ -1,0 +1,189 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"collapsedPaths": "",
+		"allAngles": true,
+		"entityTextureMode": false,
+		"singleTexture": false,
+		"vsFormatConverted": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"crow.png": [16, 16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [-0.24997, 2.00174, 2.3],
+			"to": [-0.24997, 2.00174, 2.3],
+			"rotationOrigin": [-0.24997, 2.00174, 2.3],
+			"rotationZ": 2,
+			"children": [
+				{
+					"name": "L side",
+					"from": [-0.8, -2.2, 0.2],
+					"to": [-0.8, -2.2, 0.2],
+					"rotationOrigin": [-0.8, -2.2, 0.2],
+					"rotationY": -20,
+					"children": [
+						{
+							"name": "L string",
+							"from": [0, 3.4, -3.1],
+							"to": [5.5, 3.9, -2.6],
+							"rotationOrigin": [0, 3.9, -3.1],
+							"faces": {
+								"north": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false}
+							},
+							"rotationY": 18,
+							"shade": false
+						},
+						{
+							"name": "L holder",
+							"from": [0, 1.4, -3.1],
+							"to": [4, 1.9, -2.6],
+							"rotationOrigin": [0, 1.9, -3.1],
+							"faces": {
+								"north": {"texture": "#crow.png", "uv": [0, 0, 4, 0.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#crow.png", "uv": [0, 0, 4, 0.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [0, 0, 4, 0.5], "autoUv": false, "snapUv": false}
+							},
+							"rotationY": 19,
+							"rotationZ": 32,
+							"shade": false
+						},
+						{
+							"name": "L side_geo",
+							"from": [-0.00145, 1.39999, -2.99444],
+							"to": [0.99855, 3.99999, -0.16944],
+							"rotationOrigin": [-0.00145, -0.00001, -2.99444],
+							"faces": {
+								"north": {"texture": "#crow.png", "uv": [5, 2, 6, 6], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [4, 1.5, 7, 5.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [5.5, 1.5, 8.5, 2.5], "rotation": 90, "autoUv": false, "snapUv": false},
+								"down": {"texture": "#crow.png", "uv": [5.5, 6, 8.5, 7], "rotation": 90, "autoUv": false, "snapUv": false}
+							},
+							"rotationY": 12.5,
+							"shade": false
+						},
+						{
+							"name": "L side_geo",
+							"from": [0.23198, 1.08453, -3.52153],
+							"to": [1.20698, 2.28453, -2.09653],
+							"rotationOrigin": [0.70698, 2.38453, -2.10903],
+							"faces": {
+								"north": {"texture": "#crow.png", "uv": [5, 2, 6, 6], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [0, 0, 3, 4], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [5.5, 1.5, 8.5, 2.5], "rotation": 90, "autoUv": false, "snapUv": false},
+								"down": {"texture": "#crow.png", "uv": [5.5, 6, 8.5, 7], "rotation": 90, "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -40.67815,
+							"rotationY": 9.54385,
+							"rotationZ": 8.11019,
+							"shade": false
+						}
+					]
+				},
+				{
+					"name": "R side",
+					"from": [-0.8, -2.2, 0.2],
+					"to": [-0.8, -2.2, 0.2],
+					"rotationOrigin": [-0.8, -2.2, 0.2],
+					"rotationX": -0.1,
+					"rotationY": 20,
+					"children": [
+						{
+							"name": "R string",
+							"from": [0, 3.4, 2.6],
+							"to": [5.5, 3.9, 3.1],
+							"rotationOrigin": [0, 3.9, 3],
+							"faces": {
+								"north": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false}
+							},
+							"rotationY": -18,
+							"shade": false
+						},
+						{
+							"name": "R holder",
+							"from": [0, 1.4, 2.6],
+							"to": [4, 1.9, 3.1],
+							"rotationOrigin": [0, 1.9, 3],
+							"faces": {
+								"north": {"texture": "#crow.png", "uv": [0, 0, 4, 0.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#crow.png", "uv": [0, 0, 4, 0.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [0, 0, 4, 0.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#crow.png", "uv": [0, 0, 4, 0.5], "autoUv": false, "snapUv": false}
+							},
+							"rotationY": -19,
+							"rotationZ": 32,
+							"shade": false
+						},
+						{
+							"name": "R side_geo",
+							"from": [0.00155, 1.40001, 0.14574],
+							"to": [1.00155, 4.00001, 2.99574],
+							"rotationOrigin": [0.00155, 0.00001, 2.99574],
+							"faces": {
+								"south": {"texture": "#crow.png", "uv": [11, 2, 12, 6], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [8, 1.5, 11, 5.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [8.5, 1.5, 11.5, 2.5], "rotation": 90, "autoUv": false, "snapUv": false},
+								"down": {"texture": "#crow.png", "uv": [8.5, 6, 11.5, 7], "rotation": 90, "autoUv": false, "snapUv": false}
+							},
+							"rotationY": -12.5,
+							"shade": false
+						},
+						{
+							"name": "R side_geo",
+							"from": [0.43028, 1.42011, 1.22667],
+							"to": [1.40528, 2.62011, 2.65167],
+							"rotationOrigin": [0.90528, 1.32011, 1.22667],
+							"faces": {
+								"south": {"texture": "#crow.png", "uv": [11, 2, 12, 6], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#crow.png", "uv": [13, 0, 16, 4], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#crow.png", "uv": [8.5, 1.5, 11.5, 2.5], "rotation": 90, "autoUv": false, "snapUv": false},
+								"down": {"texture": "#crow.png", "uv": [8.5, 6, 11.5, 7], "rotation": 90, "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 40.67815,
+							"rotationY": -9.54385,
+							"rotationZ": 8.11019,
+							"shade": false
+						}
+					]
+				},
+				{
+					"name": "Cube1",
+					"from": [5.5, 1.2, -2.55],
+					"to": [6, 1.7, 2.95],
+					"rotationOrigin": [5.5, 1.7, -0.1],
+					"faces": {
+						"north": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#crow.png", "uv": [0, 0, 0.5, 0.5], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "rotation": 90, "autoUv": false, "snapUv": false},
+						"down": {"texture": "#crow.png", "uv": [0, 0, 5.5, 0.5], "rotation": 90, "autoUv": false, "snapUv": false}
+					},
+					"rotationZ": 1,
+					"shade": false
+				}
+			],
+			"stepParentName": "Head"
+		}
+	],
+	"animations": []
+}

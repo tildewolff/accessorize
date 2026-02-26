@@ -31,6 +31,11 @@
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
     }
   },
+  "textureByType": {
+    "crowmasq-white": "seraph"
+  },
+
+
   "creativeinventory": {
     "general": ["*"],
     "items": ["*"],
