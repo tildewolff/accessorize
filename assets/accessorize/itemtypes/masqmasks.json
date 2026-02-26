@@ -16,7 +16,7 @@
 
   "storageFlags": 128,
   "shape": {
-    "base": "/masqmask/{masqmask}"
+    "base": "masqmask/{masqmask}"
   },
 
   "textures": {
