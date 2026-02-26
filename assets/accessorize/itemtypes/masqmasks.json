@@ -22,7 +22,7 @@
 
   "textures": {
     "seraph": { "base": "game:block/transparent" },
-    "*": { "crow.png": { "base": "accessorize:textures/masquerade/{color}" }}
+    "crow.png": { "base": "accessorize:textures/masquerade/{color}" }
   },
 
   "attributes": {
