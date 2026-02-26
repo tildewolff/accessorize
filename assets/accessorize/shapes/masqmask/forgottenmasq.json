@@ -1,11 +1,8 @@
 {
 	"editor": {
-		"backDropShape": "game:entity/humanoid/seraph-hairless",
-		"collapsedPaths": "",
+		"backDropShape": "game:entity/humanoid/seraph",
 		"allAngles": true,
-		"entityTextureMode": false,
-		"singleTexture": false,
-		"vsFormatConverted": false
+		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,

@@ -1,11 +1,8 @@
 {
 	"editor": {
-		"backDropShape": "game:entity/humanoid/seraph-hairless",
-		"collapsedPaths": "",
+		"backDropShape": "game:entity/humanoid/seraph",
 		"allAngles": true,
-		"entityTextureMode": false,
-		"singleTexture": false,
-		"vsFormatConverted": false
+		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
@@ -13,7 +10,7 @@
 		"crow.png": [16, 16]
 	},
 	"textures": {
-		"crow.png": { "base": "accessorize:textures/masquerade/red" }
+		"crow.png": { "base": "accessorize:masquerade/red" }
 	},
 	"elements": [
 		{
