@@ -12,11 +12,7 @@
     }
   ],
   "skipVariants": [
-    "forgottenmasq-white",
-    "forgottenmasq-black",
-    "forgottenmasq-red",
-    "forgottenmasq-blue",
-    "forgottenmasq-purple"
+    "clothes-forgottenmasq-color"
   ],
 
   "storageFlags": 128,
@@ -26,7 +22,7 @@
 
   "textures": {
     "seraph": { "base": "game:block/transparent" },
-    "color": { "bundle": "accessorize:textures/masquerade/{color}" }
+    "*": { "crow.png": { "base": "accessorize:textures/masquerade/{color}" }}
   },
 
   "attributes": {
@@ -67,3 +63,4 @@
     "scale": 4
   }
 }
+

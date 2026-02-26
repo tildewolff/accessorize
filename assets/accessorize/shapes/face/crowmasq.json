@@ -13,6 +13,7 @@
 		"crow.png": [16, 16]
 	},
 	"textures": {
+		"crow.png": { "base": "accessorize:textures/masquerade/{color}" }
 	},
 	"elements": [
 		{
