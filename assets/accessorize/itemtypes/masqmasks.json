@@ -12,7 +12,7 @@
     }
   ],
   "skipVariants": [
-    "forgottenmasq-*"
+    "forgottenmasq-{color}"
   ],
 
   "storageFlags": 128,
