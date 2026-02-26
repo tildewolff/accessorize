@@ -24,8 +24,8 @@
 		{
 			"name": "PairOrigin",
 			"stepParentName": "Head",
-			"from": [2.5, 0, -0.5],
-			"to": [2.5, 0, -0.5],
+			"from": [2.5, 2.2, 2.5],
+			"to": [2.5, 2.2, 2.5],
 			"rotationOrigin": [8.17786, 27.52872, 8],
 			"children": [
 				{

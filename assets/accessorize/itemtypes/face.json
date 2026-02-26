@@ -7,7 +7,13 @@
       "code": "face",
       "combine": "SelectiveMultiply",
       "onVariant": "category",
-      "states": ["glassesround", "eyepatchl", "eyepatchr", "eyepatchboth", "monocleround", "monoclesquare"]
+      "states": ["glassesround", "eyepatchl", "eyepatchr", "eyepatchboth", "monocleround", "monoclesquare",
+      "crowmasq-white", "crowsmallmasq-white",
+      "crowmasq-black", "crowsmallmasq-black",
+      "crowmasq-red", "crowsmallmasq-red",
+      "crowmasq-blue", "crowsmallmasq-blue",
+      "crowmasq-purple", "crowsmallmasq-purple",
+      "forgottenmasq"]
     }
   ],
 
@@ -16,8 +22,35 @@
     "base": "face/{face}"
   },
 
+    "shapeByType": {
+      "crowmasq-white": "face/masquerade/crowmasq",
+      "crowsmallmasq-white": "face/masquerade/crowsmallmasq",
+      "crowmasq-black": "face/masquerade/crowmasq",
+      "crowsmallmasq-black": "face/masquerade/crowsmallmasq",
+      "crowmasq-red": "face/masquerade/crowmasq",
+      "crowsmallmasq-red": "face/masquerade/crowsmallmasq",
+      "crowmasq-blue": "face/masquerade/crowmasq",
+      "crowsmallmasq-blue": "face/masquerade/crowsmallmasq",
+      "crowmasq-purple": "face/masquerade/crowmasq",
+      "crowsmallmasq-purple": "face/masquerade/crowsmallmasq",
+      "forgottenmasq": "face/masquerade/forgottenmasq"
+  },
+
   "textures": {
     "seraph": { "base": "game:block/transparent" }
+  },
+  
+  "textureByType": {
+      "crowmasq-white": "accessorize:textures/masquerade/crowWhite.png",
+      "crowsmallmasq-white": "accessorize:textures/masquerade/crowWhite.png",
+      "crowmasq-black": "accessorize:textures/masquerade/crowBlack.png",
+      "crowsmallmasq-black": "accessorize:textures/masquerade/crowBlack.png",
+      "crowmasq-red": "accessorize:textures/masquerade/crowRed.png",
+      "crowsmallmasq-red": "accessorize:textures/masquerade/crowRed.png",
+      "crowmasq-blue": "accessorize:textures/masquerade/crowBlue.png",
+      "crowsmallmasq-blue": "accessorize:textures/masquerade/crowBlue.png",
+      "crowmasq-purple": "accessorize:textures/masquerade/crowPurple.png",
+      "crowsmallmasq-purple": "accessorize:textures/masquerade/crowPurple.png"
   },
 
   "attributes": {
@@ -31,10 +64,6 @@
       "origin": { "x": -0.35, "y": 0.95, "z": -5.45 }
     }
   },
-  "textureByType": {
-    "crowmasq-white": "seraph"
-  },
-
 
   "creativeinventory": {
     "general": ["*"],
