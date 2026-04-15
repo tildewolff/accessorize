@@ -7,10 +7,10 @@
 	"textureWidth": 32,
 	"textureHeight": 76,
 	"textureSizes": {
-		"WideBrimmedDuster.png": [64,64]
+		"hat.png": [64,64]
 	},
 	"textures": {
-		"WideBrimmedDuster.png": "accessorize:head/hatmaple"
+		"hat.png": "accessorize:head/WideBrimmedDuster.png"
 	},
 	"elements": [
 		{
