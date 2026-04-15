@@ -10,7 +10,7 @@
 		"hat.png": [64,64]
 	},
 	"textures": {
-		"hat.png": "head/WideBrimmedDuster"
+		"hat.png": "accessorize\\assets\\accessorize\\textures\\head\\WideBrimmedDuster.png"
 	},
 	"elements": [
 		{
