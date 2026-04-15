@@ -7,11 +7,10 @@
 	"textureWidth": 32,
 	"textureHeight": 76,
 	"textureSizes": {
-		"hat.png": [64,64],
-		"seraph-naked-hairless.png": [32,76],
-		"silverchalice.png": [48,48]
+		"WideBrimmedDuster.png": [64,64]
 	},
 	"textures": {
+		"WideBrimmedDuster.png": "accessorize:head/hatmaple"
 	},
 	"elements": [
 		{
