@@ -1,8 +1,8 @@
 {
 	"editor": {
 		"backDropShape": "entity/humanoid/seraph-hairless",
-		"allAngles": false,
-		"entityTextureMode": false
+		"allAngles": true,
+		"entityTextureMode": true
 	},
 	"textureWidth": 32,
 	"textureHeight": 76,
@@ -10,7 +10,7 @@
 		"hat.png": [64,64]
 	},
 	"textures": {
-		"hat.png": "accessorize\\assets\\accessorize\\textures\\head\\WideBrimmedDuster.png"
+		"hat.png": "head/WideBrimmedDuster"
 	},
 	"elements": [
 		{

@@ -2,21 +2,13 @@
   "code": "clothes",
   "class": "ItemWearable",
   "variantgroups": [
-    { "code": "category", "states": ["masqmask"] },
-    {
-      "code": "masqmask",
-      "combine": "SelectiveMultiply",
-      "onVariant": "category",
-      "states": ["forgottenmasq",
-      "crowmasq-white", "crowmasq-black", "crowmasq-red", "crowmasq-blue", "crowmasq-purple",
-      "crowsmallmasq-white", "crowsmallmasq-black", "crowsmallmasq-red", "crowsmallmasq-blue", "crowsmallmasq-purple"
-    ]
-    }
+    { "code": "type", "states": ["crowmasq", "crowsmallmasq"] },
+    { "code": "color", "states": ["blue", "black", "white", "red", "purple"] }
   ],
 
   "storageFlags": 128,
   "shape": {
-    "base": "masqmask/{masqmask}"
+    "base": "masqmask/{type}/{color}"
   },
 
   "textures": {
