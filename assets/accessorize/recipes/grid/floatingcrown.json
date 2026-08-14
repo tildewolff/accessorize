@@ -4,12 +4,30 @@
     "ingredients": {
       "B": {
         "type": "item",
-        "code": "game:metalbit-gold",
+        "code": "game:metalbit-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "gold",
+          "silver",
+          "iron",
+          "meteoriciron"
+        ],
         "quantity": 5
       },
       "G": {
         "type": "item",
-        "code": "game:hoop-gold",
+        "code": "game:hoop-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "gold",
+          "silver",
+          "iron",
+          "meteoriciron"
+        ],
         "quantity": 1
       },
       "Q": {
@@ -35,9 +53,89 @@
     "height": 3,
     "output": {
       "type": "item",
-      "code": "accessorize:clothes-head-floatingcrown",
+      "code": "accessorize:clothes-head-floatingcrown-{metal}",
       "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "_B_,_Q_,HGC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:metalbit-copper",
+        "quantity": 5
+      },
+      "G": {
+        "type": "item",
+        "code": "game:hoop-bismuthbronze",
+        "name": "hoop",
+        "quantity": 1
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:clearquartz",
+
+        "quantity": 5
+      },
+      "H": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "C": { 
+        "type": "item", 
+        "code": "game:chisel-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
     },
-    "recipeGroup": 1
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-head-floatingcrown-copper",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "_B_,_Q_,HGC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:metalbit-uranium",
+        "quantity": 5
+      },
+      "G": {
+        "type": "item",
+        "code": "game:hoop-silver",
+        "quantity": 1
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:clearquartz",
+
+        "quantity": 5
+      },
+      "H": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "C": { 
+        "type": "item", 
+        "code": "game:chisel-*", 
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "accessorize:clothes-head-floatingcrown-uranium",
+      "quantity": 1
+    }
   }
 ]
