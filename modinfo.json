@@ -4,8 +4,9 @@
   "name": "Accessorize",
   "authors": ["Purplep", "Chiruda", "BlehBlehBleh", "kiranda"],
   "description": "A mod for more wearable accessories",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "dependencies": {
-  "game": ""
+  "game": "",
+  "accessorytab": ""
   }
 }
