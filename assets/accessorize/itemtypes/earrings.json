@@ -1,0 +1,220 @@
+{
+  "code": "clothes",
+  "class": "ItemWearable",
+
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": ["earrings"]
+    },
+    {
+      "code": "earrings",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": [
+        "swordearring",
+        "moonearring",
+        "sunearring"
+      ]
+    }
+  ],
+
+  "storageFlags": 128,
+
+  "shape": {
+    "base": "earrings/{earrings}"
+  },
+
+  "textures": {
+    "seraph": {
+      "base": "game:block/transparent"
+    }
+  },
+
+  "attributes": {
+    "clothescategory": "earrings",
+    "wearableAttachment": true,
+    "wearableTexturePrefixCode": null,
+    "displaycaseable": true,
+
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -1.8,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 16,
+        "z": 84
+      },
+      "origin": {
+        "x": -0.35,
+        "y": 0.95,
+        "z": -5.45
+      }
+    }
+  },
+
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "clothing": ["*"]
+  },
+
+  "renderAlphaTest": 0.25,
+
+  "fpHandTransform": {
+    "translation": {
+      "x": -0.1,
+      "y": 0.5,
+      "z": -0.6
+    },
+    "rotation": {
+      "x": 180,
+      "y": 42,
+      "z": -29
+    },
+    "scale": 2.5
+  },
+
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.6,
+      "y": -1.5,
+      "z": -0.5
+    },
+    "rotation": {
+      "x": 13,
+      "y": 10,
+      "z": -96
+    },
+    "origin": {
+      "x": 0.8,
+      "y": 1,
+      "z": 0.5
+    },
+    "scale": 0.81
+  },
+
+  "guiTransform": {
+    "rotate": false,
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 174,
+      "y": -30,
+      "z": 23
+    },
+    "origin": {
+      "x": 0.55,
+      "y": 1.3,
+      "z": 0.8
+    },
+    "scale": 3.08
+  },
+
+  "groundTransform": {
+    "translation": {
+      "x": 0.05,
+      "y": -0.18,
+      "z": 0
+    },
+    "rotation": {
+      "x": -82,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 4
+  },
+
+  "tpHandTransformByType": {
+    "*-swordearring": {
+      "translation": {
+        "x": 0.2,
+        "y": -1.87,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": -90,
+        "y": 16,
+        "z": -38
+      },
+      "origin": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "scale": 0.81
+    },
+
+    "*-moonearring": {
+      "translation": {
+        "x": 0.2,
+        "y": -1.87,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": -90,
+        "y": 16,
+        "z": -38
+      },
+      "origin": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "scale": 0.81
+    }
+  },
+
+  "guiTransformByType": {
+    "*-swordearring": {
+      "rotate": false,
+      "translation": {
+        "x": -4,
+        "y": 0,
+        "z": 200
+      },
+      "rotation": {
+        "x": 172,
+        "y": -45,
+        "z": 22
+      },
+      "origin": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "scale": 3.1
+    },
+
+    "*-moonearring": {
+      "rotate": false,
+      "translation": {
+        "x": -4,
+        "y": 0,
+        "z": 200
+      },
+      "rotation": {
+        "x": 172,
+        "y": -45,
+        "z": 22
+      },
+      "origin": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "scale": 3.1
+    }
+  }
+}
